@@ -21,4 +21,4 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixpkgs-unstable
       - name: Run Ghafscan CI tests
-        run: nix develop --command make test-ci
+        run: nix develop --command make pre-push
