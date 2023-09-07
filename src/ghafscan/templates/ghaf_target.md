@@ -30,7 +30,7 @@ FIXED_IN_NIXPKGS
 
 ## Vulnerabilities Fixed in nix-unstable
 
-Following table lists vulnerabilities that have been fixed in nixpgks nix-unstable channel, but the fixes have not been backported to the channel the Ghaf target is currently pinned to.
+Following table lists vulnerabilities that have been fixed in nixpkgs nix-unstable channel, but the fixes have not been backported to the channel the Ghaf target is currently pinned to.
 
 Following issues potentially require backporting the fix from nixpkgs-unstable to the correct nixpkgs release branch.
 
