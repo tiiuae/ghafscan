@@ -3,5 +3,5 @@
 # SPDX-License-Identifier: Apache-2.0
 builtins.fetchGit {
   url = "https://github.com/tiiuae/sbomnix.git";
-  rev = "7cd25846d2de69ff1c4fa6a798f05ee190636cc0";
+  rev = "6db61c7a190508ee926765623c851133a83cdd5d";
 }
