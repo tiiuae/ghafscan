@@ -143,19 +143,19 @@ def exec_cmd(cmd, raise_on_error=True, return_error=False, loglevel=logging.DEBU
         return None
 
 
-def df_from_csv_file(name):
+def df_from_csv_file(name, exit_on_error=True):
     """Read csv file into dataframe"""
     LOG.debug("Reading: %s", name)
-    if not Path(name).exists():
-        # Return empty dataframe if path isn't valid
-        return pd.DataFrame()
     try:
         df = pd.read_csv(name, keep_default_na=False, dtype=str)
         df.reset_index(drop=True, inplace=True)
         return df
-    except pd.errors.ParserError:
-        LOG.fatal("Not a csv file: '%s'", name)
-        sys.exit(1)
+    except (pd.errors.EmptyDataError, pd.errors.ParserError) as error:
+        if exit_on_error:
+            LOG.fatal("Error reading csv file '%s':\n%s", name, error)
+            sys.exit(1)
+        LOG.debug("Error reading csv file '%s':\n%s", name, error)
+        return None
 
 
 def df_to_csv_file(df, name, loglevel=logging.INFO):
@@ -210,12 +210,14 @@ class FlakeScanner:
         self.repodir.mkdir(parents=True, exist_ok=True)
         self._nix_clone_flakeref(flakeref)
         self.repo = git.Repo(self.repodir.as_posix())
-        LOG.info("Target repo HEAD at '%s'", self.repo.rev_parse("HEAD"))
+        self.repo_head = self.repo.rev_parse("HEAD")
+        LOG.info("Target repo HEAD at '%s'", self.repo_head)
         self.lockfile = None
         self.lockfile_bak = None
         self.flakefile = None
         self.flakefile_bak = None
         self._init_flakefiles()
+        self.errors = {}
 
     def __del__(self):
         if self.tmpdir:
@@ -260,14 +262,17 @@ class FlakeScanner:
         # First scan:
         # Before lockfile update
         LOG.info("Scanning current vulnerabilities")
+        self._reset_lock()
         self._read_scan_results(cmd_vulnxscan, target, "current")
         # Second scan:
         # Update lockfile to get latest updates from the pinned channel
+        self._reset_lock()
         self._update_repo_lock()
         LOG.info("Scanning vulnerabilities after lockfile update")
         self._read_scan_results(cmd_vulnxscan, target, "lock_updated")
         # Third scan:
         # Update lockfile to get latest updates from nixos-unstable
+        self._reset_lock()
         self._update_repo_lock(nixpkgs_url="github:NixOS/nixpkgs/nixos-unstable")
         LOG.info("Scanning vulnerabilities after updating from nixos-unstable")
         self._read_scan_results(cmd_vulnxscan, target, "nix_unstable")
@@ -320,20 +325,27 @@ class FlakeScanner:
         LOG.debug(marker)
         newstr = f"{flakeref}#{target}"
         report_str = report_str.replace(marker, newstr)
+        marker = "GHAF_HEAD"
+        LOG.debug(marker)
+        newstr = f"{self.repo_head}"
+        report_str = report_str.replace(marker, newstr)
         marker = "FIXED_IN_NIXPKGS"
         LOG.debug(marker)
         df = self._diff_scans(df_target, "current", "lock_updated")
-        newstr = self._df_to_report_tbl(df)
+        newstr = self._read_error(target, ["current", "lock_updated"])
+        newstr = newstr if newstr else self._df_to_report_tbl(df)
         report_str = report_str.replace(marker, newstr)
         marker = "FIXED_IN_NIX_UNSTABLE"
         LOG.debug(marker)
         df = self._diff_scans(df_target, "lock_updated", "nix_unstable")
-        newstr = self._df_to_report_tbl(df)
+        newstr = self._read_error(target, ["lock_updated", "nix_unstable"])
+        newstr = newstr if newstr else self._df_to_report_tbl(df)
         report_str = report_str.replace(marker, newstr)
         marker = "NEW_SINCE_LAST_RUN"
         LOG.debug(marker)
         if df_ref is None or df_ref.empty:
-            newstr = self._df_to_report_tbl(pd.DataFrame())
+            newstr = self._read_error(target, ["current"])
+            newstr = newstr if newstr else self._df_to_report_tbl(pd.DataFrame())
         else:
             df = df_target
             df_left = df[df["pintype"] == "current"]
@@ -344,13 +356,15 @@ class FlakeScanner:
             csv_right = self.tmpdir / "right.csv"
             df_to_csv_file(df_right, csv_right, logging.DEBUG)
             df = self._csvdiff(csv_left, csv_right)
-            newstr = self._df_to_report_tbl(df)
+            newstr = self._read_error(target, ["current"])
+            newstr = newstr if newstr else self._df_to_report_tbl(df)
         report_str = report_str.replace(marker, newstr)
         marker = "CURRENT_VULNS"
         LOG.debug(marker)
         df = df_target
         df = df[df["pintype"] == "current"]
-        newstr = self._df_to_report_tbl(df)
+        newstr = self._read_error(target, ["current"])
+        newstr = newstr if newstr else self._df_to_report_tbl(df)
         report_str = report_str.replace(marker, newstr)
         marker = "ONLY_WHITELISTED"
         LOG.debug(marker)
@@ -377,16 +391,26 @@ class FlakeScanner:
     def _csvdiff(self, csv_left, csv_right):
         LOG.debug("")
         out = self.tmpdir / "csvdiff.csv"
+        shutil.rmtree(out, ignore_errors=True)
         uids = "vuln_id,package"
         if not csv_left.exists():
+            LOG.debug("Missing csv_left: '%s'", csv_left)
             return pd.DataFrame()
         if not csv_right.exists():
+            LOG.debug("Missing csv_right: '%s'", csv_right)
             return pd.DataFrame()
         left = csv_left.resolve().as_posix()
         right = csv_right.resolve().as_posix()
         cmd = ["csvdiff", left, right, f"--cols={uids}", f"--out={out}"]
-        exec_cmd(cmd)
-        df = df_from_csv_file(out).astype(str)
+        ret = exec_cmd(cmd, raise_on_error=False)
+        if ret is None or not out.exists():
+            LOG.debug("Missing csvdiff out: '%s'", out)
+            return pd.DataFrame()
+        df = df_from_csv_file(out, exit_on_error=False)
+        if df is None:
+            LOG.debug("Failed reading csvdiff out: '%s'", out)
+            return pd.DataFrame()
+        df = df.astype(str)
         return df[df["diff"].str.contains("left_only")]
 
     def _df_to_report_tbl(self, df, up_ver=True):
@@ -428,18 +452,35 @@ class FlakeScanner:
         )
         return f"\n{table}\n"
 
-    def _evaluate_target_drv(self, target):
-        cmd = f"nix eval {str(self.repodir)}#{target}.drvPath"
-        ret = exec_cmd(cmd.split())
+    def _read_error(self, target, pintypes):
+        LOG.debug("")
+        for pintype in pintypes:
+            error_key = f"{target}_{pintype}"
+            if error_key in self.errors:
+                return f"```{self.errors[error_key]}```"
+        return None
+
+    def _reset_lock(self):
+        # Reset possible earlier changes to the flake.nix and lockfile
+        shutil.copy(self.lockfile_bak, self.lockfile)
+        shutil.copy(self.flakefile_bak, self.flakefile)
+
+    def _evaluate_target_drv(self, target, pintype):
+        eval_target = f"{str(self.repodir)}#{target}.drvPath"
+        cmd = f"nix eval {eval_target} --no-eval-cache"
+        ret = exec_cmd(cmd.split(), raise_on_error=False, return_error=True)
+        if ret is None or ret.returncode != 0:
+            LOG.warning("Error evaluating %s", eval_target)
+            self.errors[
+                f"{target}_{pintype}"
+            ] = f"Error evaluating '{target}' on {pintype}"
+            return None
         drv_path = Path(str(ret.stdout).strip('"\n\t '))
         LOG.info("Target '%s' evaluates to derivation: %s", target, drv_path)
         return drv_path
 
     def _update_repo_lock(self, nixpkgs_url=None):
         LOG.info("Updating: %s", self.lockfile)
-        # Reset possible earlier changes to the flake.nix and lockfile
-        shutil.copy(self.lockfile_bak, self.lockfile)
-        shutil.copy(self.flakefile_bak, self.flakefile)
         if nixpkgs_url:
             # Update the nixpkgs.url reference in flake.nix
             flake_text = self.flakefile.read_text()
@@ -467,14 +508,19 @@ class FlakeScanner:
     def _read_scan_results(self, cmd, target, pintype):
         out_triage = self.tmpdir / "vulnxscan.triage.csv"
         shutil.rmtree(out_triage, ignore_errors=True)
-        drv_path = self._evaluate_target_drv(target)
+        drv_path = self._evaluate_target_drv(target, pintype)
+        if drv_path is None:
+            return
         cmd = f"{cmd} {str(drv_path)}"
         ret = exec_cmd(cmd.split())
         LOG.debug("vulnxscan.py ==>\n\n%s\n\n<== vulnxscan.py\n", ret.stderr)
         if not out_triage.exists():
             LOG.warning("vulnxscan triage output not found: %s", out_triage)
             return
-        df = df_from_csv_file(out_triage.as_posix())
+        df = df_from_csv_file(out_triage, exit_on_error=False)
+        if df is None:
+            LOG.warning("Invalid vulnxscan output '%s'", out_triage)
+            return
         # Add the following columns to the beginning of df
         df.insert(0, "pintype", pintype)
         df.insert(0, "flakeref", self.flakeref)
