@@ -34,7 +34,7 @@ Since Nix makes it possible to find buildtime dependencies without compiling the
 
 Projects that make use of the [Nix flakes](https://nixos.wiki/wiki/Flakes) are pinned to a specific Nixpkgs revision. As an example, at the time of writing, the Ghaf main branch is pinned to [github:NixOS/nixpkgs/nixos-23.05](https://github.com/tiiuae/ghaf/blob/a973cabb8452a02332d082fdb6c4783e1d27ffb4/flake.nix#L18) revision [f6de47bd2ff24bb99459f01d04c324dce335aff9](https://github.com/tiiuae/ghaf/blob/a973cabb8452a02332d082fdb6c4783e1d27ffb4/flake.lock#L32). We label this version of Ghaf as '**current**'.
 
-If we now update the Ghaf pin by running `nix flake lock --update-input nixpkgs`, the nixpkgs revision Ghaf is pinned to moves forward to the latest Nixpkgs revision available in the channel Ghaf pins to. This means all Ghaf dependencies are updated to their latest version available in that channel. We label this version of Ghaf as '**lock_updated**'.
+If we update the Ghaf pin by running `nix flake lock --update-input nixpkgs`, the nixpkgs revision Ghaf is pinned to moves forward to the latest Nixpkgs revision available in the channel Ghaf pins to. This means all Ghaf dependencies are updated to their latest version available in that channel. We label this version of Ghaf as '**lock_updated**'.
 
 If we update the Ghaf pin so that instead of pinning it to nix-release (e.g. github:NixOS/nixpkgs/nixos-23.05), we pin it to nix-unstable (github:NixOS/nixpkgs/nixos-unstable), all Ghaf dependencies will be updated to their latest version available in nix-unstable. We label this version of Ghaf as '**nix_unstable**'.
 

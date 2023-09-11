@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `TARGET_NAME` revision `GHAF_HEAD`. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `TARGET_NAME` revision  https://github.com/tiiuae/ghaf/commit/GHAF_HEAD. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../manual_analysis.csv) file.
 
@@ -35,7 +35,7 @@ Following table lists vulnerabilities that have been fixed in nixpkgs nix-unstab
 
 Following issues potentially require backporting the fix from nixpkgs-unstable to the correct nixpkgs release branch.
 
-Consider [whitelisting](../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community backport the fix to the correct nixpkgs branch:
+Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community backport the fix to the correct nixpkgs branch:
 
 FIXED_IN_NIX_UNSTABLE
 
@@ -44,7 +44,7 @@ FIXED_IN_NIX_UNSTABLE
 
 Following table lists vulnerabilities currently impacting the Ghaf target that have emerged since the last time this vulnerability report was generated.
 
-Consider [whitelisting](../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
+Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
 NEW_SINCE_LAST_RUN
 
@@ -53,7 +53,7 @@ NEW_SINCE_LAST_RUN
 
 Following table lists all vulnerabilities currently impacting the Ghaf target.
 
-Consider [whitelisting](../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
+Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
 CURRENT_VULNS
 

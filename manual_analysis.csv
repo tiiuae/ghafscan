@@ -1,6 +1,6 @@
 "vuln_id","whitelist","package","version_local","version_nixpkgs","version_upstream","comment"
 "CVE-2023-4135","False","qemu","8.0.2",,,"Fixed upstream in 8.1.0."
-"CVE-2023-40359","False","xterm","379","384","384","Requested backport for PR: https://github.com/NixOS/nixpkgs/pull/244141."
+"CVE-2023-40359","False","xterm","379","384","384","Backport to 23.05 ongoing in PR: https://github.com/NixOS/nixpkgs/pull/254541."
 "CVE-2023-4016","False","procps","3.3.17","3.3.17","4.0.3","See: https://gitlab.com/procps-ng/procps/-/issues/297. Notice: repology package name is procps-ng: https://repology.org/project/procps-ng/versions."
 "CVE-2023-39533","False","go","1.20.6"," 1.21.0 "," 1.21.0 ","It's unclear if the vulnerable go pacakge 'go-libp2p' is actually used by anything Ghaf depends-on. The issue is included here, since NVD CPE refers go compiler 'golang:go' up to version 1.20.6. As soon as the nixpkgs PR that updates to go 1.20.7  (https://github.com/NixOS/nixpkgs/pull/246663) is in Ghaf, this issue should no longer be included in the reports."
 "CVE-2023-39533","False","go","1.20.6",,,"Nixpkgs fix PR: https://github.com/NixOS/nixpkgs/pull/246663."
@@ -118,3 +118,4 @@
 "GHSA-mc7w-4cjf-c973",,"opencv","4.7.0",,,"Incorrect package: Issue refers node-opencv, whereas, nixpkgs refers opencv https://github.com/opencv/opencv."
 "GHSA-f698-m2v9-5fh3",,"opencv",,,,"Incorrect package: issue refers node-opencv https://www.npmjs.com/package/opencv, whereas nixpkgs refers https://github.com/opencv/opencv."
 "GHSA-6898-wx94-8jq8",,"libnotify","0.8.2",,,"Incorrect package: Issue refers node-libnotify https://github.com/mytrile/node-libnotify, whereas nixpkgs refers gnome-libnotify https://gitlab.gnome.org/GNOME/libnotify."
+"GHSA-7x97-j373-85x5","False","electron","25.3.1",,,"Nixpkgs fix PR: https://github.com/NixOS/nixpkgs/pull/251189."

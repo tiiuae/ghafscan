@@ -418,14 +418,14 @@ class FlakeScanner:
         if df.empty:
             return "```No vulnerabilities```"
         # Sort by the following columns
-        sort_cols = ["sortcol", "package", "version_local", "vuln_id"]
+        sort_cols = ["severity", "sortcol", "package", "version_local", "vuln_id"]
         if not set(sort_cols).issubset(df.columns):
             return "\n```Error: missing required columns```\n"
         df = df.sort_values(by=sort_cols, ascending=False)
         # Truncate version strings
         df["version_local"] = df["version_local"].str.slice(0, 16)
         # Report table will have the following columns
-        report_cols = ["vuln_id", "package", "version_local"]
+        report_cols = ["vuln_id", "package", "severity", "version_local"]
         # Optionally add the following upstream versions
         if up_ver and "version_nixpkgs" in df:
             ver_rename = "nix_unstable"
@@ -457,7 +457,7 @@ class FlakeScanner:
         for pintype in pintypes:
             error_key = f"{target}_{pintype}"
             if error_key in self.errors:
-                return f"```{self.errors[error_key]}```"
+                return f"{self.errors[error_key]}"
         return None
 
     def _reset_lock(self):
@@ -471,9 +471,10 @@ class FlakeScanner:
         ret = exec_cmd(cmd.split(), raise_on_error=False, return_error=True)
         if ret is None or ret.returncode != 0:
             LOG.warning("Error evaluating %s", eval_target)
-            self.errors[
-                f"{target}_{pintype}"
-            ] = f"Error evaluating '{target}' on {pintype}"
+            self.errors[f"{target}_{pintype}"] = (
+                f"```Error evaluating '{target}' on {pintype}```<br /><br />\n"
+                "For more details, see: https://github.com/tiiuae/ghafscan/actions"
+            )
             return None
         drv_path = Path(str(ret.stdout).strip('"\n\t '))
         LOG.info("Target '%s' evaluates to derivation: %s", target, drv_path)
