@@ -8,7 +8,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 This vulnerability report is generated for Ghaf target `TARGET_NAME` revision  https://github.com/tiiuae/ghaf/commit/GHAF_HEAD. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
-This report is automatically generated as specified on the [Vulnerability Scan](../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../manual_analysis.csv) file.
+This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
 See section [Theory of Operation](https://github.com/tiiuae/ghafscan#theory-of-operation) in the [ghafscan README.md](https://github.com/tiiuae/ghafscan/blob/main/README.md) for details of how the data on this report is generated.
 
