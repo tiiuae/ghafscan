@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/5c2e7d18f8b45b9c3c684e5216c88a2b489be8de. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/79400e6199d71eba27e35020343871390cdb59e9. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -54,13 +54,9 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
 
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                    |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|------------------------------------------------------------------------------------------------------------|
-| [CVE-2023-38039](https://nvd.nist.gov/vuln/detail/CVE-2023-38039) | curl      |        7.5 | 8.1.1           | 8.2.1          | 8.3.0      | *[[PR](https://github.com/NixOS/nixpkgs/pull/254962), [PR](https://github.com/NixOS/nixpkgs/pull/254963)]* |
-| [CVE-2023-25584](https://nvd.nist.gov/vuln/detail/CVE-2023-25584) | binutils  |        7.1 | 2.40            | 2.40           | 2.41       |                                                                                                            |
-| [CVE-2023-25588](https://nvd.nist.gov/vuln/detail/CVE-2023-25588) | binutils  |        5.5 | 2.40            | 2.40           | 2.41       |                                                                                                            |
-| [CVE-2023-25586](https://nvd.nist.gov/vuln/detail/CVE-2023-25586) | binutils  |        5.5 | 2.40            | 2.40           | 2.41       |                                                                                                            |
-| [CVE-2023-25585](https://nvd.nist.gov/vuln/detail/CVE-2023-25585) | binutils  |        5.5 | 2.40            | 2.40           | 2.41       |                                                                                                            |
+| vuln_id                                                         | package   |   severity | version_local   | nix_unstable   |   upstream | comment   |
+|-----------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2023-4527](https://nvd.nist.gov/vuln/detail/CVE-2023-4527) | glibc     |        8.2 | 2.37-8          | 2.37-8         |       2.38 |           |
 
 
 
@@ -73,6 +69,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 
 | vuln_id                                                           | package    | severity   | version_local    | nix_unstable     | upstream         | comment                                                                                                                                                                                                                                                                         |
 |-------------------------------------------------------------------|------------|------------|------------------|------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [CVE-2023-4527](https://nvd.nist.gov/vuln/detail/CVE-2023-4527)   | glibc      | 8.2        | 2.37-8           | 2.37-8           | 2.38             |                                                                                                                                                                                                                                                                                 |
 | [CVE-2023-31484](https://nvd.nist.gov/vuln/detail/CVE-2023-31484) | perl       | 8.1        | 5.36.0           | 5.38.0           | 5.38.0           | *[[PR](https://github.com/NixOS/nixpkgs/pull/241848), [PR](https://github.com/NixOS/nixpkgs/pull/247547), [PR](https://github.com/NixOS/nixpkgs/pull/256402)]*                                                                                                                  |
 | [CVE-2023-4807](https://nvd.nist.gov/vuln/detail/CVE-2023-4807)   | openssl    | 7.8        | 3.0.10           | 3.0.10           | 3.1.3            | *[[PR](https://github.com/NixOS/nixpkgs/pull/254106), [PR](https://github.com/NixOS/nixpkgs/pull/254185), [PR](https://github.com/NixOS/nixpkgs/pull/254574), [PR](https://github.com/NixOS/nixpkgs/pull/256127)]*                                                              |
 | [CVE-2023-4781](https://nvd.nist.gov/vuln/detail/CVE-2023-4781)   | vim        | 7.8        | 9.0.1441         | 9.0.1811         | 9.0.1922         | Backport nixpkgs PR [link](https://github.com/NixOS/nixpkgs/pull/254666) to 23.05 once it's merged to unstable/staging.  *[[PR](https://github.com/NixOS/nixpkgs/pull/254666)]*                                                                                                 |
