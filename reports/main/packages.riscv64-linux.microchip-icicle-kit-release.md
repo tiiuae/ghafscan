@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/e23dafb7a4fe6297f061c5a7304d0a2bd8d14b60. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/df44527b5adb5d847accd2e7741efd3374b84540. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -66,11 +66,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2023-46246](https://nvd.nist.gov/vuln/detail/CVE-2023-46246) | vim       |        5.5 | 9.0.1441        | 9.0.1897       | 9.0.2092   |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
