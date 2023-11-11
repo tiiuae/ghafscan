@@ -1,30 +1,23 @@
 # SPDX-FileCopyrightText: 2023 Technology Innovation Institute (TII)
+# SPDX-FileCopyrightText: 2020-2023 Eelco Dolstra and the flake-compat contributors
 #
-# SPDX-License-Identifier: Apache-2.0
-{
-  pkgs ? import <nixpkgs> {},
-  pythonPackages ? pkgs.python3Packages,
-}:
-pythonPackages.buildPythonPackage rec {
-  pname = "ghafscan";
-  version = pkgs.lib.removeSuffix "\n" (builtins.readFile ./VERSION);
-  format = "setuptools";
+# SPDX-License-Identifier: MIT
+# This file originates from:
+# https://github.com/nix-community/flake-compat
+# This file provides backward compatibility to nix < 2.4 clients
+{system ? builtins.currentSystem}: let
+  lock = builtins.fromJSON (builtins.readFile ./flake.lock);
 
-  src = ./.;
+  inherit (lock.nodes.flake-compat.locked) owner repo rev narHash;
 
-  sbomnix = import ./sbomnix.nix;
-  vulnxscan = import "${sbomnix}/scripts/vulnxscan/vulnxscan.nix" {pkgs = pkgs;};
-  csvdiff_nix = import ./csvdiff.nix;
-  csvdiff = import "${csvdiff_nix}/csvdiff/default.nix" {pkgs = pkgs;};
+  flake-compat = fetchTarball {
+    url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
+    sha256 = narHash;
+  };
 
-  propagatedBuildInputs = [
-    pkgs.nix
-    pkgs.reuse
-    vulnxscan
-    csvdiff
-    pythonPackages.colorlog
-    pythonPackages.gitpython
-    pythonPackages.pandas
-    pythonPackages.tabulate
-  ];
-}
+  flake = import flake-compat {
+    inherit system;
+    src = ./.;
+  };
+in
+  flake.defaultNix
