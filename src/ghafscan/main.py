@@ -252,7 +252,7 @@ class FlakeScanner:
         # due to github rate limits. If the execution time becomes a problem,
         # consider dropping the '--nixprs'
         out = self.tmpdir / "vulnxscan.csv"
-        cmd_vulnxscan = f"vulnxscan.py --triage --out={out}"
+        cmd_vulnxscan = f"vulnxscan --triage --out={out}"
         if buildtime:
             cmd_vulnxscan += " --buildtime"
         if nixprs:
@@ -514,7 +514,7 @@ class FlakeScanner:
             return
         cmd = f"{cmd} {str(drv_path)}"
         ret = exec_cmd(cmd.split())
-        LOG.debug("vulnxscan.py ==>\n\n%s\n\n<== vulnxscan.py\n", ret.stderr)
+        LOG.debug("vulnxscan ==>\n\n%s\n\n<== vulnxscan\n", ret.stderr)
         if not out_triage.exists():
             LOG.warning("vulnxscan triage output not found: %s", out_triage)
             return
@@ -583,7 +583,7 @@ def main():
     _set_log_verbosity(args.verbose)
     # Fail early if the following commands are not in PATH
     exit_unless_command_exists("nix")
-    exit_unless_command_exists("vulnxscan.py")
+    exit_unless_command_exists("vulnxscan")
     exit_unless_command_exists("csvdiff")
     scanner = FlakeScanner(args.flakeref)
     whitelist = args.whitelist

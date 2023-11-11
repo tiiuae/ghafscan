@@ -1,14 +1,11 @@
 # SPDX-FileCopyrightText: 2023 Technology Innovation Institute (TII)
 #
 # SPDX-License-Identifier: Apache-2.0
-
-venv/
-*.egg-info/
-.eggs/
-__pycache__/
-*.py[cod]
-*.sqlite
-/*.log
-result
-.direnv
-.idea
+{
+  imports = [
+    ./checks.nix
+    ./devshell.nix
+    ./packages.nix
+    ./treefmt.nix
+  ];
+}
