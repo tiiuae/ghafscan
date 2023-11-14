@@ -30,7 +30,7 @@
       flake = false;
     };
     sbomnix = {
-      url = "github:brianmcgee/sbomnix/fix/repolocy_cli-reference";
+      url = "github:tiiuae/sbomnix";
       inputs = {
         # reduce duplicate inputs
         nixpkgs.follows = "nixpkgs";

@@ -205,16 +205,15 @@
         "vulnix": "vulnix"
       },
       "locked": {
-        "lastModified": 1699872094,
+        "lastModified": 1699872913,
         "narHash": "sha256-SqBSwBo9kx8uxuJLDpP0BxZ5/g5zyP1CZNziW6Z4Elc=",
-        "owner": "brianmcgee",
+        "owner": "tiiuae",
         "repo": "sbomnix",
-        "rev": "c6aa077337f72bf506760392cfb3f4b74758ade5",
+        "rev": "3831c36083bbee9a7e89d2523354408062cab35e",
         "type": "github"
       },
       "original": {
-        "owner": "brianmcgee",
-        "ref": "fix/repolocy_cli-reference",
+        "owner": "tiiuae",
         "repo": "sbomnix",
         "type": "github"
       }
