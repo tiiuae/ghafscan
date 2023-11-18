@@ -194,7 +194,8 @@ https://github.com/NixOS/nixpkgs/pull/261952"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-4504","https://nvd.nist.gov/vuln/detail/CVE-2023-4504","cups","7.0","2.4.2","2.4.7","2.4.7","cups","2023A0000004504","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/256378 
 https://github.com/NixOS/nixpkgs/pull/257637"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-4236","https://nvd.nist.gov/vuln/detail/CVE-2023-4236","bind","7.5","9.18.14","9.18.19","9.18.20","bind","2023A0000004236","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/256396 
-https://github.com/NixOS/nixpkgs/pull/256469"
+https://github.com/NixOS/nixpkgs/pull/256469 
+https://github.com/NixOS/nixpkgs/pull/268185"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-4135","https://nvd.nist.gov/vuln/detail/CVE-2023-4135","qemu","6.5","8.0.0","8.1.2","8.1.2","qemu","2023A0000004135","False","Fixed upstream in 8.1.0.","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/261753 
 https://github.com/NixOS/nixpkgs/pull/267666"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-4039","https://nvd.nist.gov/vuln/detail/CVE-2023-4039","gcc","4.8","12.2.0","12.3.0","13.2.0","gcc","2023A0000004039","False","","fix_not_available",""
@@ -219,7 +220,8 @@ https://github.com/NixOS/nixpkgs/pull/261791"
 https://github.com/NixOS/nixpkgs/pull/261753 
 https://github.com/NixOS/nixpkgs/pull/267666"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-3341","https://nvd.nist.gov/vuln/detail/CVE-2023-3341","bind","7.5","9.18.14","9.18.19","9.18.20","bind","2023A0000003341","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/256396 
-https://github.com/NixOS/nixpkgs/pull/256469"
+https://github.com/NixOS/nixpkgs/pull/256469 
+https://github.com/NixOS/nixpkgs/pull/268185"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-3316","https://nvd.nist.gov/vuln/detail/CVE-2023-3316","libtiff","6.5","4.5.0","4.5.1","4.6.0","tiff","2023A0000003316","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/239544 
 https://github.com/NixOS/nixpkgs/pull/239595 
 https://github.com/NixOS/nixpkgs/pull/261791"
@@ -243,15 +245,18 @@ https://github.com/NixOS/nixpkgs/pull/248715
 https://github.com/NixOS/nixpkgs/pull/265619"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-2911","https://nvd.nist.gov/vuln/detail/CVE-2023-2911","bind","7.5","9.18.14","9.18.19","9.18.20","bind","2023A0000002911","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/239161 
 https://github.com/NixOS/nixpkgs/pull/256396 
-https://github.com/NixOS/nixpkgs/pull/256469"
+https://github.com/NixOS/nixpkgs/pull/256469 
+https://github.com/NixOS/nixpkgs/pull/268185"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-2908","https://nvd.nist.gov/vuln/detail/CVE-2023-2908","libtiff","5.5","4.5.0","4.5.1","4.6.0","tiff","2023A0000002908","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/239544 
 https://github.com/NixOS/nixpkgs/pull/239595 
 https://github.com/NixOS/nixpkgs/pull/261791"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-2829","https://nvd.nist.gov/vuln/detail/CVE-2023-2829","bind","7.5","9.18.14","9.18.19","9.18.20","bind","2023A0000002829","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/256396 
-https://github.com/NixOS/nixpkgs/pull/256469"
+https://github.com/NixOS/nixpkgs/pull/256469 
+https://github.com/NixOS/nixpkgs/pull/268185"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-2828","https://nvd.nist.gov/vuln/detail/CVE-2023-2828","bind","7.5","9.18.14","9.18.19","9.18.20","bind","2023A0000002828","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/239161 
 https://github.com/NixOS/nixpkgs/pull/256396 
-https://github.com/NixOS/nixpkgs/pull/256469"
+https://github.com/NixOS/nixpkgs/pull/256469 
+https://github.com/NixOS/nixpkgs/pull/268185"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-2680","https://nvd.nist.gov/vuln/detail/CVE-2023-2680","qemu","8.2","8.0.0","8.1.2","8.1.2","qemu","2023A0000002680","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-2610","https://nvd.nist.gov/vuln/detail/CVE-2023-2610","vim","7.8","9.0.1441","9.0.1897","9.0.2112","vim","2023A0000002610","False","Backport nixpkgs PR https://github.com/NixOS/nixpkgs/pull/254666 to 23.05 once it's merged to unstable/staging.","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/254666 
 https://github.com/NixOS/nixpkgs/pull/261952"
