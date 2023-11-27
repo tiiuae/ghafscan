@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/e906daa848dacc3ee516269e59b7befe0163b017. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/76711b838b451ed64c84706a8ae06870e1045143. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -69,17 +69,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2023-48237](https://nvd.nist.gov/vuln/detail/CVE-2023-48237) | vim       |        4.3 | 9.0.1441        | 9.0.2048       | 9.0.2130   |           |
-| [CVE-2023-48236](https://nvd.nist.gov/vuln/detail/CVE-2023-48236) | vim       |        4.3 | 9.0.1441        | 9.0.2048       | 9.0.2130   |           |
-| [CVE-2023-48235](https://nvd.nist.gov/vuln/detail/CVE-2023-48235) | vim       |        4.3 | 9.0.1441        | 9.0.2048       | 9.0.2130   |           |
-| [CVE-2023-48234](https://nvd.nist.gov/vuln/detail/CVE-2023-48234) | vim       |        4.3 | 9.0.1441        | 9.0.2048       | 9.0.2130   |           |
-| [CVE-2023-48233](https://nvd.nist.gov/vuln/detail/CVE-2023-48233) | vim       |        4.3 | 9.0.1441        | 9.0.2048       | 9.0.2130   |           |
-| [CVE-2023-48232](https://nvd.nist.gov/vuln/detail/CVE-2023-48232) | vim       |        4.3 | 9.0.1441        | 9.0.2048       | 9.0.2130   |           |
-| [CVE-2023-48231](https://nvd.nist.gov/vuln/detail/CVE-2023-48231) | vim       |        4.3 | 9.0.1441        | 9.0.2048       | 9.0.2130   |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
