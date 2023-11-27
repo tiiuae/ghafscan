@@ -8,52 +8,45 @@
     self',
     ...
   }: {
-    devShells.default = let
-      pp = pkgs.python3Packages;
-    in
-      pkgs.mkShell rec {
-        name = "ghafscan-dev-shell";
+    devShells.default = pkgs.mkShell rec {
+      name = "ghafscan-dev-shell";
 
-        buildInputs =
-          (with pkgs; [
-            coreutils
-            curl
-            gnugrep
-            gnused
-            graphviz
-            grype
-            gzip
-            nix
-            reuse
-          ])
-          ++ [
-            self'.packages.csvdiff
-            # bring in vulnxscan from sbomnix
-            inputs'.sbomnix.packages.default
-          ]
-          ++ (with pp; [
-            black
-            colorlog
-            gitpython
-            pandas
-            pycodestyle
-            pylint
-            pytest
-            tabulate
-            venvShellHook
-          ])
-          ++ [inputs'.nix-fast-build.packages.default];
-
-        venvDir = "venv";
-        postShellHook = ''
-          export PYTHONPATH="$PWD/src:$PYTHONPATH"
-
-          # https://github.com/NixOS/nix/issues/1009:
-          export TMPDIR="/tmp"
-
-          # Enter python development environment
-          make install-dev
-        '';
-      };
+      packages =
+        (with pkgs; [
+          coreutils
+          curl
+          gnugrep
+          gnused
+          graphviz
+          grype
+          gzip
+          nix
+          reuse
+          (
+            python3.withPackages (ps:
+              with ps; [
+                black
+                colorlog
+                gitpython
+                pandas
+                pycodestyle
+                pylint
+                pytest
+                tabulate
+              ])
+          )
+        ])
+        ++ [
+          self'.packages.csvdiff
+          # bring in vulnxscan from sbomnix
+          inputs'.sbomnix.packages.default
+        ]
+        ++ [
+          inputs'.nix-fast-build.packages.default
+        ];
+      shellHook = ''
+        export PYTHONPATH="$PYTHONPATH:$(pwd)/src"
+      '';
+    };
   };
 }

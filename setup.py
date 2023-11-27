@@ -40,7 +40,6 @@ setuptools.setup(
         "Operating System :: POSIX :: Linux",
         "Programming Language :: Python :: 3 :: Only",
     ],
-    # packages=["ghafscan"],
     packages=setuptools.find_namespace_packages(where="src"),
     package_dir={"": "src"},
     package_data={"ghafscan.templates": ["*.md"]},
