@@ -13,10 +13,28 @@
         # todo this could be moved into a shared flake
         reuse =
           pkgs.runCommandLocal "reuse-lint" {
-            buildInputs = [pkgs.reuse];
+            nativeBuildInputs = [pkgs.reuse];
           } ''
             cd ${../.}
             reuse lint
+            touch $out
+          '';
+        # pycodestyle
+        pycodestyle =
+          pkgs.runCommandLocal "pycodestyle" {
+            nativeBuildInputs = [pkgs.python3.pkgs.pycodestyle];
+          } ''
+            cd ${../.}
+            pycodestyle --max-line-length 90 $(find . -name "*.py" ! -path "*venv*" ! -path "*eggs*")
+            touch $out
+          '';
+        # pylint
+        pylint =
+          pkgs.runCommandLocal "pylint" {
+            nativeBuildInputs = with pkgs.python3Packages; [colorlog gitpython pandas pylint pytest tabulate];
+          } ''
+            cd ${../.}
+            pylint --disable duplicate-code -rn $(find . -name "*.py" ! -path "*venv*" ! -path "*eggs*")
             touch $out
           '';
       }
