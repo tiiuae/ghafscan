@@ -8,7 +8,7 @@
     self',
     ...
   }: {
-    devShells.default = pkgs.mkShell rec {
+    devShells.default = pkgs.mkShell {
       name = "ghafscan-dev-shell";
 
       packages =
@@ -25,12 +25,9 @@
           (
             python3.withPackages (ps:
               with ps; [
-                black
                 colorlog
                 gitpython
                 pandas
-                pycodestyle
-                pylint
                 pytest
                 tabulate
               ])

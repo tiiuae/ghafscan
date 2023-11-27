@@ -15,7 +15,7 @@
 
       csvdiff = (import "${inputs.ci-public}/csvdiff") {inherit pkgs;};
 
-      ghafscan = pp.buildPythonPackage rec {
+      ghafscan = pp.buildPythonPackage {
         pname = "ghafscan";
         version = pkgs.lib.removeSuffix "\n" (builtins.readFile ../VERSION);
         format = "setuptools";
