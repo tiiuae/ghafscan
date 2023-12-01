@@ -5,7 +5,6 @@
   perSystem = {
     pkgs,
     inputs',
-    self',
     ...
   }: {
     devShells.default = pkgs.mkShell {
@@ -34,9 +33,10 @@
           )
         ])
         ++ [
-          self'.packages.csvdiff
           # bring in vulnxscan from sbomnix
           inputs'.sbomnix.packages.default
+          # csvdiff
+          inputs'.csvdiff.packages.default
         ]
         ++ [
           inputs'.nix-fast-build.packages.default
