@@ -31,9 +31,15 @@
         treefmt-nix.follows = "treefmt-nix";
       };
     };
-    ci-public = {
-      url = "github:tiiuae/ci-public";
-      flake = false;
+    csvdiff = {
+      url = "github:tiiuae/ci-public?dir=csvdiff";
+      inputs = {
+        # reduce duplicate inputs
+        nixpkgs.follows = "nixpkgs";
+        flake-root.follows = "flake-root";
+        flake-parts.follows = "flake-parts";
+        treefmt-nix.follows = "treefmt-nix";
+      };
     };
     sbomnix = {
       url = "github:tiiuae/sbomnix";
@@ -43,7 +49,6 @@
         flake-root.follows = "flake-root";
         flake-parts.follows = "flake-parts";
         treefmt-nix.follows = "treefmt-nix";
-        nix-fast-build.follows = "nix-fast-build";
       };
     };
   };

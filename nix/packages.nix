@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2023 Technology Innovation Institute (TII)
 #
 # SPDX-License-Identifier: Apache-2.0
-{inputs, ...}: {
+_: {
   perSystem = {
     inputs',
     pkgs,
@@ -13,8 +13,6 @@
     packages = rec {
       default = ghafscan;
 
-      csvdiff = (import "${inputs.ci-public}/csvdiff") {inherit pkgs;};
-
       ghafscan = pp.buildPythonPackage {
         pname = "ghafscan";
         version = pkgs.lib.removeSuffix "\n" (builtins.readFile ../VERSION);
@@ -24,19 +22,17 @@
 
         pythonImportsCheck = ["ghafscan"];
 
-        propagatedBuildInputs =
-          [
-            pkgs.reuse
-            csvdiff
-            # we need vulnxscan from sbombnix
-            inputs'.sbomnix.packages.default
-          ]
-          ++ (with pp; [
-            colorlog
-            gitpython
-            pandas
-            tabulate
-          ]);
+        propagatedBuildInputs = with pp; [
+          colorlog
+          gitpython
+          pandas
+          tabulate
+        ];
+
+        postInstall = ''
+          wrapProgram $out/bin/ghafscan \
+              --prefix PATH : ${lib.makeBinPath [inputs'.sbomnix.packages.default inputs'.csvdiff.packages.default]}
+        '';
       };
     };
   };
