@@ -22,7 +22,6 @@ requires = [
     "gitpython",
     "pandas",
     "tabulate",
-    "wheel",
 ]
 
 setuptools.setup(
