@@ -84,7 +84,7 @@ $ nix develop
 
 From the development shell, run `ghafscan` as follows:
 ```bash
-$ ghafscan --help
+$ ./src/ghafscan/main.py --help
 ```
 
 To deactivate the Nix development shell, run `exit` in your shell.
