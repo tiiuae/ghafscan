@@ -13,12 +13,8 @@
       packages =
         (with pkgs; [
           coreutils
-          curl
           gnugrep
-          gnused
-          graphviz
           grype
-          gzip
           nix
           reuse
           (

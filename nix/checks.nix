@@ -31,7 +31,7 @@
         # pylint
         pylint =
           pkgs.runCommandLocal "pylint" {
-            nativeBuildInputs = with pkgs.python3Packages; [colorlog gitpython pandas pylint pytest tabulate];
+            nativeBuildInputs = with pkgs.python3Packages; [colorlog gitpython pandas pylint pytest setuptools tabulate];
           } ''
             cd ${../.}
             pylint --disable duplicate-code -rn $(find . -name "*.py" ! -path "*venv*" ! -path "*eggs*")
