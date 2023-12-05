@@ -3,8 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-# pylint: disable=invalid-name, global-statement, redefined-outer-name
-# pylint: disable=protected-access
+# pylint: disable=global-statement, redefined-outer-name
 
 """ Tests for ghafscan """
 
