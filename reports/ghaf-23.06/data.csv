@@ -1,5 +1,5 @@
 "target","flakeref","pintype","vuln_id","url","package","severity","version_local","version_nixpkgs","version_upstream","package_repology","sortcol","whitelist","whitelist_comment","classify","nixpkgs_pr"
-"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","GHSA-7m48-wc93-9g85","https://osv.dev/GHSA-7m48-wc93-9g85","electron","","25.1.1","27.0.0","28.0.0","electron","2023A1701648000","False","","err_not_vulnerable_based_on_repology",""
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","GHSA-7m48-wc93-9g85","https://osv.dev/GHSA-7m48-wc93-9g85","electron","","25.1.1","27.0.0","28.0.0","electron","2023A1701907200","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","GHSA-j7hp-h8jx-5ppr","https://osv.dev/GHSA-j7hp-h8jx-5ppr","electron","","25.1.1","27.0.0","28.0.0","electron","2023A1699142400","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","GHSA-qqvq-6xgj-jw8g","https://osv.dev/GHSA-qqvq-6xgj-jw8g","electron","","25.1.1","27.0.0","28.0.0","electron","2023A1696464000","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/268612"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","GHSA-6898-wx94-8jq8","https://osv.dev/GHSA-6898-wx94-8jq8","libnotify","","0.8.2","","","","2023A1694131200","True","Incorrect package: Issue refers node-libnotify https://github.com/mytrile/node-libnotify, whereas nixpkgs refers gnome-libnotify https://gitlab.gnome.org/GNOME/libnotify.","err_missing_repology_version",""
@@ -47,6 +47,7 @@ https://github.com/NixOS/nixpkgs/pull/262022
 https://github.com/NixOS/nixpkgs/pull/262713 
 https://github.com/NixOS/nixpkgs/pull/262718 
 https://github.com/NixOS/nixpkgs/pull/262738"
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-44402","https://nvd.nist.gov/vuln/detail/CVE-2023-44402","electron","7.0","25.1.1","27.0.0","28.0.0","electron","2023A0000044402","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/264191"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-43789","https://nvd.nist.gov/vuln/detail/CVE-2023-43789","libXpm","5.5","3.5.15","3.5.17","3.5.17","libxpm","2023A0000043789","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/258841 
 https://github.com/NixOS/nixpkgs/pull/258996"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.06","current","CVE-2023-43788","https://nvd.nist.gov/vuln/detail/CVE-2023-43788","libXpm","5.5","3.5.15","3.5.17","3.5.17","libxpm","2023A0000043788","False","","err_not_vulnerable_based_on_repology",""
