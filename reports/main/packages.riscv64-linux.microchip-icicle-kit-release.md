@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/c59f1d90393e9c0d54711b796419a6e249140b60. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/f35b7dd15d73c9ae6ccb934d0e603c85904a4732. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -58,11 +58,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------|
-| [CVE-2023-46218](https://nvd.nist.gov/vuln/detail/CVE-2023-46218) | curl      |        6.5 | 8.4.0           | 8.4.0          | 8.5.0      | *[[PR](https://github.com/NixOS/nixpkgs/pull/272886)]* |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -88,7 +84,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-25584](https://nvd.nist.gov/vuln/detail/CVE-2023-25584) | binutils   | 7.1        | 2.40             | 2.40             | 2.41             |                                                                                                                                                                                                     |
 | [CVE-2023-5088](https://nvd.nist.gov/vuln/detail/CVE-2023-5088)   | qemu       | 7          | 8.1.3            | 8.1.3            | 8.1.3            |                                                                                                                                                                                                     |
 | [CVE-2023-46218](https://nvd.nist.gov/vuln/detail/CVE-2023-46218) | curl       | 6.5        | 8.4.0            | 8.4.0            | 8.5.0            | *[[PR](https://github.com/NixOS/nixpkgs/pull/272886)]*                                                                                                                                              |
-| [CVE-2023-45322](https://nvd.nist.gov/vuln/detail/CVE-2023-45322) | libxml2    | 6.5        | 2.11.5           | 2.11.5           | 2.12.3           |                                                                                                                                                                                                     |
+| [CVE-2023-45322](https://nvd.nist.gov/vuln/detail/CVE-2023-45322) | libxml2    | 6.5        | 2.11.5           | 2.11.5           | 2.12.3           | *[[PR](https://github.com/NixOS/nixpkgs/pull/269060)]*                                                                                                                                              |
 | [CVE-2023-37769](https://nvd.nist.gov/vuln/detail/CVE-2023-37769) | pixman     | 6.5        | 0.42.2           | 0.42.2           | 0.42.2           | See: [link](https://gitlab.freedesktop.org/pixman/pixman/-/issues/76): "This somehow got assigned CVE-2023-37769, not sure why NVD keeps assigning CVEs like this. This is just a test executable". |
 | [CVE-2023-6277](https://nvd.nist.gov/vuln/detail/CVE-2023-6277)   | libtiff    | 6.5        | 4.6.0            | 4.6.0            | 4.6.0            |                                                                                                                                                                                                     |
 | [CVE-2023-4527](https://nvd.nist.gov/vuln/detail/CVE-2023-4527)   | glibc      | 6.5        | 2.38-27          |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/256887)]*                                                                                                                                              |
