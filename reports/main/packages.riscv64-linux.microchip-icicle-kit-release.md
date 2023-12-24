@@ -27,7 +27,12 @@ Following table lists vulnerabilities that have been fixed in the nixpkgs channe
 
 Update the target Ghaf [flake.lock](https://github.com/tiiuae/ghaf/blob/main/flake.lock) file to mitigate the following issues:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                                                                        |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [CVE-2023-51385](https://nvd.nist.gov/vuln/detail/CVE-2023-51385) | openssh   |        9.8 | 9.5p1           | 9.6p1          | 9.6p1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/275249), [PR](https://github.com/NixOS/nixpkgs/pull/275399), [PR](https://github.com/NixOS/nixpkgs/pull/275587)]* |
+| [CVE-2023-51384](https://nvd.nist.gov/vuln/detail/CVE-2023-51384) | openssh   |        5.5 | 9.5p1           | 9.6p1          | 9.6p1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/275249), [PR](https://github.com/NixOS/nixpkgs/pull/275399), [PR](https://github.com/NixOS/nixpkgs/pull/275587)]* |
+
 
 ## Vulnerabilities Fixed in nix-unstable
 
@@ -58,7 +63,12 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                                                                        |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [CVE-2023-51385](https://nvd.nist.gov/vuln/detail/CVE-2023-51385) | openssh   |        9.8 | 9.5p1           | 9.6p1          | 9.6p1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/275249), [PR](https://github.com/NixOS/nixpkgs/pull/275399), [PR](https://github.com/NixOS/nixpkgs/pull/275587)]* |
+| [CVE-2023-51384](https://nvd.nist.gov/vuln/detail/CVE-2023-51384) | openssh   |        5.5 | 9.5p1           | 9.6p1          | 9.6p1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/275249), [PR](https://github.com/NixOS/nixpkgs/pull/275399), [PR](https://github.com/NixOS/nixpkgs/pull/275587)]* |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -70,6 +80,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 
 | vuln_id                                                           | package    | severity   | version_local    | nix_unstable     | upstream         | comment                                                                                                                                                                                             |
 |-------------------------------------------------------------------|------------|------------|------------------|------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [CVE-2023-51385](https://nvd.nist.gov/vuln/detail/CVE-2023-51385) | openssh    | 9.8        | 9.5p1            | 9.6p1            | 9.6p1            | *[[PR](https://github.com/NixOS/nixpkgs/pull/275249), [PR](https://github.com/NixOS/nixpkgs/pull/275399), [PR](https://github.com/NixOS/nixpkgs/pull/275587)]*                                      |
 | [CVE-2023-47100](https://nvd.nist.gov/vuln/detail/CVE-2023-47100) | perl       | 9.8        | 5.38.0           | 5.38.2           | 5.38.2           | *[[PR](https://github.com/NixOS/nixpkgs/pull/269996), [PR](https://github.com/NixOS/nixpkgs/pull/271223)]*                                                                                          |
 | [CVE-2023-45853](https://nvd.nist.gov/vuln/detail/CVE-2023-45853) | zlib       | 9.8        | 1.3              | 1.3              | 1.3              | *[[PR](https://github.com/NixOS/nixpkgs/pull/262722), [PR](https://github.com/NixOS/nixpkgs/pull/263083)]*                                                                                          |
 | [CVE-2021-28794](https://nvd.nist.gov/vuln/detail/CVE-2021-28794) | ShellCheck | 9.8        | 0.9.0-r1.cabal   | 0.9.0            | 0.9.0            |                                                                                                                                                                                                     |
@@ -89,6 +100,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-6277](https://nvd.nist.gov/vuln/detail/CVE-2023-6277)   | libtiff    | 6.5        | 4.6.0            | 4.6.0            | 4.6.0            |                                                                                                                                                                                                     |
 | [CVE-2023-4527](https://nvd.nist.gov/vuln/detail/CVE-2023-4527)   | glibc      | 6.5        | 2.38-27          |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/256887)]*                                                                                                                                              |
 | [CVE-2023-3019](https://nvd.nist.gov/vuln/detail/CVE-2023-3019)   | qemu       | 6.5        | 8.1.3            | 8.1.3            | 8.2.0            | Revisit when fixed upstream: [link](https://lists.nongnu.org/archive/html/qemu-devel/2023-05/msg08310.html).                                                                                        |
+| [CVE-2023-51384](https://nvd.nist.gov/vuln/detail/CVE-2023-51384) | openssh    | 5.5        | 9.5p1            | 9.6p1            | 9.6p1            | *[[PR](https://github.com/NixOS/nixpkgs/pull/275249), [PR](https://github.com/NixOS/nixpkgs/pull/275399), [PR](https://github.com/NixOS/nixpkgs/pull/275587)]*                                      |
 | [CVE-2023-50268](https://nvd.nist.gov/vuln/detail/CVE-2023-50268) | jq         | 5.5        | 1.7              | 1.7              | 1.7.1            |                                                                                                                                                                                                     |
 | [CVE-2023-50246](https://nvd.nist.gov/vuln/detail/CVE-2023-50246) | jq         | 5.5        | 1.7              | 1.7              | 1.7.1            |                                                                                                                                                                                                     |
 | [CVE-2023-46246](https://nvd.nist.gov/vuln/detail/CVE-2023-46246) | vim        | 5.5        | 9.0.2048         | 9.0.2116         | 9.0.2184         | *[[PR](https://github.com/NixOS/nixpkgs/pull/268532), [PR](https://github.com/NixOS/nixpkgs/pull/271373)]*                                                                                          |
