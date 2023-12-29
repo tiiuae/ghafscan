@@ -63,7 +63,13 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package   |   severity |   version_local | nix_unstable   | upstream   | comment                                                                                                    |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|------------------------------------------------------------------------------------------------------------|
+| [CVE-2022-42012](https://nvd.nist.gov/vuln/detail/CVE-2022-42012) | dbus      |        6.5 |               1 | 1.14.10        | 1.14.10    | *[[PR](https://github.com/NixOS/nixpkgs/pull/195264), [PR](https://github.com/NixOS/nixpkgs/pull/253430)]* |
+| [CVE-2022-42011](https://nvd.nist.gov/vuln/detail/CVE-2022-42011) | dbus      |        6.5 |               1 | 1.14.10        | 1.14.10    | *[[PR](https://github.com/NixOS/nixpkgs/pull/195264), [PR](https://github.com/NixOS/nixpkgs/pull/253430)]* |
+| [CVE-2022-42010](https://nvd.nist.gov/vuln/detail/CVE-2022-42010) | dbus      |        6.5 |               1 | 1.14.10        | 1.14.10    | *[[PR](https://github.com/NixOS/nixpkgs/pull/195264), [PR](https://github.com/NixOS/nixpkgs/pull/253430)]* |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -95,6 +101,9 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-6277](https://nvd.nist.gov/vuln/detail/CVE-2023-6277)   | libtiff    | 6.5        | 4.6.0            | 4.6.0            | 4.6.0            |                                                                                                                                                                                                     |
 | [CVE-2023-4527](https://nvd.nist.gov/vuln/detail/CVE-2023-4527)   | glibc      | 6.5        | 2.38-27          |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/256887)]*                                                                                                                                              |
 | [CVE-2023-3019](https://nvd.nist.gov/vuln/detail/CVE-2023-3019)   | qemu       | 6.5        | 8.1.3            | 8.1.3            | 8.2.0            | Revisit when fixed upstream: [link](https://lists.nongnu.org/archive/html/qemu-devel/2023-05/msg08310.html).                                                                                        |
+| [CVE-2022-42012](https://nvd.nist.gov/vuln/detail/CVE-2022-42012) | dbus       | 6.5        | 1                | 1.14.10          | 1.14.10          | *[[PR](https://github.com/NixOS/nixpkgs/pull/195264), [PR](https://github.com/NixOS/nixpkgs/pull/253430)]*                                                                                          |
+| [CVE-2022-42011](https://nvd.nist.gov/vuln/detail/CVE-2022-42011) | dbus       | 6.5        | 1                | 1.14.10          | 1.14.10          | *[[PR](https://github.com/NixOS/nixpkgs/pull/195264), [PR](https://github.com/NixOS/nixpkgs/pull/253430)]*                                                                                          |
+| [CVE-2022-42010](https://nvd.nist.gov/vuln/detail/CVE-2022-42010) | dbus       | 6.5        | 1                | 1.14.10          | 1.14.10          | *[[PR](https://github.com/NixOS/nixpkgs/pull/195264), [PR](https://github.com/NixOS/nixpkgs/pull/253430)]*                                                                                          |
 | [CVE-2023-51384](https://nvd.nist.gov/vuln/detail/CVE-2023-51384) | openssh    | 5.5        | 9.5p1            | 9.6p1            | 9.6p1            | *[[PR](https://github.com/NixOS/nixpkgs/pull/275249), [PR](https://github.com/NixOS/nixpkgs/pull/275399), [PR](https://github.com/NixOS/nixpkgs/pull/275587)]*                                      |
 | [CVE-2023-50268](https://nvd.nist.gov/vuln/detail/CVE-2023-50268) | jq         | 5.5        | 1.7              | 1.7              | 1.7.1            |                                                                                                                                                                                                     |
 | [CVE-2023-50246](https://nvd.nist.gov/vuln/detail/CVE-2023-50246) | jq         | 5.5        | 1.7              | 1.7              | 1.7.1            |                                                                                                                                                                                                     |
