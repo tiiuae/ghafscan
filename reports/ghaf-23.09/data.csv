@@ -17,18 +17,18 @@ https://github.com/NixOS/nixpkgs/pull/275587"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-49292","https://nvd.nist.gov/vuln/detail/CVE-2023-49292","go","4.8","1.20.7","1.21.5","1.21.5","go","2023A0000049292","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-49292","https://nvd.nist.gov/vuln/detail/CVE-2023-49292","go","4.8","1.17.13-linux-amd64-bootstrap","1.21.5","1.21.5","go","2023A0000049292","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-48795","https://nvd.nist.gov/vuln/detail/CVE-2023-48795","openssh","5.9","9.3p2","9.6p1","9.6p1","openssh","2023A0000048795","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/231828 
-https://github.com/NixOS/nixpkgs/pull/275497 
 https://github.com/NixOS/nixpkgs/pull/275641 
+https://github.com/NixOS/nixpkgs/pull/276242 
 https://github.com/NixOS/nixpkgs/pull/276504 
 https://github.com/NixOS/nixpkgs/pull/276505"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-48795","https://nvd.nist.gov/vuln/detail/CVE-2023-48795","libssh2","5.9","1.11.0","1.11.0","1.11.0","libssh2","2023A0000048795","False","","fix_not_available","https://github.com/NixOS/nixpkgs/pull/231828 
-https://github.com/NixOS/nixpkgs/pull/275497 
 https://github.com/NixOS/nixpkgs/pull/275641 
+https://github.com/NixOS/nixpkgs/pull/276242 
 https://github.com/NixOS/nixpkgs/pull/276504 
 https://github.com/NixOS/nixpkgs/pull/276505"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-48795","https://nvd.nist.gov/vuln/detail/CVE-2023-48795","libssh","5.9","0.10.5","0.10.5","0.10.6","libssh","2023A0000048795","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/231828 
-https://github.com/NixOS/nixpkgs/pull/275497 
 https://github.com/NixOS/nixpkgs/pull/275641 
+https://github.com/NixOS/nixpkgs/pull/276242 
 https://github.com/NixOS/nixpkgs/pull/276504 
 https://github.com/NixOS/nixpkgs/pull/276505"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-48706","https://nvd.nist.gov/vuln/detail/CVE-2023-48706","vim","4.7","9.0.1441","9.0.2116","9.1.0015","vim","2023A0000048706","False","","fix_update_to_version_upstream",""
@@ -210,6 +210,10 @@ https://github.com/NixOS/nixpkgs/pull/276559"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-24536","https://nvd.nist.gov/vuln/detail/CVE-2023-24536","go","7.5","1.17.13-linux-amd64-bootstrap","","","","2023A0000024536","True","See the discussion in: https://github.com/NixOS/nixpkgs/pull/241776.","err_missing_repology_version",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-24534","https://nvd.nist.gov/vuln/detail/CVE-2023-24534","go","7.5","1.17.13-linux-amd64-bootstrap","","","","2023A0000024534","True","See the discussion in: https://github.com/NixOS/nixpkgs/pull/241776.","err_missing_repology_version",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-24532","https://nvd.nist.gov/vuln/detail/CVE-2023-24532","go","5.3","1.17.13-linux-amd64-bootstrap","","","","2023A0000024532","True","See the discussion in: https://github.com/NixOS/nixpkgs/pull/241776.","err_missing_repology_version",""
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","BIT-sqlite-2023-7104","https://osv.dev/BIT-sqlite-2023-7104","sqlite","","3.41.2","3.43.2","3.44.2","sqlite","2023A0000007104","False","","err_not_vulnerable_based_on_repology",""
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-7104","https://nvd.nist.gov/vuln/detail/CVE-2023-7104","sqlite","9.8","3.41.2","3.43.2","3.44.2","sqlite","2023A0000007104","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/260352 
+https://github.com/NixOS/nixpkgs/pull/264927 
+https://github.com/NixOS/nixpkgs/pull/268787"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-6918","https://nvd.nist.gov/vuln/detail/CVE-2023-6918","libssh2","5.3","1.11.0","1.11.0","1.11.0","libssh2","2023A0000006918","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/275250"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-6918","https://nvd.nist.gov/vuln/detail/CVE-2023-6918","libssh","5.3","0.10.5","0.10.5","0.10.6","libssh","2023A0000006918","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/275250 
 https://github.com/NixOS/nixpkgs/pull/275603 
@@ -511,8 +515,8 @@ https://github.com/NixOS/nixpkgs/pull/276799"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-49292","https://nvd.nist.gov/vuln/detail/CVE-2023-49292","go","4.8","1.20.8","1.21.5","1.21.5","go","2023A0000049292","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-49292","https://nvd.nist.gov/vuln/detail/CVE-2023-49292","go","4.8","1.17.13-linux-amd64-bootstrap","1.21.5","1.21.5","go","2023A0000049292","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-48795","https://nvd.nist.gov/vuln/detail/CVE-2023-48795","openssh","5.9","9.3p2","9.6p1","9.6p1","openssh","2023A0000048795","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/231828 
-https://github.com/NixOS/nixpkgs/pull/275497 
 https://github.com/NixOS/nixpkgs/pull/275641 
+https://github.com/NixOS/nixpkgs/pull/276242 
 https://github.com/NixOS/nixpkgs/pull/276504 
 https://github.com/NixOS/nixpkgs/pull/276505"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-48706","https://nvd.nist.gov/vuln/detail/CVE-2023-48706","vim","4.7","9.0.1441","9.0.2116","9.1.0015","vim","2023A0000048706","False","","fix_update_to_version_upstream",""
@@ -659,6 +663,10 @@ https://github.com/NixOS/nixpkgs/pull/232535"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-24536","https://nvd.nist.gov/vuln/detail/CVE-2023-24536","go","7.5","1.17.13-linux-amd64-bootstrap","","","","2023A0000024536","True","See the discussion in: https://github.com/NixOS/nixpkgs/pull/241776.","err_missing_repology_version",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-24534","https://nvd.nist.gov/vuln/detail/CVE-2023-24534","go","7.5","1.17.13-linux-amd64-bootstrap","","","","2023A0000024534","True","See the discussion in: https://github.com/NixOS/nixpkgs/pull/241776.","err_missing_repology_version",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-24532","https://nvd.nist.gov/vuln/detail/CVE-2023-24532","go","5.3","1.17.13-linux-amd64-bootstrap","","","","2023A0000024532","True","See the discussion in: https://github.com/NixOS/nixpkgs/pull/241776.","err_missing_repology_version",""
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","BIT-sqlite-2023-7104","https://osv.dev/BIT-sqlite-2023-7104","sqlite","","3.41.2","3.43.2","3.44.2","sqlite","2023A0000007104","False","","err_not_vulnerable_based_on_repology",""
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-7104","https://nvd.nist.gov/vuln/detail/CVE-2023-7104","sqlite","9.8","3.41.2","3.43.2","3.44.2","sqlite","2023A0000007104","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/260352 
+https://github.com/NixOS/nixpkgs/pull/264927 
+https://github.com/NixOS/nixpkgs/pull/268787"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-6918","https://nvd.nist.gov/vuln/detail/CVE-2023-6918","libssh2","5.3","1.11.0","1.11.0","1.11.0","libssh2","2023A0000006918","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/275250"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-6918","https://nvd.nist.gov/vuln/detail/CVE-2023-6918","libssh","5.3","0.10.6","0.10.5","0.10.6","libssh","2023A0000006918","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/275250"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-6277","https://nvd.nist.gov/vuln/detail/CVE-2023-6277","libtiff","6.5","4.5.1","4.6.0","4.6.0","tiff","2023A0000006277","False","","err_not_vulnerable_based_on_repology",""
