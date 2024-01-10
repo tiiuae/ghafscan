@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/9305441e13603ba8020dd3dd6562dfd225b087f1. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.riscv64-linux.microchip-icicle-kit-release` revision  https://github.com/tiiuae/ghaf/commit/dddcedb91fb13e9eb10ec89463ce1525737b4dfb. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -67,7 +67,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                         | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-----------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2023-6693](https://nvd.nist.gov/vuln/detail/CVE-2023-6693) | qemu      |        5.3 | 8.1.3           | 8.2.0          | 8.2.0      |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -121,6 +125,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2020-2136](https://nvd.nist.gov/vuln/detail/CVE-2020-2136)   | git        | 5.4        | 2.42.0           | 2.42.0           | 2.43.0           | *[[PR](https://github.com/NixOS/nixpkgs/pull/82872), [PR](https://github.com/NixOS/nixpkgs/pull/84664)]*                                                                                                                                                               |
 | [CVE-2023-46219](https://nvd.nist.gov/vuln/detail/CVE-2023-46219) | curl       | 5.3        | 8.4.0            | 8.4.0            | 8.5.0            | *[[PR](https://github.com/NixOS/nixpkgs/pull/272886), [PR](https://github.com/NixOS/nixpkgs/pull/279453)]*                                                                                                                                                             |
 | [CVE-2023-6918](https://nvd.nist.gov/vuln/detail/CVE-2023-6918)   | libssh2    | 5.3        | 1.11.0           | 1.11.0           | 1.11.0           | *[[PR](https://github.com/NixOS/nixpkgs/pull/275250)]*                                                                                                                                                                                                                 |
+| [CVE-2023-6693](https://nvd.nist.gov/vuln/detail/CVE-2023-6693)   | qemu       | 5.3        | 8.1.3            | 8.2.0            | 8.2.0            |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-5678](https://nvd.nist.gov/vuln/detail/CVE-2023-5678)   | openssl    | 5.3        | 3.0.12           | 3.2.0            | 3.2.0            | *[[PR](https://github.com/NixOS/nixpkgs/pull/269450)]*                                                                                                                                                                                                                 |
 | [CVE-2023-5678](https://nvd.nist.gov/vuln/detail/CVE-2023-5678)   | openssl    | 5.3        | 3.0.12           | 3.2.0            | 3.2.0            |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-4039](https://nvd.nist.gov/vuln/detail/CVE-2023-4039)   | gcc        | 4.8        | 12.3.0           | 12.3.0           | 13.2.0           |                                                                                                                                                                                                                                                                        |
