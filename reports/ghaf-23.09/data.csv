@@ -91,7 +91,7 @@ https://github.com/NixOS/nixpkgs/pull/279903"
 https://github.com/NixOS/nixpkgs/pull/258350 
 https://github.com/NixOS/nixpkgs/pull/259881 
 https://github.com/NixOS/nixpkgs/pull/260189"
-"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-44487","https://nvd.nist.gov/vuln/detail/CVE-2023-44487","nghttp2","7.5","1.51.0","1.57.0","1.58.0","nghttp2","2023A0000044487","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/259329 
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-44487","https://nvd.nist.gov/vuln/detail/CVE-2023-44487","nghttp2","7.5","1.51.0","1.57.0","1.59.0","nghttp2","2023A0000044487","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/259329 
 https://github.com/NixOS/nixpkgs/pull/262022 
 https://github.com/NixOS/nixpkgs/pull/262738 
 https://github.com/NixOS/nixpkgs/pull/263279 
@@ -178,7 +178,7 @@ https://github.com/NixOS/nixpkgs/pull/254963
 https://github.com/NixOS/nixpkgs/pull/260378 
 https://github.com/NixOS/nixpkgs/pull/272886"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-37769","https://nvd.nist.gov/vuln/detail/CVE-2023-37769","pixman","6.5","0.42.2","0.42.2","0.43.0","pixman","2023A0000037769","False","See: https://gitlab.freedesktop.org/pixman/pixman/-/issues/76: ""This somehow got assigned CVE-2023-37769, not sure why NVD keeps assigning CVEs like this. This is just a test executable"".","err_not_vulnerable_based_on_repology",""
-"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-35945","https://nvd.nist.gov/vuln/detail/CVE-2023-35945","nghttp2","7.5","1.51.0","1.57.0","1.58.0","nghttp2","2023A0000035945","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/219712 
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-35945","https://nvd.nist.gov/vuln/detail/CVE-2023-35945","nghttp2","7.5","1.51.0","1.57.0","1.59.0","nghttp2","2023A0000035945","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/219712 
 https://github.com/NixOS/nixpkgs/pull/246068 
 https://github.com/NixOS/nixpkgs/pull/265047"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","current","CVE-2023-31975","https://nvd.nist.gov/vuln/detail/CVE-2023-31975","yasm","3.3","1.3.0","","","","2023A0000031975","True","Memory leak in CLI tool, no security impact.","err_missing_repology_version",""
@@ -575,7 +575,7 @@ https://github.com/NixOS/nixpkgs/pull/279903"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-45284","https://nvd.nist.gov/vuln/detail/CVE-2023-45284","go","5.3","1.17.13-linux-amd64-bootstrap","1.21.5","1.21.6","go","2023A0000045284","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-45283","https://nvd.nist.gov/vuln/detail/CVE-2023-45283","go","7.5","1.20.8","1.21.5","1.21.6","go","2023A0000045283","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-45283","https://nvd.nist.gov/vuln/detail/CVE-2023-45283","go","7.5","1.17.13-linux-amd64-bootstrap","1.21.5","1.21.6","go","2023A0000045283","False","","err_not_vulnerable_based_on_repology",""
-"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-44487","https://nvd.nist.gov/vuln/detail/CVE-2023-44487","nghttp2","7.5","1.51.0","1.57.0","1.58.0","nghttp2","2023A0000044487","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/259329 
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-44487","https://nvd.nist.gov/vuln/detail/CVE-2023-44487","nghttp2","7.5","1.51.0","1.57.0","1.59.0","nghttp2","2023A0000044487","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/259329 
 https://github.com/NixOS/nixpkgs/pull/262022 
 https://github.com/NixOS/nixpkgs/pull/262738 
 https://github.com/NixOS/nixpkgs/pull/263279 
@@ -627,7 +627,7 @@ https://github.com/NixOS/nixpkgs/pull/279903"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-38470","https://nvd.nist.gov/vuln/detail/CVE-2023-38470","avahi","5.5","0.8","0.8","0.8","avahi","2023A0000038470","False","","fix_not_available","https://github.com/NixOS/nixpkgs/pull/269599"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-38469","https://nvd.nist.gov/vuln/detail/CVE-2023-38469","avahi","5.5","0.8","0.8","0.8","avahi","2023A0000038469","False","","fix_not_available","https://github.com/NixOS/nixpkgs/pull/269599"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-37769","https://nvd.nist.gov/vuln/detail/CVE-2023-37769","pixman","6.5","0.42.2","0.42.2","0.43.0","pixman","2023A0000037769","False","See: https://gitlab.freedesktop.org/pixman/pixman/-/issues/76: ""This somehow got assigned CVE-2023-37769, not sure why NVD keeps assigning CVEs like this. This is just a test executable"".","err_not_vulnerable_based_on_repology",""
-"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-35945","https://nvd.nist.gov/vuln/detail/CVE-2023-35945","nghttp2","7.5","1.51.0","1.57.0","1.58.0","nghttp2","2023A0000035945","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/219712 
+"packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-35945","https://nvd.nist.gov/vuln/detail/CVE-2023-35945","nghttp2","7.5","1.51.0","1.57.0","1.59.0","nghttp2","2023A0000035945","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/219712 
 https://github.com/NixOS/nixpkgs/pull/246068 
 https://github.com/NixOS/nixpkgs/pull/265047"
 "packages.x86_64-linux.generic-x86_64-release","github:tiiuae/ghaf?ref=ghaf-23.09","lock_updated","CVE-2023-31975","https://nvd.nist.gov/vuln/detail/CVE-2023-31975","yasm","3.3","1.3.0","","","","2023A0000031975","True","Memory leak in CLI tool, no security impact.","err_missing_repology_version",""
