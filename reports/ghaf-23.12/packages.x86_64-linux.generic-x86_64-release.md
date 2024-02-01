@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.generic-x86_64-release` revision  https://github.com/tiiuae/ghaf/commit/46bf7220ff789918e05ba9c3c4ef209728620d8e. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=ghaf-23.12#packages.x86_64-linux.generic-x86_64-release` revision  https://github.com/tiiuae/ghaf/commit/f35b7dd15d73c9ae6ccb934d0e603c85904a4732. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -137,14 +137,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   |   severity | version_local    | nix_unstable   | upstream   | comment                                                                                                    |
-|-------------------------------------------------------------------|-----------|------------|------------------|----------------|------------|------------------------------------------------------------------------------------------------------------|
-| [CVE-2023-6246](https://nvd.nist.gov/vuln/detail/CVE-2023-6246)   | glibc     |        7.8 | 2.38-27-source-u | 2.38-27        | 2.39       | *[[PR](https://github.com/NixOS/nixpkgs/pull/285050), [PR](https://github.com/NixOS/nixpkgs/pull/285329)]* |
-| [CVE-2023-6246](https://nvd.nist.gov/vuln/detail/CVE-2023-6246)   | glibc     |        7.8 | 2.38-27          | 2.38-27        | 2.39       | *[[PR](https://github.com/NixOS/nixpkgs/pull/285050), [PR](https://github.com/NixOS/nixpkgs/pull/285329)]* |
-| [CVE-2023-52356](https://nvd.nist.gov/vuln/detail/CVE-2023-52356) | libtiff   |        7.5 | 4.6.0            | 4.6.0          | 4.6.0      |                                                                                                            |
-| [CVE-2023-52355](https://nvd.nist.gov/vuln/detail/CVE-2023-52355) | libtiff   |        7.5 | 4.6.0            | 4.6.0          | 4.6.0      |                                                                                                            |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
