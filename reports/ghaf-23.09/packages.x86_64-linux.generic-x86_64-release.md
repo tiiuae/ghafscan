@@ -87,11 +87,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                         | package   |   severity | version_local   | nix_unstable   |   upstream | comment                                                                                                                                                                                                            |
-|-----------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [CVE-2023-4911](https://nvd.nist.gov/vuln/detail/CVE-2023-4911) | glibc     |        7.8 | 2.37-8          | 2.38-44        |       2.39 | *[[PR](https://github.com/NixOS/nixpkgs/pull/258972), [PR](https://github.com/NixOS/nixpkgs/pull/258975), [PR](https://github.com/NixOS/nixpkgs/pull/259039), [PR](https://github.com/NixOS/nixpkgs/pull/287594)]* |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
