@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=ghaf-23.12#packages.x86_64-linux.generic-x86_64-release` revision  https://github.com/tiiuae/ghaf/commit/f35b7dd15d73c9ae6ccb934d0e603c85904a4732. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=ghaf-24.03#packages.x86_64-linux.generic-x86_64-release` revision  https://github.com/tiiuae/ghaf/commit/0783c4d1bb47c9f8f5427ea7761d77aeda5ffdf6. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -213,11 +213,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   | severity   | version_local   | nix_unstable   | upstream   | comment                                                                                                                                                        |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [CVE-2024-29944](https://nvd.nist.gov/vuln/detail/CVE-2024-29944) | firefox   |            | 120.0.1         | 124.0.1        | 124.0.1    | *[[PR](https://github.com/NixOS/nixpkgs/pull/298090), [PR](https://github.com/NixOS/nixpkgs/pull/298102), [PR](https://github.com/NixOS/nixpkgs/pull/298196)]* |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
