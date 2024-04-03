@@ -10,4 +10,5 @@ See the following links for detailled Ghaf vulnerability reports:
 
 * [Vulnerability Report: 'packages.x86_64-linux.generic-x86_64-release'](packages.x86_64-linux.generic-x86_64-release.md)
 * [Vulnerability Report: 'packages.riscv64-linux.microchip-icicle-kit-release'](packages.riscv64-linux.microchip-icicle-kit-release.md)
+* [Vulnerability Report: 'packages.aarch64-linux.nvidia-jetson-orin-nx-release'](packages.aarch64-linux.nvidia-jetson-orin-nx-release.md)
 
