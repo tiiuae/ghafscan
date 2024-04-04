@@ -40,7 +40,7 @@ def _getargs():
     desc = "Run and summarize vulnerability scans for Ghaf flake targets."
     epil = (
         "Example: ghafscan --flakeref=github:tiiuae/ghaf?ref=main "
-        "--target=packages.x86_64-linux.generic-x86_64-release"
+        "--target=packages.x86_64-linux.lenovo-x1-carbon-gen11-release"
     )
     parser = argparse.ArgumentParser(description=desc, epilog=epil)
     helps = (

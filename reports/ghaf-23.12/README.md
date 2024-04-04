@@ -8,5 +8,5 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 See the following links for detailled Ghaf vulnerability reports:
 
-* [Vulnerability Report: 'packages.x86_64-linux.generic-x86_64-release'](packages.x86_64-linux.generic-x86_64-release.md)
+* [Vulnerability Report: 'packages.x86_64-linux.lenovo-x1-carbon-gen11-release'](packages.x86_64-linux.lenovo-x1-carbon-gen11-release.md)
 
