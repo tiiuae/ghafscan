@@ -84,13 +84,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   | severity   | version_local   | nix_unstable   | upstream   | comment                                                |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------|
-| [CVE-2024-28182](https://nvd.nist.gov/vuln/detail/CVE-2024-28182) | nghttp2   | 5.3        | 1.57.0          | 1.60.0         | 1.61.0     | *[[PR](https://github.com/NixOS/nixpkgs/pull/301545)]* |
-| [OSV-2023-1344](https://osv.dev/OSV-2023-1344)                    | jq        |            | 1.7.1           | 1.7.1          | 1.7.1      |                                                        |
-| [OSV-2023-1329](https://osv.dev/OSV-2023-1329)                    | jq        |            | 1.7.1           | 1.7.1          | 1.7.1      |                                                        |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -145,7 +139,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-6228](https://nvd.nist.gov/vuln/detail/CVE-2023-6228)   | libtiff    | 5.5        | 4.6.0            | 4.6.0            | 4.6.0t           |                                                                                                                                                                                                                          |
 | [CVE-2020-2136](https://nvd.nist.gov/vuln/detail/CVE-2020-2136)   | git        | 5.4        | 2.42.0           | 2.44.0           | 2.44.0           | *[[PR](https://github.com/NixOS/nixpkgs/pull/82872), [PR](https://github.com/NixOS/nixpkgs/pull/84664)]*                                                                                                                 |
 | [CVE-2024-28834](https://nvd.nist.gov/vuln/detail/CVE-2024-28834) | gnutls     | 5.3        | 3.8.3            | 3.8.4            | 3.8.5            | *[[PR](https://github.com/NixOS/nixpkgs/pull/298806)]*                                                                                                                                                                   |
-| [CVE-2024-28182](https://nvd.nist.gov/vuln/detail/CVE-2024-28182) | nghttp2    | 5.3        | 1.57.0           | 1.60.0           | 1.61.0           | *[[PR](https://github.com/NixOS/nixpkgs/pull/301545)]*                                                                                                                                                                   |
+| [CVE-2024-28182](https://nvd.nist.gov/vuln/detail/CVE-2024-28182) | nghttp2    | 5.3        | 1.57.0           | 1.60.0           | 1.61.0           | *[[PR](https://github.com/NixOS/nixpkgs/pull/301545), [PR](https://github.com/NixOS/nixpkgs/pull/302390)]*                                                                                                               |
 | [CVE-2023-46219](https://nvd.nist.gov/vuln/detail/CVE-2023-46219) | curl       | 5.3        | 8.4.0            | 8.6.0            | 8.7.1_7          | *[[PR](https://github.com/NixOS/nixpkgs/pull/285295), [PR](https://github.com/NixOS/nixpkgs/pull/288071), [PR](https://github.com/NixOS/nixpkgs/pull/299580)]*                                                           |
 | [CVE-2023-7216](https://nvd.nist.gov/vuln/detail/CVE-2023-7216)   | cpio       | 5.3        | 2.14             | 2.15             | 2.15             |                                                                                                                                                                                                                          |
 | [CVE-2023-6780](https://nvd.nist.gov/vuln/detail/CVE-2023-6780)   | glibc      | 5.3        | 2.38-44          |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/285050), [PR](https://github.com/NixOS/nixpkgs/pull/285329)]*                                                                                                               |
