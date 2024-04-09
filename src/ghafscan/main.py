@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-# pylint: disable=invalid-name, too-many-instance-attributes
+# pylint: disable=too-many-instance-attributes
 # pylint: disable=too-many-statements, too-many-locals
 
 """ Run and summarize vulnerability scans for flake targets """
