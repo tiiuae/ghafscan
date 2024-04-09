@@ -125,7 +125,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package     |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|-------------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2024-31083](https://nvd.nist.gov/vuln/detail/CVE-2024-31083) | xorg-server |        7.8 | 21.1.11         | 21.1.11        | 21.1.12    |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -160,6 +164,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-2680](https://nvd.nist.gov/vuln/detail/CVE-2023-2680)   | qemu        | 8.2        | 8.1.5            | 8.2.2            | 8.2.2            |                                                                                                                                                                                                                                                                        |
 | [CVE-2022-4066](https://nvd.nist.gov/vuln/detail/CVE-2022-4066)   | firefox     | 8.2        | 123.0.1          | 124.0.2          | 124.0.2          |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-39323](https://nvd.nist.gov/vuln/detail/CVE-2023-39323) | go          | 8.1        | 1.21.0-linux-arm | 1.22.1           | 1.22.2           |                                                                                                                                                                                                                                                                        |
+| [CVE-2024-31083](https://nvd.nist.gov/vuln/detail/CVE-2024-31083) | xorg-server | 7.8        | 21.1.11          | 21.1.11          | 21.1.12          |                                                                                                                                                                                                                                                                        |
 | [CVE-2024-22667](https://nvd.nist.gov/vuln/detail/CVE-2024-22667) | vim         | 7.8        | 9.0.2116         | 9.1.0148         | 9.1.0282         | *[[PR](https://github.com/NixOS/nixpkgs/pull/291707), [PR](https://github.com/NixOS/nixpkgs/pull/298863)]*                                                                                                                                                             |
 | [CVE-2023-47470](https://nvd.nist.gov/vuln/detail/CVE-2023-47470) | ffmpeg      | 7.8        | 6.0              | 6.1.1            | 7.0              | *[[PR](https://github.com/NixOS/nixpkgs/pull/292998)]*                                                                                                                                                                                                                 |
 | [CVE-2023-47470](https://nvd.nist.gov/vuln/detail/CVE-2023-47470) | ffmpeg      | 7.8        | 4.4.4            | 6.1.1            | 7.0              | *[[PR](https://github.com/NixOS/nixpkgs/pull/292998)]*                                                                                                                                                                                                                 |
