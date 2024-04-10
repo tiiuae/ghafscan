@@ -11,10 +11,8 @@ The Ghaf [vulnerability reports](./reports/) available on this repository are au
 
 ## Example Reports
 - [Ghaf 'main' x86_64-linux.lenovo-x1-carbon-gen11-release](./reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-release.md)
-- [Ghaf 'main' riscv64-linux.microchip-icicle-kit-release](./reports/main/packages.riscv64-linux.microchip-icicle-kit-release.md)
 - [Ghaf 'main' aarch64-linux.nvidia-jetson-orin-nx-release](./reports/main/packages.aarch64-linux.nvidia-jetson-orin-nx-release.md)
 - [Ghaf 'ghaf-24.03' x86_64-linux.lenovo-x1-carbon-gen11-release](./reports/ghaf-24.03/packages.x86_64-linux.lenovo-x1-carbon-gen11-release.md)
-- [Ghaf 'ghaf-24.03' aarch64-linux.nvidia-jetson-orin-nx-release](./reports/ghaf-24.03/packages.aarch64-linux.nvidia-jetson-orin-nx-release.md)
 - [Ghaf 'ghaf-23.12' x86_64-linux.lenovo-x1-carbon-gen11-release](./reports/ghaf-23.12/packages.x86_64-linux.lenovo-x1-carbon-gen11-release.md)
 
 ## Motivation
