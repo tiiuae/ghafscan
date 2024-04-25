@@ -36,9 +36,11 @@ https://github.com/NixOS/nixpkgs/pull/285027"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-release","github:tiiuae/ghaf?ref=ghaf-23.12","current","CVE-2024-0684","https://nvd.nist.gov/vuln/detail/CVE-2024-0684","coreutils","5.5","9.3","9.5","9.5","coreutils","2024A0000000684","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/299945 
 https://github.com/NixOS/nixpkgs/pull/300310"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-release","github:tiiuae/ghaf?ref=ghaf-23.12","current","CVE-2024-0567","https://nvd.nist.gov/vuln/detail/CVE-2024-0567","gnutls","7.5","3.8.2","3.8.4","3.8.5","gnutls","2024A0000000567","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/281471 
-https://github.com/NixOS/nixpkgs/pull/297657"
+https://github.com/NixOS/nixpkgs/pull/297657 
+https://github.com/NixOS/nixpkgs/pull/306637"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-release","github:tiiuae/ghaf?ref=ghaf-23.12","current","CVE-2024-0553","https://nvd.nist.gov/vuln/detail/CVE-2024-0553","gnutls","7.5","3.8.2","3.8.4","3.8.5","gnutls","2024A0000000553","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/281471 
-https://github.com/NixOS/nixpkgs/pull/297657"
+https://github.com/NixOS/nixpkgs/pull/297657 
+https://github.com/NixOS/nixpkgs/pull/306637"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-release","github:tiiuae/ghaf?ref=ghaf-23.12","current","CVE-2024-0409","https://nvd.nist.gov/vuln/detail/CVE-2024-0409","xorg-server","7.8","21.1.9","21.1.13","21.1.13","xorg-server","2024A0000000409","False","","fix_update_to_version_nixpkgs",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-release","github:tiiuae/ghaf?ref=ghaf-23.12","current","CVE-2024-0408","https://nvd.nist.gov/vuln/detail/CVE-2024-0408","xorg-server","5.5","21.1.9","21.1.13","21.1.13","xorg-server","2024A0000000408","False","","fix_update_to_version_nixpkgs",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-release","github:tiiuae/ghaf?ref=ghaf-23.12","current","CVE-2024-0229","https://nvd.nist.gov/vuln/detail/CVE-2024-0229","xorg-server","7.8","21.1.9","21.1.13","21.1.13","xorg-server","2024A0000000229","False","","err_not_vulnerable_based_on_repology",""
