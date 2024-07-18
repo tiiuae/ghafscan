@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-release` revision  https://github.com/tiiuae/ghaf/commit/fcdee1614ca7bc992a25e6f5b28c1005d4196626. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-release` revision  https://github.com/tiiuae/ghaf/commit/9601f8af5799ba5e1608b76b78dcae1a4d735970. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -71,11 +71,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                      | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|----------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [OSV-2024-371](https://osv.dev/OSV-2024-371) | jq        |            | 1.7.1           | 1.7.1          | 1.7.1      |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -153,7 +149,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-28320](https://nvd.nist.gov/vuln/detail/CVE-2023-28320) | curl       | 5.9        | 0.4.46           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/232531), [PR](https://github.com/NixOS/nixpkgs/pull/232535)]*                                                                                                                                                                                                                          |
 | [CVE-2022-48566](https://nvd.nist.gov/vuln/detail/CVE-2022-48566) | python     | 5.9        | 2.7.18.8         | 3.12.4           | 3.12.4           | *[[PR](https://github.com/NixOS/nixpkgs/pull/320020)]*                                                                                                                                                                                                                                                                              |
 | [CVE-2022-43552](https://nvd.nist.gov/vuln/detail/CVE-2022-43552) | curl       | 5.9        | 0.4.46           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/207158), [PR](https://github.com/NixOS/nixpkgs/pull/207162), [PR](https://github.com/NixOS/nixpkgs/pull/207165)]*                                                                                                                                                                      |
-| [CVE-2022-40897](https://nvd.nist.gov/vuln/detail/CVE-2022-40897) | setuptools | 5.9        | 44.0.0-source    | 70.0.0           | 70.3.0           |                                                                                                                                                                                                                                                                                                                                     |
+| [CVE-2022-40897](https://nvd.nist.gov/vuln/detail/CVE-2022-40897) | setuptools | 5.9        | 44.0.0-source    | 70.0.0           | 71.0.0           |                                                                                                                                                                                                                                                                                                                                     |
 | [CVE-2021-23336](https://nvd.nist.gov/vuln/detail/CVE-2021-23336) | python     | 5.9        | 2.7.18.8         | 3.12.4           | 3.12.4           | *[[PR](https://github.com/NixOS/nixpkgs/pull/117037), [PR](https://github.com/NixOS/nixpkgs/pull/117082), [PR](https://github.com/NixOS/nixpkgs/pull/118403), [PR](https://github.com/NixOS/nixpkgs/pull/320020)]*                                                                                                                  |
 | [CVE-2021-3572](https://nvd.nist.gov/vuln/detail/CVE-2021-3572)   | pip        | 5.7        | 20.3.4-source    | 24.0             | 24.1.2           |                                                                                                                                                                                                                                                                                                                                     |
 | [CVE-2024-24789](https://nvd.nist.gov/vuln/detail/CVE-2024-24789) | go         | 5.5        | 1.22.3           | 1.22.5           | 1.22.5           | *[[PR](https://github.com/NixOS/nixpkgs/pull/319485), [PR](https://github.com/NixOS/nixpkgs/pull/324123), [PR](https://github.com/NixOS/nixpkgs/pull/324141), [PR](https://github.com/NixOS/nixpkgs/pull/325539)]*                                                                                                                  |
