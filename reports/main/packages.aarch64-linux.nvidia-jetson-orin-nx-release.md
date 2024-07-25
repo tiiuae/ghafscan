@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-release` revision  https://github.com/tiiuae/ghaf/commit/ea6f7dee2473ff98208f87b7cb8bc21b744f9be3. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-release` revision  https://github.com/tiiuae/ghaf/commit/9d1a8faa23b11d9cc2ef15da01d9e6d2938fcb07. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -71,7 +71,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                         | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-----------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2024-5171](https://nvd.nist.gov/vuln/detail/CVE-2024-5171) | libaom    |        9.8 | 3.9.0           |                |            |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -88,6 +92,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-6611](https://nvd.nist.gov/vuln/detail/CVE-2024-6611)   | firefox    | 9.8        | 127.0.2          | 128.0b3          | 128.0.2          |                                                                                                                                                                                                                                                                                                                                     |
 | [CVE-2024-6606](https://nvd.nist.gov/vuln/detail/CVE-2024-6606)   | firefox    | 9.8        | 127.0.2          | 128.0b3          | 128.0.2          |                                                                                                                                                                                                                                                                                                                                     |
 | [CVE-2024-6602](https://nvd.nist.gov/vuln/detail/CVE-2024-6602)   | firefox    | 9.8        | 127.0.2          | 128.0b3          | 128.0.2          |                                                                                                                                                                                                                                                                                                                                     |
+| [CVE-2024-5171](https://nvd.nist.gov/vuln/detail/CVE-2024-5171)   | libaom     | 9.8        | 3.9.0            |                  |                  |                                                                                                                                                                                                                                                                                                                                     |
 | [CVE-2023-39320](https://nvd.nist.gov/vuln/detail/CVE-2023-39320) | go         | 9.8        | 1.21.0-linux-arm | 1.22.5           | 1.22.5           |                                                                                                                                                                                                                                                                                                                                     |
 | [CVE-2022-48565](https://nvd.nist.gov/vuln/detail/CVE-2022-48565) | python     | 9.8        | 2.7.18.8         | 3.12.4           | 3.12.4           | *[[PR](https://github.com/NixOS/nixpkgs/pull/320020)]*                                                                                                                                                                                                                                                                              |
 | [CVE-2022-32221](https://nvd.nist.gov/vuln/detail/CVE-2022-32221) | curl       | 9.8        | 0.4.46           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/198730)]*                                                                                                                                                                                                                                                                              |
