@@ -88,27 +88,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   | severity   | version_local   | nix_unstable   |   upstream | comment   |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2024-43111](https://nvd.nist.gov/vuln/detail/CVE-2024-43111) | firefox   | 9.8        | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7521](https://nvd.nist.gov/vuln/detail/CVE-2024-7521)   | firefox   | 9.8        | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7525](https://nvd.nist.gov/vuln/detail/CVE-2024-7525)   | firefox   | 9.1        | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7527](https://nvd.nist.gov/vuln/detail/CVE-2024-7527)   | firefox   | 8.8        | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7520](https://nvd.nist.gov/vuln/detail/CVE-2024-7520)   | firefox   | 8.8        | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7519](https://nvd.nist.gov/vuln/detail/CVE-2024-7519)   | firefox   | 8.8        | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7529](https://nvd.nist.gov/vuln/detail/CVE-2024-7529)   | firefox   | 8.1        | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7526](https://nvd.nist.gov/vuln/detail/CVE-2024-7526)   | firefox   | 7.5        | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-43113](https://nvd.nist.gov/vuln/detail/CVE-2024-43113) | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-43112](https://nvd.nist.gov/vuln/detail/CVE-2024-43112) | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7531](https://nvd.nist.gov/vuln/detail/CVE-2024-7531)   | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7530](https://nvd.nist.gov/vuln/detail/CVE-2024-7530)   | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7528](https://nvd.nist.gov/vuln/detail/CVE-2024-7528)   | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7524](https://nvd.nist.gov/vuln/detail/CVE-2024-7524)   | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7523](https://nvd.nist.gov/vuln/detail/CVE-2024-7523)   | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7522](https://nvd.nist.gov/vuln/detail/CVE-2024-7522)   | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-| [CVE-2024-7518](https://nvd.nist.gov/vuln/detail/CVE-2024-7518)   | firefox   |            | 127.0.2         | 128.0b3        |        129 |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
