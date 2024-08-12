@@ -105,11 +105,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                         | package    |   severity |   version_local |   nix_unstable |   upstream | comment   |
-|-----------------------------------------------------------------|------------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2024-7348](https://nvd.nist.gov/vuln/detail/CVE-2024-7348) | postgresql |        8.8 |            15.7 |           16.3 |       16.4 |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
