@@ -10,7 +10,7 @@ This repository automates vulnerability scans for the [Ghaf Framework](https://g
 The Ghaf [vulnerability reports](./reports/) available on this repository are automatically updated on [daily basis](./.github/workflows/vulnerability-scan.yml#L12) for the selected Ghaf branches and targets as specified in the [Vulnerability Scan](./.github/workflows/vulnerability-scan.yml) GitHub action workflow.
 
 ## Example Reports
-- [Ghaf 'main' x86_64-linux.lenovo-x1-carbon-gen11-release](./reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-release.md)
+- [Ghaf 'main' x86_64-linux.lenovo-x1-carbon-gen11-debug](./reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-debug.md)
 
 ## Motivation
 
@@ -42,14 +42,14 @@ We can now find potentially missing Ghaf security fixes by comparing the set of 
 
 <img src="doc/img/current_vs_lock_updated.drawio.svg" width="600">
 
-Vulnerabilities that are in '**current**' set but not in '**lock_updated**', are potentially fixed in nixpkgs channel Ghaf is pinned to, but the fixes have not been included in Ghaf. This set of vulnerabilities would be mitigated by updating the Ghaf flake lock file with `nix flake lock --update-input nixpkgs` or similar. `ghafscan` reports this set of vulnerabilities in each target report in section *[Vulnerabilities Fixed in Ghaf nixpkgs Upstream](https://github.com/tiiuae/ghafscan/blob/main/reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-release.md#vulnerabilities-fixed-in-ghaf-nixpkgs-upstream)*.
+Vulnerabilities that are in '**current**' set but not in '**lock_updated**', are potentially fixed in nixpkgs channel Ghaf is pinned to, but the fixes have not been included in Ghaf. This set of vulnerabilities would be mitigated by updating the Ghaf flake lock file with `nix flake lock --update-input nixpkgs` or similar. `ghafscan` reports this set of vulnerabilities in each target report in section *[Vulnerabilities Fixed in Ghaf nixpkgs Upstream](https://github.com/tiiuae/ghafscan/blob/main/reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-debug.md#vulnerabilities-fixed-in-ghaf-nixpkgs-upstream)*.
 
 
 #### 'lock_updated' vs 'nix_unstable'
 
 <img src="doc/img/lock_updated_vs_nix_unstable.drawio.svg" width="600">
 
-Vulnerabilities that are in '**lock_updated**' set but not in '**nix_unstable**', are potentially fixed in nixpkgs nix-unstable channel, but the fixes have not been backported to the channel Ghaf is currently pinned to. This set of vulnerabilities potentially requires backporting the fix from nix-unstable to the nixpkgs release branch Ghaf is currently pinned to. `ghafscan` reports this set of vulnerabilities in each target report in section *[Vulnerabilities Fixed in nix-unstable](https://github.com/tiiuae/ghafscan/blob/main/reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-release.md#vulnerabilities-fixed-in-nix-unstable)*.
+Vulnerabilities that are in '**lock_updated**' set but not in '**nix_unstable**', are potentially fixed in nixpkgs nix-unstable channel, but the fixes have not been backported to the channel Ghaf is currently pinned to. This set of vulnerabilities potentially requires backporting the fix from nix-unstable to the nixpkgs release branch Ghaf is currently pinned to. `ghafscan` reports this set of vulnerabilities in each target report in section *[Vulnerabilities Fixed in nix-unstable](https://github.com/tiiuae/ghafscan/blob/main/reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-debug.md#vulnerabilities-fixed-in-nix-unstable)*.
 
 ## Running Locally
 This repository demonstrates how to run `ghafscan` from Github actions, but `ghafscan` can be run locally too.
