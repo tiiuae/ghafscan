@@ -37,8 +37,24 @@ Following issues potentially require backporting the fix from nixpkgs-unstable t
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community backport the fix to the correct nixpkgs branch:
 
-```Error evaluating 'packages.x86_64-linux.lenovo-x1-carbon-gen11-debug' on nix_unstable```<br /><br />
-For more details, see: https://github.com/tiiuae/ghafscan/actions
+
+| vuln_id                                                           | package     | severity   | version_local   | nix_unstable   | upstream   | comment                                                                                                    |
+|-------------------------------------------------------------------|-------------|------------|-----------------|----------------|------------|------------------------------------------------------------------------------------------------------------|
+| [CVE-2024-22862](https://nvd.nist.gov/vuln/detail/CVE-2024-22862) | ffmpeg      | 9.8        | 4.4.4           |                |            |                                                                                                            |
+| [CVE-2024-22860](https://nvd.nist.gov/vuln/detail/CVE-2024-22860) | ffmpeg      | 9.8        | 4.4.4           |                |            |                                                                                                            |
+| [CVE-2024-7272](https://nvd.nist.gov/vuln/detail/CVE-2024-7272)   | ffmpeg      | 8.8        | 4.4.4           |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/333021)]*                                                     |
+| [CVE-2023-47470](https://nvd.nist.gov/vuln/detail/CVE-2023-47470) | ffmpeg      | 7.8        | 4.4.4           |                |            |                                                                                                            |
+| [CVE-2024-22861](https://nvd.nist.gov/vuln/detail/CVE-2024-22861) | ffmpeg      | 7.5        | 4.4.4           |                |            |                                                                                                            |
+| [CVE-2024-7348](https://nvd.nist.gov/vuln/detail/CVE-2024-7348)   | postgresql  | 7.5        | 15.7            | 16.4           | 16.4       | *[[PR](https://github.com/NixOS/nixpkgs/pull/334479)]*                                                     |
+| [CVE-2024-41817](https://nvd.nist.gov/vuln/detail/CVE-2024-41817) | imagemagick | 7.0        | 7.1.1-35        | 7.1.1-36       | 7.1.1.36   |                                                                                                            |
+| [CVE-2023-46407](https://nvd.nist.gov/vuln/detail/CVE-2023-46407) | ffmpeg      | 5.5        | 4.4.4           |                |            |                                                                                                            |
+| [CVE-2023-42366](https://nvd.nist.gov/vuln/detail/CVE-2023-42366) | busybox     | 5.5        | 1.36.1          | 1.36.1         | 1.36.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/334899), [PR](https://github.com/NixOS/nixpkgs/pull/335388)]* |
+| [CVE-2023-42365](https://nvd.nist.gov/vuln/detail/CVE-2023-42365) | busybox     | 5.5        | 1.36.1          | 1.36.1         | 1.36.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/334899), [PR](https://github.com/NixOS/nixpkgs/pull/335388)]* |
+| [CVE-2023-42364](https://nvd.nist.gov/vuln/detail/CVE-2023-42364) | busybox     | 5.5        | 1.36.1          | 1.36.1         | 1.36.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/334899), [PR](https://github.com/NixOS/nixpkgs/pull/335388)]* |
+| [CVE-2023-42363](https://nvd.nist.gov/vuln/detail/CVE-2023-42363) | busybox     | 5.5        | 1.36.1          | 1.36.1         | 1.36.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/334899), [PR](https://github.com/NixOS/nixpkgs/pull/335388)]* |
+| [CVE-2020-13529](https://nvd.nist.gov/vuln/detail/CVE-2020-13529) | systemd     |            | 256.2           | 256.4          | 256.5      | *[[PR](https://github.com/NixOS/nixpkgs/pull/127461)]*                                                     |
+| [CVE-2013-4392](https://nvd.nist.gov/vuln/detail/CVE-2013-4392)   | systemd     |            | 256.2           | 256.4          | 256.5      |                                                                                                            |
+
 
 
 ## New Vulnerabilities Since Last Run
@@ -47,11 +63,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                         | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
-|-----------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2024-7592](https://nvd.nist.gov/vuln/detail/CVE-2024-7592) | python    |        7.5 | 2.7.18.8        | 3.13.0rc1      | 3.12.5     |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -527,6 +539,7 @@ Following table lists vulnerabilities that would otherwise have been included to
 | [GHSA-6898-wx94-8jq8](https://osv.dev/GHSA-6898-wx94-8jq8)            | libnotify  |            | 0.8.3            | Incorrect package: Issue refers node-libnotify [link](https://github.com/mytrile/node-libnotify), whereas nixpkgs refers gnome-libnotify [link](https://gitlab.gnome.org/GNOME/libnotify).                                                                                                                                                                                                                                                                              |
 | [OSV-2023-137](https://osv.dev/OSV-2023-137)                          | harfbuzz   |            | 9.0.0            | Based on [link](https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=56510#c2), the issue is fixed in range [link](https://github.com/harfbuzz/harfbuzz/compare/67e01c1292821e7b6fc2ab13acddb84ab41b2187...60841e26187576bff477c1a09ee2ffe544844abc) all of which have been merged in 7.1.0.                                                                                                                                                                           |
 | [MAL-2022-4301](https://osv.dev/MAL-2022-4301)                        | libidn2    |            | 2.3.7            | Incorrect package: Issue refers npm libidn2, whereas, nixpkgs refers libidn2 [link](https://gitlab.com/libidn/libidn2).                                                                                                                                                                                                                                                                                                                                                 |
+| [OSV-2021-777](https://osv.dev/OSV-2021-777)                          | libxml2    |            | 2.13.3           | Fixed by [link](https://gitlab.gnome.org/GNOME/libxml2/-/commit/8f5ccada05ddd4a1ff8e399ad39fc7cd4bd33325), which went to 2.9.13. Therefore, this issue is fixed in 2.10.4.                                                                                                                                                                                                                                                                                              |
 | [OSV-2021-777](https://osv.dev/OSV-2021-777)                          | libxml2    |            | 2.13.2           | Fixed by [link](https://gitlab.gnome.org/GNOME/libxml2/-/commit/8f5ccada05ddd4a1ff8e399ad39fc7cd4bd33325), which went to 2.9.13. Therefore, this issue is fixed in 2.10.4.                                                                                                                                                                                                                                                                                              |
 | [CVE-2012-3509](https://nvd.nist.gov/vuln/detail/CVE-2012-3509)       | libiberty  |            | 13.3.0           | NVD data issue: CPE entry does not correctly state the version numbers.                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [CVE-2010-4226](https://nvd.nist.gov/vuln/detail/CVE-2010-4226)       | cpio       |            | 2.15             | NVD data issue: concerns OpenSuSE, not cpio.                                                                                                                                                                                                                                                                                                                                                                                                                            |
