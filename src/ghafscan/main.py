@@ -122,12 +122,16 @@ def exit_unless_command_exists(name):
         sys.exit(1)
 
 
-def exec_cmd(cmd, raise_on_error=True, return_error=False, loglevel=logging.DEBUG):
+def exec_cmd(
+      cmd, raise_on_error=True, return_error=False, loglevel=logging.DEBUG, evars=None):
     """Run shell command cmd"""
     command_str = " ".join(cmd)
     LOG.log(loglevel, "Running: %s", command_str)
     try:
-        ret = subprocess.run(cmd, capture_output=True, encoding="utf-8", check=True)
+        # Pass additional env variables via the 'evars' dictionary
+        env = {**os.environ, **evars} if evars else {**os.environ}
+        ret = subprocess.run(
+            cmd, capture_output=True, encoding="utf-8", check=True, env=env)
         return ret
     except subprocess.CalledProcessError as error:
         LOG.debug(
@@ -467,8 +471,9 @@ class FlakeScanner:
 
     def _evaluate_target_drv(self, target, pintype):
         eval_target = f"{str(self.repodir)}#{target}.drvPath"
-        cmd = f"nix eval {eval_target} --no-eval-cache"
-        ret = exec_cmd(cmd.split(), raise_on_error=False, return_error=True)
+        var = {"NIXPKGS_ALLOW_INSECURE": "1"}
+        cmd = f"nix eval {eval_target} --no-eval-cache --impure"
+        ret = exec_cmd(cmd.split(), raise_on_error=False, return_error=True, evars=var)
         if ret is None or ret.returncode != 0:
             LOG.warning("Error evaluating %s", eval_target)
             self.errors[f"{target}_{pintype}"] = (
