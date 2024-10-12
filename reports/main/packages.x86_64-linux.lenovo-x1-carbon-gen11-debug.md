@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/fd31a80bd525033532063f9034b9de0f0288d672. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/eb0a40929cf33c1d43d449cd1637a83a3bd0ad85. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,11 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                        | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [MAL-2024-9233](https://osv.dev/MAL-2024-9233) | foldl     |            | 1.4.16          | 1.4.17         | 1.4.17     |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -372,7 +368,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [OSV-2023-1344](https://osv.dev/OSV-2023-1344)                        | jq                        |            | 1.7.1            | 1.7.1            | 1.7.1            |                                                                                                                                                                                                                                                                                                                                     |
 | [OSV-2023-1329](https://osv.dev/OSV-2023-1329)                        | jq                        |            | 1.7.1            | 1.7.1            | 1.7.1            |                                                                                                                                                                                                                                                                                                                                     |
 | [OSV-2023-1307](https://osv.dev/OSV-2023-1307)                        | libbpf                    |            | 1.4.5            | 1.4.5            | 1.4.6            |                                                                                                                                                                                                                                                                                                                                     |
-| [OSV-2023-1170](https://osv.dev/OSV-2023-1170)                        | vulkan-loader             |            | 1.3.290.0        | 1.3.290.0        | 1.3.297          |                                                                                                                                                                                                                                                                                                                                     |
+| [OSV-2023-1170](https://osv.dev/OSV-2023-1170)                        | vulkan-loader             |            | 1.3.290.0        | 1.3.290.0        | 1.3.298          |                                                                                                                                                                                                                                                                                                                                     |
 | [OSV-2023-1129](https://osv.dev/OSV-2023-1129)                        | libheif                   |            | 1.18.2           | 1.18.2           | 1.18.2           |                                                                                                                                                                                                                                                                                                                                     |
 | [OSV-2023-877](https://osv.dev/OSV-2023-877)                          | libbpf                    |            | 1.4.5            | 1.4.5            | 1.4.6            |                                                                                                                                                                                                                                                                                                                                     |
 | [OSV-2023-862](https://osv.dev/OSV-2023-862)                          | gstreamer                 |            | 1.24.3           | 1.24.3           | 1.24.8           |                                                                                                                                                                                                                                                                                                                                     |
