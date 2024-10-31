@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/48e663249d4595fa671710291ee11412c3f04f18. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/147f806264d2fb9d9026d4221b7cfbd69587bb61. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,11 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                        | package     | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|------------------------------------------------|-------------|------------|-----------------|----------------|------------|-----------|
-| [OSV-2024-1059](https://osv.dev/OSV-2024-1059) | ghostscript |            | 10.04.0         | 10.04.0        | 10.04.0    |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
