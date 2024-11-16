@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/b7f43e99225d43ce382577073531cbfaeffac550. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/942a9efdf511cb11c1261945dbda93569b356ac9. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -56,12 +56,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package    | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|-------------------------------------------------------------------|------------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2020-26304](https://nvd.nist.gov/vuln/detail/CVE-2020-26304) | foundation | 7.5        | 0.0.30          | 0.0.30         | 0.0.30     |           |
-| [CVE-2024-11168](https://nvd.nist.gov/vuln/detail/CVE-2024-11168) | python     |            | 2.7.18.8        | 3.13.0         | 3.13.0     |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
