@@ -123,7 +123,8 @@ def exit_unless_command_exists(name):
 
 
 def exec_cmd(
-      cmd, raise_on_error=True, return_error=False, loglevel=logging.DEBUG, evars=None):
+    cmd, raise_on_error=True, return_error=False, loglevel=logging.DEBUG, evars=None
+):
     """Run shell command cmd"""
     command_str = " ".join(cmd)
     LOG.log(loglevel, "Running: %s", command_str)
@@ -131,7 +132,8 @@ def exec_cmd(
         # Pass additional env variables via the 'evars' dictionary
         env = {**os.environ, **evars} if evars else {**os.environ}
         ret = subprocess.run(
-            cmd, capture_output=True, encoding="utf-8", check=True, env=env)
+            cmd, capture_output=True, encoding="utf-8", check=True, env=env
+        )
         return ret
     except subprocess.CalledProcessError as error:
         LOG.debug(
