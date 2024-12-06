@@ -27,11 +27,7 @@ Following table lists vulnerabilities that have been fixed in the nixpkgs channe
 
 Update the target Ghaf [flake.lock](https://github.com/tiiuae/ghaf/blob/main/flake.lock) file to mitigate the following issues:
 
-
-| vuln_id                                        | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [OSV-2022-1108](https://osv.dev/OSV-2022-1108) | ruby      |            | 3.3.5           | 3.4.0-preview2 | 3.3.6      |           |
-
+```No vulnerabilities```
 
 ## Vulnerabilities Fixed in nix-unstable
 
@@ -50,11 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------|
-| [CVE-2024-50602](https://nvd.nist.gov/vuln/detail/CVE-2024-50602) | python    |        5.9 | 2.7.18.8        | 3.5.0.2        | 3.5.0.4    | *[[PR](https://github.com/NixOS/nixpkgs/pull/354155)]* |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
