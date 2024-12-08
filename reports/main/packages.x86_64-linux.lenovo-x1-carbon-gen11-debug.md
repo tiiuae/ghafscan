@@ -46,7 +46,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                        | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
+|------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [OSV-2022-1108](https://osv.dev/OSV-2022-1108) | ruby      |            | 3.3.5           | 3.4.0-preview2 | 3.3.6      |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -368,6 +372,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [OSV-2022-1276](https://osv.dev/OSV-2022-1276)                        | openvpn                   |            | 2.6.12           | 2.6.12           | 2.6.12           |                                                                                                                                                                                                                                                                        |
 | [OSV-2022-1201](https://osv.dev/OSV-2022-1201)                        | opensc                    |            | 0.26.0           | 0.26.0           | 0.26.0           |                                                                                                                                                                                                                                                                        |
 | [OSV-2022-1188](https://osv.dev/OSV-2022-1188)                        | opensc                    |            | 0.26.0           | 0.26.0           | 0.26.0           |                                                                                                                                                                                                                                                                        |
+| [OSV-2022-1108](https://osv.dev/OSV-2022-1108)                        | ruby                      |            | 3.3.5            | 3.4.0-preview2   | 3.3.6            |                                                                                                                                                                                                                                                                        |
 | [OSV-2022-908](https://osv.dev/OSV-2022-908)                          | bluez                     |            | 5.78             | 5.78             | 5.79             | Unclear if this is still valid.                                                                                                                                                                                                                                        |
 | [OSV-2022-896](https://osv.dev/OSV-2022-896)                          | libsass                   |            | 3.6.6            | 3.6.6            | 3.6.6            | Unclear if this is still valid.                                                                                                                                                                                                                                        |
 | [OSV-2022-882](https://osv.dev/OSV-2022-882)                          | hunspell                  |            | 1.7.2            | 1.7.2            | 1.7.2            |                                                                                                                                                                                                                                                                        |
