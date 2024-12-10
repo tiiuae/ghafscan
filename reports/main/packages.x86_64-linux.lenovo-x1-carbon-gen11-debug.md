@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/7e0a09b9d7c612121486834bf2695372fa8112c8. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/89380720bf81eb1aedbe8f09a87eaeac64e61a0e. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,7 +46,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                | package         | severity   | version_local   | nix_unstable   | upstream   | comment   |
+|--------------------------------------------------------|-----------------|------------|-----------------|----------------|------------|-----------|
+| [RUSTSEC-2024-0422](https://osv.dev/RUSTSEC-2024-0422) | gtk-layer-shell |            | 0.9.0           | 0.9.0          | 0.9.0      |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -337,6 +341,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [OSV-2024-678](https://osv.dev/OSV-2024-678)                          | flac                      |            | 1.4.3            | 1.4.3            | 1.4.3            |                                                                                                                                                                                                                                                                        |
 | [OSV-2024-677](https://osv.dev/OSV-2024-677)                          | ghostscript               |            | 10.04.0          | 10.04.0          | 10.04.0          |                                                                                                                                                                                                                                                                        |
 | [OSV-2024-440](https://osv.dev/OSV-2024-440)                          | jq                        |            | 1.7.1            | 1.7.1            | 1.7.1            |                                                                                                                                                                                                                                                                        |
+| [RUSTSEC-2024-0422](https://osv.dev/RUSTSEC-2024-0422)                | gtk-layer-shell           |            | 0.9.0            | 0.9.0            | 0.9.0            |                                                                                                                                                                                                                                                                        |
 | [OSV-2024-396](https://osv.dev/OSV-2024-396)                          | jq                        |            | 1.7.1            | 1.7.1            | 1.7.1            |                                                                                                                                                                                                                                                                        |
 | [OSV-2024-395](https://osv.dev/OSV-2024-395)                          | libpcap                   |            | 1.10.5           | 1.10.5           | 1.10.5           |                                                                                                                                                                                                                                                                        |
 | [RUSTSEC-2024-0379](https://osv.dev/RUSTSEC-2024-0379)                | fast-float                |            | 6.1.6            | 7.0.0            | 7.0.0            |                                                                                                                                                                                                                                                                        |
