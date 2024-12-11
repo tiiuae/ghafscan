@@ -46,11 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                | package         | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|--------------------------------------------------------|-----------------|------------|-----------------|----------------|------------|-----------|
-| [RUSTSEC-2024-0422](https://osv.dev/RUSTSEC-2024-0422) | gtk-layer-shell |            | 0.9.0           | 0.9.0          | 0.9.0      |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
