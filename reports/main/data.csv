@@ -98,9 +98,11 @@ https://github.com/NixOS/nixpkgs/pull/299125"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2023-49292","https://nvd.nist.gov/vuln/detail/CVE-2023-49292","go","4.8","1.21.0-linux-amd64-bootstrap","1.23.4","1.23.4","go","2023A0000049292","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2023-46361","https://nvd.nist.gov/vuln/detail/CVE-2023-46361","jbig2dec","6.5","0.20","0.20","0.20","jbig2dec","2023A0000046361","False","","fix_not_available",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2023-45853","https://nvd.nist.gov/vuln/detail/CVE-2023-45853","zlib","9.8","0.6.3.0-r5.cabal","0.7.1.0","0.7.1.0","haskell:zlib","2023A0000045853","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/262722 
-https://github.com/NixOS/nixpkgs/pull/263083"
+https://github.com/NixOS/nixpkgs/pull/263083 
+https://github.com/NixOS/nixpkgs/pull/370353"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2023-45853","https://nvd.nist.gov/vuln/detail/CVE-2023-45853","zlib","9.8","0.6.3.0","0.7.1.0","0.7.1.0","haskell:zlib","2023A0000045853","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/262722 
-https://github.com/NixOS/nixpkgs/pull/263083"
+https://github.com/NixOS/nixpkgs/pull/263083 
+https://github.com/NixOS/nixpkgs/pull/370353"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2023-44487","https://nvd.nist.gov/vuln/detail/CVE-2023-44487","go","7.5","1.21.0-linux-amd64-bootstrap","1.23.4","1.23.4","go","2023A0000044487","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/262738 
 https://github.com/NixOS/nixpkgs/pull/263279 
 https://github.com/NixOS/nixpkgs/pull/278073 
@@ -261,12 +263,12 @@ https://github.com/NixOS/nixpkgs/pull/362304"
 https://github.com/NixOS/nixpkgs/pull/185613 
 https://github.com/NixOS/nixpkgs/pull/185693 
 https://github.com/NixOS/nixpkgs/pull/185754 
-https://github.com/NixOS/nixpkgs/pull/186941"
+https://github.com/NixOS/nixpkgs/pull/370353"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2022-37434","https://nvd.nist.gov/vuln/detail/CVE-2022-37434","zlib","9.8","0.6.3.0","0.7.1.0","0.7.1.0","haskell:zlib","2022A0000037434","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/185554 
 https://github.com/NixOS/nixpkgs/pull/185613 
 https://github.com/NixOS/nixpkgs/pull/185693 
 https://github.com/NixOS/nixpkgs/pull/185754 
-https://github.com/NixOS/nixpkgs/pull/186941"
+https://github.com/NixOS/nixpkgs/pull/370353"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2022-37416","https://nvd.nist.gov/vuln/detail/CVE-2022-37416","libmpeg2","6.5","0.5.1","","","","2022A0000037416","True","NVD data issue: concerns Android only.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2022-36884","https://nvd.nist.gov/vuln/detail/CVE-2022-36884","git","5.3","2.47.0","","","","2022A0000036884","True","Incorrect package: Impacts Jenkins git plugin, not git. Issue gets included to the report due to vulnix's design decision to avoid false negatives with the cost of false positives: https://github.com/nix-community/vulnix/blob/f56f3ac857626171b95e51d98cb6874278f789d3/src/vulnix/vulnerability.py#L90-L96.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2022-36883","https://nvd.nist.gov/vuln/detail/CVE-2022-36883","git","7.5","2.47.0","","","","2022A0000036883","True","Incorrect package: Impacts Jenkins git plugin, not git. Issue gets included to the report due to vulnix's design decision to avoid false negatives with the cost of false positives: https://github.com/nix-community/vulnix/blob/f56f3ac857626171b95e51d98cb6874278f789d3/src/vulnix/vulnerability.py#L90-L96.","err_missing_repology_version",""
@@ -515,7 +517,8 @@ https://github.com/NixOS/nixpkgs/pull/363310"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2018-25032","https://nvd.nist.gov/vuln/detail/CVE-2018-25032","zlib","7.5","0.6.3.0","0.7.1.0","0.7.1.0","haskell:zlib","2018A0000025032","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/165642 
 https://github.com/NixOS/nixpkgs/pull/166451 
 https://github.com/NixOS/nixpkgs/pull/167084 
-https://github.com/NixOS/nixpkgs/pull/205374"
+https://github.com/NixOS/nixpkgs/pull/205374 
+https://github.com/NixOS/nixpkgs/pull/370353"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2018-18438","https://nvd.nist.gov/vuln/detail/CVE-2018-18438","qemu","5.5","9.1.1","","","","2018A0000018438","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2018-14628","https://nvd.nist.gov/vuln/detail/CVE-2018-14628","samba","4.3","4.20.4","4.20.4","4.21.2","samba","2018A0000014628","False","","fix_not_available","https://github.com/NixOS/nixpkgs/pull/270419"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2018-13162","https://nvd.nist.gov/vuln/detail/CVE-2018-13162","alex","7.5","3.4.0.1","3.4.0.1","3.5.1.0","alex","2018A0000013162","False","","err_not_vulnerable_based_on_repology",""
