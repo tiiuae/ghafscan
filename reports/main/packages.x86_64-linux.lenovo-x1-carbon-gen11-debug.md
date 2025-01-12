@@ -48,11 +48,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                        | package       | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|------------------------------------------------|---------------|------------|-----------------|----------------|------------|-----------|
-| [OSV-2023-1170](https://osv.dev/OSV-2023-1170) | vulkan-loader |            | 1.3.296.0       | 1.3.296.0      | 1.4.304    |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -102,7 +98,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-21524](https://nvd.nist.gov/vuln/detail/CVE-2024-21524)     | stringbuilder             | 9.1        | 0.5.1            | 0.5.1            | 0.5.1            |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-5841](https://nvd.nist.gov/vuln/detail/CVE-2023-5841)       | openexr                   | 9.1        | 2.5.10           | 3.2.4            | 3.3.2            | *[[PR](https://github.com/NixOS/nixpkgs/pull/300526), [PR](https://github.com/NixOS/nixpkgs/pull/346060), [PR](https://github.com/NixOS/nixpkgs/pull/349220), [PR](https://github.com/NixOS/nixpkgs/pull/352826)]*                                                     |
 | [CVE-2021-4048](https://nvd.nist.gov/vuln/detail/CVE-2021-4048)       | lapack                    | 9.1        | 3                | 3.12.0           | 3.12.1           | *[[PR](https://github.com/NixOS/nixpkgs/pull/150788), [PR](https://github.com/NixOS/nixpkgs/pull/150906), [PR](https://github.com/NixOS/nixpkgs/pull/152147), [PR](https://github.com/NixOS/nixpkgs/pull/152359), [PR](https://github.com/NixOS/nixpkgs/pull/168777)]* |
-| [CVE-2024-56732](https://nvd.nist.gov/vuln/detail/CVE-2024-56732)     | harfbuzz                  | 8.8        | 10.0.1           | 10.1.0           | 10.1.0           |                                                                                                                                                                                                                                                                        |
+| [CVE-2024-56732](https://nvd.nist.gov/vuln/detail/CVE-2024-56732)     | harfbuzz                  | 8.8        | 10.0.1           | 10.1.0           | 10.2.0           |                                                                                                                                                                                                                                                                        |
 | [CVE-2022-28872](https://nvd.nist.gov/vuln/detail/CVE-2022-28872)     | safe                      | 8.8        | 0.3.21-r1.cabal  | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
 | [CVE-2022-28872](https://nvd.nist.gov/vuln/detail/CVE-2022-28872)     | safe                      | 8.8        | 0.3.21           | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
 | [CVE-2022-24394](https://nvd.nist.gov/vuln/detail/CVE-2022-24394)     | network                   | 8.8        | 3.1.4.0-r1.cabal | 3.2.4.0          | 3.2.7.0          |                                                                                                                                                                                                                                                                        |
