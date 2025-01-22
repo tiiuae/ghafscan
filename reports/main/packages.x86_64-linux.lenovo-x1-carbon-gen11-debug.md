@@ -27,7 +27,8 @@ Following table lists vulnerabilities that have been fixed in the nixpkgs channe
 
 Update the target Ghaf [flake.lock](https://github.com/tiiuae/ghaf/blob/main/flake.lock) file to mitigate the following issues:
 
-```No vulnerabilities```
+```Error evaluating 'packages.x86_64-linux.lenovo-x1-carbon-gen11-debug' on lock_updated```<br /><br />
+For more details, see: https://github.com/tiiuae/ghafscan/actions
 
 ## Vulnerabilities Fixed in nix-unstable
 
@@ -37,7 +38,8 @@ Following issues potentially require backporting the fix from nixpkgs-unstable t
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community backport the fix to the correct nixpkgs branch:
 
-```No vulnerabilities```
+```Error evaluating 'packages.x86_64-linux.lenovo-x1-carbon-gen11-debug' on lock_updated```<br /><br />
+For more details, see: https://github.com/tiiuae/ghafscan/actions
 
 
 ## New Vulnerabilities Since Last Run
@@ -46,18 +48,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   | severity   | version_local   | nix_unstable   | upstream   | comment                                                |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------|
-| [CVE-2024-22862](https://nvd.nist.gov/vuln/detail/CVE-2024-22862) | ffmpeg    | 9.8        | 4.4.5           |                |            |                                                        |
-| [CVE-2024-22860](https://nvd.nist.gov/vuln/detail/CVE-2024-22860) | ffmpeg    | 9.8        | 4.4.5           |                |            |                                                        |
-| [CVE-2024-7272](https://nvd.nist.gov/vuln/detail/CVE-2024-7272)   | ffmpeg    | 8.8        | 4.4.5           |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/333021)]* |
-| [CVE-2023-47470](https://nvd.nist.gov/vuln/detail/CVE-2023-47470) | ffmpeg    | 7.8        | 4.4.5           |                |            |                                                        |
-| [CVE-2024-22861](https://nvd.nist.gov/vuln/detail/CVE-2024-22861) | ffmpeg    | 7.5        | 4.4.5           |                |            |                                                        |
-| [CVE-2023-46407](https://nvd.nist.gov/vuln/detail/CVE-2023-46407) | ffmpeg    | 5.5        | 4.4.5           |                |            |                                                        |
-| [OSV-2024-914](https://osv.dev/OSV-2024-914)                      | boost     |            | 1.86.0          | 1.87.0         | 1.87.0     |                                                        |
-| [OSV-2024-112](https://osv.dev/OSV-2024-112)                      | boost     |            | 1.86.0          | 1.87.0         | 1.87.0     |                                                        |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -312,7 +303,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2018-14628](https://nvd.nist.gov/vuln/detail/CVE-2018-14628)     | samba                     | 4.3        | 4.20.4           | 4.20.4           | 4.21.3           | *[[PR](https://github.com/NixOS/nixpkgs/pull/270419)]*                                                                                                                                                                                                                 |
 | [CVE-2021-33596](https://nvd.nist.gov/vuln/detail/CVE-2021-33596)     | safe                      | 4.1        | 0.3.21-r1.cabal  | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-33596](https://nvd.nist.gov/vuln/detail/CVE-2021-33596)     | safe                      | 4.1        | 0.3.21           | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
-| [CVE-2024-11168](https://nvd.nist.gov/vuln/detail/CVE-2024-11168)     | python                    | 3.7        | 2.7.18.8         | 3.13.1           | 3.13.1           |                                                                                                                                                                                                                                                                        |
+| [CVE-2024-11168](https://nvd.nist.gov/vuln/detail/CVE-2024-11168)     | python                    | 3.7        | 2.7.18.8         | 3.13.1           | 3.13.1           | *[[PR](https://github.com/NixOS/nixpkgs/pull/375511)]*                                                                                                                                                                                                                 |
 | [CVE-2023-28322](https://nvd.nist.gov/vuln/detail/CVE-2023-28322)     | curl                      | 3.7        | 0.4.46           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/232531), [PR](https://github.com/NixOS/nixpkgs/pull/232535)]*                                                                                                                                                             |
 | [CVE-2023-0654](https://nvd.nist.gov/vuln/detail/CVE-2023-0654)       | warp                      | 3.7        | 3.3.31           | 3.4.3            | 3.4.7            |                                                                                                                                                                                                                                                                        |
 | [CVE-2022-35252](https://nvd.nist.gov/vuln/detail/CVE-2022-35252)     | curl                      | 3.7        | 0.4.46           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/189083), [PR](https://github.com/NixOS/nixpkgs/pull/198730)]*                                                                                                                                                             |
