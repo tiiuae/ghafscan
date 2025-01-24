@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/0f2927810dd0373fbdb8b672e9fb50e945ff5fa6. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/0d6b6b1b127b4a34bf035a56f264894a0fd6434c. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -48,11 +48,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2024-13176](https://nvd.nist.gov/vuln/detail/CVE-2024-13176) | openssl   |            | 3.3.2           | 3.3.2          | 3.4.0      |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -304,7 +300,6 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2021-40835](https://nvd.nist.gov/vuln/detail/CVE-2021-40835)     | safe                      | 4.3        | 0.3.21           | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-40834](https://nvd.nist.gov/vuln/detail/CVE-2021-40834)     | safe                      | 4.3        | 0.3.21-r1.cabal  | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-40834](https://nvd.nist.gov/vuln/detail/CVE-2021-40834)     | safe                      | 4.3        | 0.3.21           | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
-| [CVE-2018-14628](https://nvd.nist.gov/vuln/detail/CVE-2018-14628)     | samba                     | 4.3        | 4.20.4           | 4.20.4           | 4.21.3           | *[[PR](https://github.com/NixOS/nixpkgs/pull/270419)]*                                                                                                                                                                                                                 |
 | [CVE-2021-33596](https://nvd.nist.gov/vuln/detail/CVE-2021-33596)     | safe                      | 4.1        | 0.3.21-r1.cabal  | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-33596](https://nvd.nist.gov/vuln/detail/CVE-2021-33596)     | safe                      | 4.1        | 0.3.21           | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
 | [CVE-2024-11168](https://nvd.nist.gov/vuln/detail/CVE-2024-11168)     | python                    | 3.7        | 2.7.18.8         | 3.13.1           | 3.13.1           | *[[PR](https://github.com/NixOS/nixpkgs/pull/375511)]*                                                                                                                                                                                                                 |
