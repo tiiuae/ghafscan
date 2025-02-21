@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/b82a218ce0b6d073191ba12b8704f3bccd95337d. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/c9b53c4dcfb72d6ccc6eaf71e2a331e6e73a059c. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -47,9 +47,9 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
 
-| vuln_id                                                         | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|-----------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2024-3220](https://nvd.nist.gov/vuln/detail/CVE-2024-3220) | python    |            | 2.7.18.8        | 3.14.0a4       | 3.13.2     |           |
+| vuln_id                                    | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
+|--------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [OSV-2025-74](https://osv.dev/OSV-2025-74) | libxml2   |            | 2.13.5          | 2.13.5         | 2.13.6     |           |
 
 
 
@@ -331,6 +331,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-1386](https://nvd.nist.gov/vuln/detail/CVE-2023-1386)       | qemu                      | 3.3        | 9.2.0            | 9.2.0            | 9.2.1            | Revisit when fixed upstream: [link](https://github.com/v9fs/linux/issues/29).                                                                                                                                                                                          |
 | [CVE-2025-0938](https://nvd.nist.gov/vuln/detail/CVE-2025-0938)       | python                    |            | 2.7.18.8         | 3.14.0a4         | 3.13.2           | *[[PR](https://github.com/NixOS/nixpkgs/pull/378410), [PR](https://github.com/NixOS/nixpkgs/pull/379432)]*                                                                                                                                                             |
 | [CVE-2025-0651](https://nvd.nist.gov/vuln/detail/CVE-2025-0651)       | warp                      |            | 3.3.31           | 3.4.7            | 3.4.7            |                                                                                                                                                                                                                                                                        |
+| [OSV-2025-74](https://osv.dev/OSV-2025-74)                            | libxml2                   |            | 2.13.5           | 2.13.5           | 2.13.6           |                                                                                                                                                                                                                                                                        |
 | [OSV-2025-63](https://osv.dev/OSV-2025-63)                            | ghostscript               |            | 10.04.0          | 10.04.0          | 10.04.0          |                                                                                                                                                                                                                                                                        |
 | [RUSTSEC-2025-0003](https://osv.dev/RUSTSEC-2025-0003)                | fast-float                |            | 7.0.0            | 7.0.0            | 8.0.0            |                                                                                                                                                                                                                                                                        |
 | [GHSA-w596-4wvx-j9j6](https://osv.dev/GHSA-w596-4wvx-j9j6)            | py                        |            | 1.11.0           | 1.11.0           | 1.11.0           |                                                                                                                                                                                                                                                                        |
