@@ -46,11 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                    | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|--------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [OSV-2025-74](https://osv.dev/OSV-2025-74) | libxml2   |            | 2.13.5          | 2.13.5         | 2.13.6     |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
