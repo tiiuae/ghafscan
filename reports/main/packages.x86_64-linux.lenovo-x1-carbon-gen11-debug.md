@@ -48,7 +48,12 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package    |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|------------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2025-25724](https://nvd.nist.gov/vuln/detail/CVE-2025-25724) | libarchive |          4 | 3.7.7           | 3.7.7          | 3.7.7      |           |
+| [CVE-2024-57970](https://nvd.nist.gov/vuln/detail/CVE-2024-57970) | libarchive |          4 | 3.7.7           | 3.7.7          | 3.7.7      |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -340,6 +345,8 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-13176](https://nvd.nist.gov/vuln/detail/CVE-2024-13176)     | openssl                   | 4.1        | 3.3.2            | 3.4.1            | 3.4.1            | *[[PR](https://github.com/NixOS/nixpkgs/pull/372733), [PR](https://github.com/NixOS/nixpkgs/pull/381195)]*                                                                                                                                                             |
 | [CVE-2021-33596](https://nvd.nist.gov/vuln/detail/CVE-2021-33596)     | safe                      | 4.1        | 0.3.21-r1.cabal  | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-33596](https://nvd.nist.gov/vuln/detail/CVE-2021-33596)     | safe                      | 4.1        | 0.3.21           | 0.3.21           | 0.3.21           |                                                                                                                                                                                                                                                                        |
+| [CVE-2025-25724](https://nvd.nist.gov/vuln/detail/CVE-2025-25724)     | libarchive                | 4          | 3.7.7            | 3.7.7            | 3.7.7            |                                                                                                                                                                                                                                                                        |
+| [CVE-2024-57970](https://nvd.nist.gov/vuln/detail/CVE-2024-57970)     | libarchive                | 4          | 3.7.7            | 3.7.7            | 3.7.7            |                                                                                                                                                                                                                                                                        |
 | [CVE-2024-11168](https://nvd.nist.gov/vuln/detail/CVE-2024-11168)     | python                    | 3.7        | 2.7.18.8         | 3.13.2           | 3.13.2           | *[[PR](https://github.com/NixOS/nixpkgs/pull/375511)]*                                                                                                                                                                                                                 |
 | [CVE-2023-28322](https://nvd.nist.gov/vuln/detail/CVE-2023-28322)     | curl                      | 3.7        | 0.4.46           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/232531), [PR](https://github.com/NixOS/nixpkgs/pull/232535)]*                                                                                                                                                             |
 | [CVE-2023-0654](https://nvd.nist.gov/vuln/detail/CVE-2023-0654)       | warp                      | 3.7        | 3.3.31           | 3.4.7            | 3.4.7            |                                                                                                                                                                                                                                                                        |
