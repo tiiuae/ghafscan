@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/1eacbe1fa17fbcf5bfc8c0ce8fcd3c0830795f6d. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/afc062196fe86e4b5146f385a5b18fe89d0b567f. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -47,9 +47,9 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
 
-| vuln_id                                        | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [OSV-2022-1108](https://osv.dev/OSV-2022-1108) | ruby      |            | 3.3.6           | 3.4.2          | 3.4.2      |           |
+| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2025-31498](https://nvd.nist.gov/vuln/detail/CVE-2025-31498) | c-ares    |        8.3 | 1.34.4          | 1.34.4         | 1.34.5     |           |
 
 
 
@@ -118,6 +118,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2021-37713](https://nvd.nist.gov/vuln/detail/CVE-2021-37713)     | tar                       | 8.6        | 0.4.41           | 0.6.3.0          | 0.6.4.0          |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-37712](https://nvd.nist.gov/vuln/detail/CVE-2021-37712)     | tar                       | 8.6        | 0.4.41           | 0.6.3.0          | 0.6.4.0          |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-37701](https://nvd.nist.gov/vuln/detail/CVE-2021-37701)     | tar                       | 8.6        | 0.4.41           | 0.6.3.0          | 0.6.4.0          |                                                                                                                                                                                                                                                                        |
+| [CVE-2025-31498](https://nvd.nist.gov/vuln/detail/CVE-2025-31498)     | c-ares                    | 8.3        | 1.34.4           | 1.34.4           | 1.34.5           |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-39323](https://nvd.nist.gov/vuln/detail/CVE-2023-39323)     | go                        | 8.1        | 1.21.0-linux-amd | 1.24.1           | 1.24.2           |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-24999](https://nvd.nist.gov/vuln/detail/CVE-2023-24999)     | vault                     | 8.1        | 0.3.1.5-r9.cabal | 0.3.1.5          | 0.3.1.5          | *[[PR](https://github.com/NixOS/nixpkgs/pull/221835), [PR](https://github.com/NixOS/nixpkgs/pull/221841)]*                                                                                                                                                             |
 | [CVE-2023-24999](https://nvd.nist.gov/vuln/detail/CVE-2023-24999)     | vault                     | 8.1        | 0.3.1.5          | 0.3.1.5          | 0.3.1.5          | *[[PR](https://github.com/NixOS/nixpkgs/pull/221835), [PR](https://github.com/NixOS/nixpkgs/pull/221841)]*                                                                                                                                                             |
