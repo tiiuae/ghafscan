@@ -57,8 +57,8 @@ def test_ghafscan_help():
 
 def test_ghafscan_basic():
     """Basic tests for GhafScanner"""
-    scanner = FlakeScanner("github:tiiuae/ghaf?ref=main")
-    scanner.scan_target("formatter.x86_64-linux", buildtime=False)
+    scanner = FlakeScanner(REPOROOT)
+    scanner.scan_target("packages.x86_64-linux.default", buildtime=False)
     test_work_dir = Path(TEST_WORK_DIR)
     scanner.report(test_work_dir)
     readme = test_work_dir / "README.md"
