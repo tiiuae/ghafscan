@@ -17,6 +17,7 @@
           grype
           nix
           reuse
+          sbomnix
           (
             python3.withPackages (ps:
               with ps; [
@@ -28,15 +29,7 @@
               ])
           )
         ])
-        ++ [
-          # bring in vulnxscan from sbomnix
-          inputs'.sbomnix.packages.default
-          # csvdiff
-          inputs'.csvdiff.packages.default
-        ]
-        ++ [
-          inputs'.nix-fast-build.packages.default
-        ];
+        ++ [inputs'.csvdiff.packages.default];
       shellHook = ''
         export PYTHONPATH="$PYTHONPATH:$(pwd)/src"
       '';

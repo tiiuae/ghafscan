@@ -7,7 +7,7 @@
 # pylint: disable=too-many-instance-attributes
 # pylint: disable=too-many-statements, too-many-locals
 
-""" Run and summarize vulnerability scans for flake targets """
+"""Run and summarize vulnerability scans for flake targets"""
 
 import os
 import sys
