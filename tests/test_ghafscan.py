@@ -5,7 +5,7 @@
 
 # pylint: disable=global-statement, redefined-outer-name
 
-""" Tests for ghafscan """
+"""Tests for ghafscan"""
 
 import os
 import subprocess
