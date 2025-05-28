@@ -7,16 +7,17 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # ghafscan
 
 This repository automates vulnerability scans for the [Ghaf Framework](https://github.com/tiiuae/ghaf).
-The Ghaf [vulnerability reports](./reports/) available on this repository are automatically updated on [daily basis](./.github/workflows/vulnerability-scan.yml#L12) for the selected Ghaf branches and targets as specified in the [Vulnerability Scan](./.github/workflows/vulnerability-scan.yml) GitHub action workflow.
+The Ghaf [vulnerability reports](./reports/) available in this repository are automatically updated on [daily basis](./.github/workflows/vulnerability-scan.yml#L9) for the selected Ghaf branches and targets as specified in the [Vulnerability Scan](./.github/workflows/vulnerability-scan.yml) GitHub action workflow.
 
 ## Example Reports
 - [Ghaf 'main' x86_64-linux.lenovo-x1-carbon-gen11-debug](./reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-debug.md)
+- [Ghaf 'main' aarch64-linux.nvidia-jetson-orin-nx-debug](./reports/main/packages.aarch64-linux.nvidia-jetson-orin-nx-debug.md)
 
 ## Motivation
 
 Key points demonstrated in this repository:
 - Running automatic vulnerability scans for nix flake projects, using [Ghaf Framework](https://github.com/tiiuae/ghaf) as an example.
-- Using [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan) as the main vulnerability scanning tool for a Nix flake project.
+- Using [vulnxscan](https://github.com/tiiuae/sbomnix/blob/main/doc/vulnxscan.md) as the main vulnerability scanning tool for a Nix flake project.
 - Using Nix flake updates to derive potentially missing security fixes for a Nix flake project. See section [Theory of Operation](./README.md#theory-of-operation) for more details.
 - Incorporating [manual analysis](manual_analysis.csv) results to the automated vulnerability scans.
 
@@ -24,9 +25,9 @@ Key points demonstrated in this repository:
 
 ### Vulnxscan
 
-This repository makes use of [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), which allows vulnerability scanning any Nix store paths, including Nix flake outputs. 
+This repository makes use of [vulnxscan](https://github.com/tiiuae/sbomnix/blob/main/doc/vulnxscan.md), which allows vulnerability scanning any Nix store paths, including Nix flake outputs.
 
-Since Nix makes it possible to find buildtime dependencies without compiling the target, [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan) can also be used to scan any Nix flake outputs without realising (building) the output target. This makes it possible to scan targets that have not been built earlier and still be able to get the scan results relatively quickly.
+Since Nix makes it possible to find buildtime dependencies without compiling the target, [vulnxscan](https://github.com/tiiuae/sbomnix/blob/main/doc/vulnxscan.md) can also be used to scan any Nix flake outputs without realising (building) the output target. This makes it possible to scan targets that have not been built earlier and still be able to get the scan results relatively quickly.
 
 ### Using Nix flake Updates to Derive Potentially Missing Security Fixes
 
@@ -36,7 +37,7 @@ If we update the Ghaf pin by running `nix flake lock --update-input nixpkgs`, th
 
 If we update the Ghaf pin so that instead of pinning it to nix-release (e.g. github:NixOS/nixpkgs/nixos-23.05), we pin it to nix-unstable (github:NixOS/nixpkgs/nixos-unstable), all Ghaf dependencies will be updated to their latest version available in nix-unstable. We label this version of Ghaf as '**nix_unstable**'.
 
-We can now find potentially missing Ghaf security fixes by comparing the set of vulnerabilities reported by [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan) for the three different versions of Ghaf.
+We can now find potentially missing Ghaf security fixes by comparing the set of vulnerabilities reported by [vulnxscan](https://github.com/tiiuae/sbomnix/blob/main/doc/vulnxscan.md) for the three different versions of Ghaf.
 
 #### 'current' vs 'lock_updated'
 
