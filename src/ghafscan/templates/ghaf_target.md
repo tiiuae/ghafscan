@@ -21,7 +21,7 @@ Reports
 * [All Vulnerabilities Impacting Ghaf](#all-vulnerabilities-impacting-ghaf)
 * [Whitelisted Vulnerabilities](#whitelisted-vulnerabilities)
 
-## Vulnerabilities Fixed in Ghaf nixpkgs Upstream 
+## Vulnerabilities Fixed in Ghaf nixpkgs Upstream
 
 Following table lists vulnerabilities that have been fixed in the nixpkgs channel the Ghaf target is currently pinned to, but the fixes have not been included in Ghaf.
 
