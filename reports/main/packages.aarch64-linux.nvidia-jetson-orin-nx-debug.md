@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/60d8645f2731d36f05ff6d2e041d0eb2c7ed60ce. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/cdfeb54072fb59c34685c5ce01c005216710c594. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -21,7 +21,7 @@ Reports
 * [All Vulnerabilities Impacting Ghaf](#all-vulnerabilities-impacting-ghaf)
 * [Whitelisted Vulnerabilities](#whitelisted-vulnerabilities)
 
-## Vulnerabilities Fixed in Ghaf nixpkgs Upstream 
+## Vulnerabilities Fixed in Ghaf nixpkgs Upstream
 
 Following table lists vulnerabilities that have been fixed in the nixpkgs channel the Ghaf target is currently pinned to, but the fixes have not been included in Ghaf.
 
@@ -191,7 +191,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2025-4516](https://nvd.nist.gov/vuln/detail/CVE-2025-4516)       | python          | 5.9        | 2.7.18.8         | 3.13.3           | 3.13.3           |                                                                                                                                                                                                                                                                        |
 | [CVE-2025-1153](https://nvd.nist.gov/vuln/detail/CVE-2025-1153)       | binutils        | 5.9        | 2.44             | 2.44             | 2.44             |                                                                                                                                                                                                                                                                        |
 | [CVE-2024-50602](https://nvd.nist.gov/vuln/detail/CVE-2024-50602)     | python          | 5.9        | 2.7.18.8         | 3.13.3           | 3.13.3           | *[[PR](https://github.com/NixOS/nixpkgs/pull/354155)]*                                                                                                                                                                                                                 |
-| [CVE-2024-27297](https://nvd.nist.gov/vuln/detail/CVE-2024-27297)     | nix             | 5.9        | 0.28.0           | 2.28.3           | 2.28.3           | *[[PR](https://github.com/NixOS/nixpkgs/pull/294030), [PR](https://github.com/NixOS/nixpkgs/pull/294031), [PR](https://github.com/NixOS/nixpkgs/pull/303024), [PR](https://github.com/NixOS/nixpkgs/pull/303170), [PR](https://github.com/NixOS/nixpkgs/pull/321714)]* |
+| [CVE-2024-27297](https://nvd.nist.gov/vuln/detail/CVE-2024-27297)     | nix             | 5.9        | 0.28.0           | 2.29.0           | 2.29.0           | *[[PR](https://github.com/NixOS/nixpkgs/pull/294030), [PR](https://github.com/NixOS/nixpkgs/pull/294031), [PR](https://github.com/NixOS/nixpkgs/pull/303024), [PR](https://github.com/NixOS/nixpkgs/pull/303170), [PR](https://github.com/NixOS/nixpkgs/pull/321714)]* |
 | [CVE-2023-28321](https://nvd.nist.gov/vuln/detail/CVE-2023-28321)     | curl            | 5.9        | 0.4.46           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/232531), [PR](https://github.com/NixOS/nixpkgs/pull/232535)]*                                                                                                                                                             |
 | [CVE-2023-28320](https://nvd.nist.gov/vuln/detail/CVE-2023-28320)     | curl            | 5.9        | 0.4.46           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/232531), [PR](https://github.com/NixOS/nixpkgs/pull/232535)]*                                                                                                                                                             |
 | [CVE-2022-48566](https://nvd.nist.gov/vuln/detail/CVE-2022-48566)     | python          | 5.9        | 2.7.18.8         | 3.13.3           | 3.13.3           | *[[PR](https://github.com/NixOS/nixpkgs/pull/397356)]*                                                                                                                                                                                                                 |
