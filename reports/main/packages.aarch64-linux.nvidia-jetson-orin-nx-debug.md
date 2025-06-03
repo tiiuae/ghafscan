@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/cdfeb54072fb59c34685c5ce01c005216710c594. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/03d586c32482564e07923012fcc47b709c84e6a8. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,11 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                      | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|----------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [OSV-2025-363](https://osv.dev/OSV-2025-363) | jq        |            | 1.7.1           | 1.7.1          | 1.8.0      |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -327,7 +323,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [OSV-2022-1201](https://osv.dev/OSV-2022-1201)                        | opensc          |            | 0.26.1           | 0.26.1           | 0.26.1           |                                                                                                                                                                                                                                                                        |
 | [OSV-2022-1188](https://osv.dev/OSV-2022-1188)                        | opensc          |            | 0.26.1           | 0.26.1           | 0.26.1           |                                                                                                                                                                                                                                                                        |
 | [OSV-2022-1108](https://osv.dev/OSV-2022-1108)                        | ruby            |            | 3.3.8            | 3.4.3            | 3.4.4            |                                                                                                                                                                                                                                                                        |
-| [OSV-2022-908](https://osv.dev/OSV-2022-908)                          | bluez           |            | 5.80             | 5.80             | 5.82             | Unclear if this is still valid.                                                                                                                                                                                                                                        |
+| [OSV-2022-908](https://osv.dev/OSV-2022-908)                          | bluez           |            | 5.80             | 5.80             | 5.83             | Unclear if this is still valid.                                                                                                                                                                                                                                        |
 | [OSV-2022-896](https://osv.dev/OSV-2022-896)                          | libsass         |            | 3.6.6            | 3.6.6            | 3.6.6            | Unclear if this is still valid.                                                                                                                                                                                                                                        |
 | [OSV-2022-819](https://osv.dev/OSV-2022-819)                          | libraw          |            | 0.21.3           | 0.21.3           | 0.21.4           |                                                                                                                                                                                                                                                                        |
 | [OSV-2022-785](https://osv.dev/OSV-2022-785)                          | dnsmasq         |            | 2.91             | 2.91             | 2.91             |                                                                                                                                                                                                                                                                        |
