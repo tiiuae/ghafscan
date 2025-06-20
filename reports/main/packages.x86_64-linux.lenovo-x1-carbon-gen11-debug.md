@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/740d979caee674a7febdfbd17333b6fdff011be7. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/14cb2e3d71034a1d3a2ef52c42704d1cecdcd0b1. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,7 +46,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package   | severity   | version_local   | nix_unstable   | upstream   | comment                                                                                                                                                        |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [CVE-2024-34397](https://nvd.nist.gov/vuln/detail/CVE-2024-34397) | glib      |            | 0.20.9          |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/309952), [PR](https://github.com/NixOS/nixpkgs/pull/309957), [PR](https://github.com/NixOS/nixpkgs/pull/310768)]* |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -379,6 +383,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-52533](https://nvd.nist.gov/vuln/detail/CVE-2024-52533)          | glib                      |            | 0.20.9           |                  |                  |                                                                                                                                                                                                                                                                        |
 | [CVE-2024-38950](https://nvd.nist.gov/vuln/detail/CVE-2024-38950)          | libde265                  |            | 1.0.15           | 1.0.15           | 1.0.16           | *[[PR](https://github.com/NixOS/nixpkgs/pull/404141), [PR](https://github.com/NixOS/nixpkgs/pull/416909)]*                                                                                                                                                             |
 | [CVE-2024-38949](https://nvd.nist.gov/vuln/detail/CVE-2024-38949)          | libde265                  |            | 1.0.15           | 1.0.15           | 1.0.16           | *[[PR](https://github.com/NixOS/nixpkgs/pull/404141), [PR](https://github.com/NixOS/nixpkgs/pull/416909)]*                                                                                                                                                             |
+| [CVE-2024-34397](https://nvd.nist.gov/vuln/detail/CVE-2024-34397)          | glib                      |            | 0.20.9           |                  |                  | *[[PR](https://github.com/NixOS/nixpkgs/pull/309952), [PR](https://github.com/NixOS/nixpkgs/pull/309957), [PR](https://github.com/NixOS/nixpkgs/pull/310768)]*                                                                                                         |
 | [CVE-2024-31585](https://nvd.nist.gov/vuln/detail/CVE-2024-31585)          | ffmpeg                    |            | 6.1.2            | 7.1.1            | 7.1.1            | *[[PR](https://github.com/NixOS/nixpkgs/pull/310934), [PR](https://github.com/NixOS/nixpkgs/pull/397373), [PR](https://github.com/NixOS/nixpkgs/pull/404342), [PR](https://github.com/NixOS/nixpkgs/pull/414505), [PR](https://github.com/NixOS/nixpkgs/pull/417172)]* |
 | [CVE-2024-23337](https://nvd.nist.gov/vuln/detail/CVE-2024-23337)          | jq                        |            | 1.7.1            | 1.7.1            | 1.8.0            | *[[PR](https://github.com/NixOS/nixpkgs/pull/412367), [PR](https://github.com/NixOS/nixpkgs/pull/412874), [PR](https://github.com/NixOS/nixpkgs/pull/412875)]*                                                                                                         |
 | [MAL-2024-9233](https://osv.dev/MAL-2024-9233)                             | foldl                     |            | 1.4.18           | 1.4.18           | 1.4.18           |                                                                                                                                                                                                                                                                        |

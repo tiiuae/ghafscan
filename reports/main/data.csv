@@ -98,6 +98,9 @@ https://github.com/NixOS/nixpkgs/pull/416909"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2024-38949","https://nvd.nist.gov/vuln/detail/CVE-2024-38949","libde265","6.5","1.0.15","1.0.15","1.0.16","libde265","2024A0000038949","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/404141 
 https://github.com/NixOS/nixpkgs/pull/416909"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2024-38517","https://nvd.nist.gov/vuln/detail/CVE-2024-38517","rapidjson","7.8","unstable-2024-04-09","","","","2024A0000038517","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/330698"
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2024-34397","https://nvd.nist.gov/vuln/detail/CVE-2024-34397","glib","","0.20.9","","","","2024A0000034397","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/309952 
+https://github.com/NixOS/nixpkgs/pull/309957 
+https://github.com/NixOS/nixpkgs/pull/310768"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2024-31585","https://nvd.nist.gov/vuln/detail/CVE-2024-31585","ffmpeg","","6.1.2","7.1.1","7.1.1","ffmpeg","2024A0000031585","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/310934 
 https://github.com/NixOS/nixpkgs/pull/397373 
 https://github.com/NixOS/nixpkgs/pull/404342 
@@ -776,6 +779,9 @@ https://github.com/NixOS/nixpkgs/pull/416909"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2024-38949","https://nvd.nist.gov/vuln/detail/CVE-2024-38949","libde265","6.5","1.0.15","1.0.15","1.0.16","libde265","2024A0000038949","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/404141 
 https://github.com/NixOS/nixpkgs/pull/416909"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2024-38517","https://nvd.nist.gov/vuln/detail/CVE-2024-38517","rapidjson","7.8","unstable-2024-04-09","","","","2024A0000038517","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/330698"
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2024-34397","https://nvd.nist.gov/vuln/detail/CVE-2024-34397","glib","","0.20.9","","","","2024A0000034397","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/309952 
+https://github.com/NixOS/nixpkgs/pull/309957 
+https://github.com/NixOS/nixpkgs/pull/310768"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2024-31585","https://nvd.nist.gov/vuln/detail/CVE-2024-31585","ffmpeg","","6.1.2","7.1.1","7.1.1","ffmpeg","2024A0000031585","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/310934 
 https://github.com/NixOS/nixpkgs/pull/397373 
 https://github.com/NixOS/nixpkgs/pull/404342 
@@ -1454,6 +1460,9 @@ https://github.com/NixOS/nixpkgs/pull/416909"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2024-38949","https://nvd.nist.gov/vuln/detail/CVE-2024-38949","libde265","6.5","1.0.15","1.0.15","1.0.16","libde265","2024A0000038949","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/404141 
 https://github.com/NixOS/nixpkgs/pull/416909"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2024-38517","https://nvd.nist.gov/vuln/detail/CVE-2024-38517","rapidjson","7.8","unstable-2024-04-09","","","","2024A0000038517","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/330698"
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2024-34397","https://nvd.nist.gov/vuln/detail/CVE-2024-34397","glib","","0.20.9","","","","2024A0000034397","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/309952 
+https://github.com/NixOS/nixpkgs/pull/309957 
+https://github.com/NixOS/nixpkgs/pull/310768"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2024-31585","https://nvd.nist.gov/vuln/detail/CVE-2024-31585","ffmpeg","","6.1.2","7.1.1","7.1.1","ffmpeg","2024A0000031585","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/310934 
 https://github.com/NixOS/nixpkgs/pull/397373 
 https://github.com/NixOS/nixpkgs/pull/404342 
