@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/423a1e82e7a3bf824c1491760326af85fedb586f. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/c94436beb01d70906a498c2c06971c6dc8f8a50f. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -56,12 +56,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                         | package   |   severity | version_local    | nix_unstable   | upstream   | comment   |
-|-----------------------------------------------------------------|-----------|------------|------------------|----------------|------------|-----------|
-| [CVE-2024-2048](https://nvd.nist.gov/vuln/detail/CVE-2024-2048) | vault     |        9.8 | 0.3.1.5-r10.caba | 0.3.1.5        | 0.3.1.5    |           |
-| [CVE-2024-2048](https://nvd.nist.gov/vuln/detail/CVE-2024-2048) | vault     |        9.8 | 0.3.1.5          | 0.3.1.5        | 0.3.1.5    |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -357,7 +352,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-3219](https://nvd.nist.gov/vuln/detail/CVE-2024-3219)            | python                    | 5.1        | 2.7.18.8         | 3.14.0rc1        | 3.13.6     |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-49292](https://nvd.nist.gov/vuln/detail/CVE-2023-49292)          | go                        | 4.8        | 1.24.5           | 1.25rc2          | 1.24.6     |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-49292](https://nvd.nist.gov/vuln/detail/CVE-2023-49292)          | go                        | 4.8        | 1.22.12-linux-am | 1.25rc2          | 1.24.6     |                                                                                                                                                                                                                                                                        |
-| [CVE-2023-4039](https://nvd.nist.gov/vuln/detail/CVE-2023-4039)            | gcc                       | 4.8        | 14.3.0           | 14.3.0           | 15.1.0     |                                                                                                                                                                                                                                                                        |
+| [CVE-2023-4039](https://nvd.nist.gov/vuln/detail/CVE-2023-4039)            | gcc                       | 4.8        | 14.3.0           | 14.3.0           | 15.2.0     |                                                                                                                                                                                                                                                                        |
 | [CVE-2024-10041](https://nvd.nist.gov/vuln/detail/CVE-2024-10041)          | linux-pam                 | 4.7        | 1.6.1            |                  |            |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-25000](https://nvd.nist.gov/vuln/detail/CVE-2023-25000)          | vault                     | 4.7        | 0.3.1.5-r10.caba | 0.3.1.5          | 0.3.1.5    | *[[PR](https://github.com/NixOS/nixpkgs/pull/227692)]*                                                                                                                                                                                                                 |
 | [CVE-2023-25000](https://nvd.nist.gov/vuln/detail/CVE-2023-25000)          | vault                     | 4.7        | 0.3.1.5          | 0.3.1.5          | 0.3.1.5    | *[[PR](https://github.com/NixOS/nixpkgs/pull/227692)]*                                                                                                                                                                                                                 |
