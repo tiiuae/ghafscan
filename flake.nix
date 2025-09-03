@@ -23,6 +23,16 @@
       url = "github:nix-community/flake-compat";
       flake = false;
     };
+    sbomnix = {
+      url = "github:tiiuae/sbomnix";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-compat.follows = "flake-compat";
+        flake-root.follows = "flake-root";
+        flake-parts.follows = "flake-parts";
+        treefmt-nix.follows = "treefmt-nix";
+      };
+    };
     csvdiff = {
       url = "github:tiiuae/ci-public?dir=csvdiff";
       inputs = {

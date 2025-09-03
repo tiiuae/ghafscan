@@ -17,7 +17,6 @@
           grype
           nix
           reuse
-          sbomnix
           (
             python3.withPackages (ps:
               with ps; [
@@ -29,7 +28,10 @@
               ])
           )
         ])
-        ++ [inputs'.csvdiff.packages.default];
+        ++ [
+          inputs'.csvdiff.packages.default
+          inputs'.sbomnix.packages.default
+        ];
       shellHook = ''
         export PYTHONPATH="$PYTHONPATH:$(pwd)/src"
       '';

@@ -85,6 +85,54 @@
         "type": "github"
       }
     },
+    "git-hooks-nix": {
+      "inputs": {
+        "flake-compat": [
+          "sbomnix",
+          "flake-compat"
+        ],
+        "gitignore": "gitignore",
+        "nixpkgs": [
+          "sbomnix",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1755960406,
+        "narHash": "sha256-RF7j6C1TmSTK9tYWO6CdEMtg6XZaUKcvZwOCD2SICZs=",
+        "owner": "cachix",
+        "repo": "git-hooks.nix",
+        "rev": "e891a93b193fcaf2fc8012d890dc7f0befe86ec2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cachix",
+        "repo": "git-hooks.nix",
+        "type": "github"
+      }
+    },
+    "gitignore": {
+      "inputs": {
+        "nixpkgs": [
+          "sbomnix",
+          "git-hooks-nix",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1709087332,
+        "narHash": "sha256-HG2cCnktfHsKV0s4XW83gU3F57gaTljL9KNSuG6bnQs=",
+        "owner": "hercules-ci",
+        "repo": "gitignore.nix",
+        "rev": "637db329424fd7e46cf4185293b9cc8c88c95394",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "gitignore.nix",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1748190013,
@@ -108,7 +156,41 @@
         "flake-parts": "flake-parts",
         "flake-root": "flake-root",
         "nixpkgs": "nixpkgs",
+        "sbomnix": "sbomnix",
         "treefmt-nix": "treefmt-nix"
+      }
+    },
+    "sbomnix": {
+      "inputs": {
+        "flake-compat": [
+          "flake-compat"
+        ],
+        "flake-parts": [
+          "flake-parts"
+        ],
+        "flake-root": [
+          "flake-root"
+        ],
+        "git-hooks-nix": "git-hooks-nix",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "treefmt-nix": [
+          "treefmt-nix"
+        ]
+      },
+      "locked": {
+        "lastModified": 1756874151,
+        "narHash": "sha256-NB2CpoJGPYPW8UZb28fEWjxGgOVTaMfTcnZYVJnSj8k=",
+        "owner": "tiiuae",
+        "repo": "sbomnix",
+        "rev": "f32270b29e65711276d2d9ae705a80b5f1739a1c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tiiuae",
+        "repo": "sbomnix",
+        "type": "github"
       }
     },
     "treefmt-nix": {
