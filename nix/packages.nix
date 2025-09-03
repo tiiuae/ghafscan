@@ -31,7 +31,7 @@ _: {
 
         postInstall = ''
           wrapProgram $out/bin/ghafscan \
-              --prefix PATH : ${lib.makeBinPath [pkgs.sbomnix inputs'.csvdiff.packages.default]}
+              --prefix PATH : ${lib.makeBinPath [inputs'.csvdiff.packages.default inputs'.sbomnix.packages.default]}
         '';
       };
     };

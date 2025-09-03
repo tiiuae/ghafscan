@@ -598,7 +598,9 @@ def main():
         LOG.warning("Ignoring inaccessible whitelist: %s", whitelist.as_posix())
         whitelist = None
     for target in args.target:
-        scanner.scan_target(target[0], nixprs=True, whitelist=whitelist)
+        scanner.scan_target(
+            target[0], buildtime=False, nixprs=True, whitelist=whitelist
+        )
     scanner.report(args.outdir)
 
 
