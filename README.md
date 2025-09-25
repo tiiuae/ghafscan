@@ -10,6 +10,7 @@ This repository automates vulnerability scans for the [Ghaf Framework](https://g
 The Ghaf [vulnerability reports](./reports/) available in this repository are automatically updated on [daily basis](./.github/workflows/vulnerability-scan.yml#L9) for the selected Ghaf branches and targets as specified in the [Vulnerability Scan](./.github/workflows/vulnerability-scan.yml) GitHub action workflow.
 
 ## Example Reports
+- [Ghaf 'main' x86_64-linux.system76-darp11-b-debug](./reports/main/packages.x86_64-linux.system76-darp11-b-debug.md)
 - [Ghaf 'main' x86_64-linux.lenovo-x1-carbon-gen11-debug](./reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-debug.md)
 - [Ghaf 'main' aarch64-linux.nvidia-jetson-orin-nx-debug](./reports/main/packages.aarch64-linux.nvidia-jetson-orin-nx-debug.md)
 
