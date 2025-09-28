@@ -55,11 +55,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                    | package   | severity   | version_local   | nix_unstable   | upstream   | comment   |
-|------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
-| [ECHO-4ca5-fdf4-045d](https://osv.dev/ECHO-4ca5-fdf4-045d) | libxslt   |            | 1.1.43          | 1.1.43         | 1.1.43     |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -226,7 +222,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-0450](https://nvd.nist.gov/vuln/detail/CVE-2024-0450)               | python          | 6.2        | 2.7.18.8         | 3.13.7         | 3.13.7     | *[[PR](https://github.com/NixOS/nixpkgs/pull/298006), [PR](https://github.com/NixOS/nixpkgs/pull/299123), [PR](https://github.com/NixOS/nixpkgs/pull/299125)]*                                                                                                         |
 | [CVE-2020-35669](https://nvd.nist.gov/vuln/detail/CVE-2020-35669)             | http            | 6.1        | 0.2.12           |                |            |                                                                                                                                                                                                                                                                        |
 | [CVE-2019-10010](https://nvd.nist.gov/vuln/detail/CVE-2019-10010)             | commonmark      | 6.1        | 0.2.6.1          | 0.2.6.1        | 0.2.6.1    |                                                                                                                                                                                                                                                                        |
-| [CVE-2025-4516](https://nvd.nist.gov/vuln/detail/CVE-2025-4516)               | python          | 5.9        | 2.7.18.8         | 3.13.7         | 3.13.7     |                                                                                                                                                                                                                                                                        |
+| [CVE-2025-4516](https://nvd.nist.gov/vuln/detail/CVE-2025-4516)               | python          | 5.9        | 2.7.18.8         | 3.13.7         | 3.13.7     | *[[PR](https://github.com/NixOS/nixpkgs/pull/408185)]*                                                                                                                                                                                                                 |
 | [CVE-2024-50602](https://nvd.nist.gov/vuln/detail/CVE-2024-50602)             | python          | 5.9        | 2.7.18.8         | 3.13.7         | 3.13.7     | *[[PR](https://github.com/NixOS/nixpkgs/pull/354155)]*                                                                                                                                                                                                                 |
 | [CVE-2024-50383](https://nvd.nist.gov/vuln/detail/CVE-2024-50383)             | botan           | 5.9        | 2.19.5           | 3.9.0          | 3.9.0      |                                                                                                                                                                                                                                                                        |
 | [CVE-2024-50382](https://nvd.nist.gov/vuln/detail/CVE-2024-50382)             | botan           | 5.9        | 2.19.5           | 3.9.0          | 3.9.0      |                                                                                                                                                                                                                                                                        |
