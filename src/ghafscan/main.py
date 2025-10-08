@@ -258,7 +258,7 @@ class FlakeScanner:
         # due to github rate limits. If the execution time becomes a problem,
         # consider dropping the '--nixprs'
         out = self.tmpdir / "vulnxscan.csv"
-        cmd_vulnxscan = f"vulnxscan --triage --out={out}"
+        cmd_vulnxscan = f"vulnxscan --verbose=2 --triage --out={out}"
         if buildtime:
             cmd_vulnxscan += " --buildtime"
         if nixprs:
