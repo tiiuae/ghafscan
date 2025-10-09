@@ -26,7 +26,6 @@
     sbomnix = {
       url = "github:tiiuae/sbomnix";
       inputs = {
-        nixpkgs.follows = "nixpkgs";
         flake-compat.follows = "flake-compat";
         flake-root.follows = "flake-root";
         flake-parts.follows = "flake-parts";
