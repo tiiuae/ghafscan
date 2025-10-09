@@ -122,31 +122,26 @@ def exit_unless_command_exists(name):
         sys.exit(1)
 
 
-def exec_cmd(
-    cmd, raise_on_error=True, return_error=False, loglevel=logging.DEBUG, evars=None
-):
+def exec_cmd(cmd, raise_on_error=True, evars=None, capture=False):
     """Run shell command cmd"""
-    command_str = " ".join(cmd)
-    LOG.log(loglevel, "Running: %s", command_str)
-    try:
-        # Pass additional env variables via the 'evars' dictionary
-        env = {**os.environ, **evars} if evars else {**os.environ}
-        ret = subprocess.run(
-            cmd, capture_output=True, encoding="utf-8", check=True, env=env
-        )
-        return ret
-    except subprocess.CalledProcessError as error:
+    LOG.debug("Running: %s", cmd)
+    # Pass additional env variables via the 'evars' dictionary
+    env = {**os.environ, **evars} if evars else {**os.environ}
+    ret = subprocess.run(
+        cmd,
+        encoding="utf-8",
+        check=raise_on_error,
+        shell=True,
+        env=env,
+        capture_output=capture,
+    )
+    if ret.returncode != 0:
         LOG.debug(
-            "Error running shell command:\n cmd:   '%s'\n stdout: %s\n stderr: %s",
-            command_str,
-            error.stdout,
-            error.stderr,
+            "Error running shell command:\n cmd:   '%s'\n exit code: %s",
+            cmd,
+            ret.returncode,
         )
-        if raise_on_error:
-            raise error
-        if return_error:
-            return error
-        return None
+    return ret
 
 
 def df_from_csv_file(name, exit_on_error=True):
@@ -232,7 +227,7 @@ class FlakeScanner:
 
     def _nix_clone_flakeref(self, flakeref):
         cmd = f"nix flake clone {flakeref} --dest {self.repodir}"
-        exec_cmd(cmd.split())
+        exec_cmd(cmd)
 
     def _init_flakefiles(self):
         # Backup the original flake.lock
@@ -407,9 +402,9 @@ class FlakeScanner:
             return pd.DataFrame()
         left = csv_left.resolve().as_posix()
         right = csv_right.resolve().as_posix()
-        cmd = ["csvdiff", left, right, f"--cols={uids}", f"--out={out}"]
+        cmd = f"csvdiff {left} {right} --cols={uids} --out={out}"
         ret = exec_cmd(cmd, raise_on_error=False)
-        if ret is None or not out.exists():
+        if ret.returncode != 0 or not out.exists():
             LOG.debug("Missing csvdiff out: '%s'", out)
             return pd.DataFrame()
         df = df_from_csv_file(out, exit_on_error=False)
@@ -475,8 +470,8 @@ class FlakeScanner:
         eval_target = f"{str(self.repodir)}#{target}.drvPath"
         var = {"NIXPKGS_ALLOW_INSECURE": "1"}
         cmd = f"nix eval {eval_target} --no-eval-cache --impure"
-        ret = exec_cmd(cmd.split(), raise_on_error=False, return_error=True, evars=var)
-        if ret is None or ret.returncode != 0:
+        ret = exec_cmd(cmd, raise_on_error=False, evars=var, capture=True)
+        if ret.returncode != 0:
             LOG.warning("Error evaluating %s", eval_target)
             self.errors[f"{target}_{pintype}"] = (
                 f"```Error evaluating '{target}' on {pintype}```<br /><br />\n"
@@ -508,7 +503,7 @@ class FlakeScanner:
                 LOG.debug("%s contents:\n%s", self.flakefile, flake_text)
         # Update the lockfile
         cmd = f"nix flake lock {str(self.repodir)} --update-input nixpkgs"
-        exec_cmd(cmd.split())
+        exec_cmd(cmd)
         diffstr = filediff(str(self.lockfile_bak), str(self.lockfile))
         if diffstr:
             LOG.info("Updated lockfile:\n%s", diffstr)
@@ -520,7 +515,7 @@ class FlakeScanner:
         if drv_path is None:
             return
         cmd = f"{cmd} {str(drv_path)}"
-        ret = exec_cmd(cmd.split())
+        ret = exec_cmd(cmd)
         LOG.debug("vulnxscan ==>\n\n%s\n\n<== vulnxscan\n", ret.stderr)
         if not out_triage.exists():
             LOG.warning("vulnxscan triage output not found: %s", out_triage)
