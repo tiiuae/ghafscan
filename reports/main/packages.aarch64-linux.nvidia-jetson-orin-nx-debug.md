@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/9b387696e6edce0c1187ed952801bbd12cfb242a. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/6c7faf515f7f02b3f06c8b16f89570b8b2bb6d69. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,7 +46,12 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                                                                        |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [CVE-2025-61985](https://nvd.nist.gov/vuln/detail/CVE-2025-61985) | openssh   |        3.6 | 10.0p2          | 10.2p1         | 10.2p1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/449083), [PR](https://github.com/NixOS/nixpkgs/pull/449784), [PR](https://github.com/NixOS/nixpkgs/pull/450211)]* |
+| [CVE-2025-61984](https://nvd.nist.gov/vuln/detail/CVE-2025-61984) | openssh   |        3.6 | 10.0p2          | 10.2p1         | 10.2p1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/449083), [PR](https://github.com/NixOS/nixpkgs/pull/449784), [PR](https://github.com/NixOS/nixpkgs/pull/450211)]* |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -310,6 +315,8 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-28322](https://nvd.nist.gov/vuln/detail/CVE-2023-28322) | curl            | 3.7        | 0.4.46           |                 |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/232531), [PR](https://github.com/NixOS/nixpkgs/pull/232535)]*                                                                                                                                                             |
 | [CVE-2022-35252](https://nvd.nist.gov/vuln/detail/CVE-2022-35252) | curl            | 3.7        | 0.4.46           |                 |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/189083), [PR](https://github.com/NixOS/nixpkgs/pull/198730)]*                                                                                                                                                             |
 | [CVE-2020-8284](https://nvd.nist.gov/vuln/detail/CVE-2020-8284)   | curl            | 3.7        | 0.4.46           |                 |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/106452)]*                                                                                                                                                                                                                 |
+| [CVE-2025-61985](https://nvd.nist.gov/vuln/detail/CVE-2025-61985) | openssh         | 3.6        | 10.0p2           | 10.2p1          | 10.2p1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/449083), [PR](https://github.com/NixOS/nixpkgs/pull/449784), [PR](https://github.com/NixOS/nixpkgs/pull/450211)]*                                                                                                         |
+| [CVE-2025-61984](https://nvd.nist.gov/vuln/detail/CVE-2025-61984) | openssh         | 3.6        | 10.0p2           | 10.2p1          | 10.2p1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/449083), [PR](https://github.com/NixOS/nixpkgs/pull/449784), [PR](https://github.com/NixOS/nixpkgs/pull/450211)]*                                                                                                         |
 | [CVE-2022-38163](https://nvd.nist.gov/vuln/detail/CVE-2022-38163) | safe            | 3.5        | 0.3.21-r1.cabal  | 0.3.21          | 0.3.21     |                                                                                                                                                                                                                                                                        |
 | [CVE-2022-38163](https://nvd.nist.gov/vuln/detail/CVE-2022-38163) | safe            | 3.5        | 0.3.21           | 0.3.21          | 0.3.21     |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-33596](https://nvd.nist.gov/vuln/detail/CVE-2021-33596) | safe            | 3.5        | 0.3.21-r1.cabal  | 0.3.21          | 0.3.21     |                                                                                                                                                                                                                                                                        |
