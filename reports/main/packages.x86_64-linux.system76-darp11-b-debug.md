@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.system76-darp11-b-debug` revision  https://github.com/tiiuae/ghaf/commit/6c7faf515f7f02b3f06c8b16f89570b8b2bb6d69. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.system76-darp11-b-debug` revision  https://github.com/tiiuae/ghaf/commit/e4ca4787197078ff23cf05fca7dd5b7399c5ed02. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -37,7 +37,8 @@ Following issues potentially require backporting the fix from nixpkgs-unstable t
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community backport the fix to the correct nixpkgs branch:
 
-```No vulnerabilities```
+```Error evaluating 'packages.x86_64-linux.system76-darp11-b-debug' on nix_unstable```<br /><br />
+For more details, see: https://github.com/tiiuae/ghafscan/actions
 
 
 ## New Vulnerabilities Since Last Run
@@ -47,10 +48,10 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
 
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                                                                        |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [CVE-2025-61985](https://nvd.nist.gov/vuln/detail/CVE-2025-61985) | openssh   |        3.6 | 10.0p2          | 10.2p1         | 10.2p1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/449083), [PR](https://github.com/NixOS/nixpkgs/pull/449784), [PR](https://github.com/NixOS/nixpkgs/pull/450211)]* |
-| [CVE-2025-61984](https://nvd.nist.gov/vuln/detail/CVE-2025-61984) | openssh   |        3.6 | 10.0p2          | 10.2p1         | 10.2p1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/449083), [PR](https://github.com/NixOS/nixpkgs/pull/449784), [PR](https://github.com/NixOS/nixpkgs/pull/450211)]* |
+| vuln_id                                                         | package   |   severity | version_local    | nix_unstable   |   upstream | comment                                                |
+|-----------------------------------------------------------------|-----------|------------|------------------|----------------|------------|--------------------------------------------------------|
+| [CVE-2025-5745](https://nvd.nist.gov/vuln/detail/CVE-2025-5745) | glibc     |        5.6 | 2.40-66-source-u | 2.40-66        |       2.42 | *[[PR](https://github.com/NixOS/nixpkgs/pull/379542)]* |
+| [CVE-2025-5745](https://nvd.nist.gov/vuln/detail/CVE-2025-5745) | glibc     |        5.6 | 2.40-66          | 2.40-66        |       2.42 | *[[PR](https://github.com/NixOS/nixpkgs/pull/379542)]* |
 
 
 
@@ -281,6 +282,8 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2025-59729](https://nvd.nist.gov/vuln/detail/CVE-2025-59729) | ffmpeg                    | 5.7        | 7.1.1            | 8.0             | 8.0        |                                                                                                                                                                                                                                                                        |
 | [CVE-2025-59729](https://nvd.nist.gov/vuln/detail/CVE-2025-59729) | ffmpeg                    | 5.7        | 6.1.2            | 8.0             | 8.0        |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-3572](https://nvd.nist.gov/vuln/detail/CVE-2021-3572)   | pip                       | 5.7        | 20.3.4-source    | 25.0.1          | 25.2       |                                                                                                                                                                                                                                                                        |
+| [CVE-2025-5745](https://nvd.nist.gov/vuln/detail/CVE-2025-5745)   | glibc                     | 5.6        | 2.40-66-source-u | 2.40-66         | 2.42       | *[[PR](https://github.com/NixOS/nixpkgs/pull/379542)]*                                                                                                                                                                                                                 |
+| [CVE-2025-5745](https://nvd.nist.gov/vuln/detail/CVE-2025-5745)   | glibc                     | 5.6        | 2.40-66          | 2.40-66         | 2.42       | *[[PR](https://github.com/NixOS/nixpkgs/pull/379542)]*                                                                                                                                                                                                                 |
 | [CVE-2025-5702](https://nvd.nist.gov/vuln/detail/CVE-2025-5702)   | glibc                     | 5.6        | 2.40-66-source-u | 2.40-66         | 2.42       | *[[PR](https://github.com/NixOS/nixpkgs/pull/379542)]*                                                                                                                                                                                                                 |
 | [CVE-2025-5702](https://nvd.nist.gov/vuln/detail/CVE-2025-5702)   | glibc                     | 5.6        | 2.40-66          | 2.40-66         | 2.42       | *[[PR](https://github.com/NixOS/nixpkgs/pull/379542)]*                                                                                                                                                                                                                 |
 | [CVE-2025-0913](https://nvd.nist.gov/vuln/detail/CVE-2025-0913)   | go                        | 5.5        | 1.22.12-linux-am | 1.25.1          | 1.25.3     | *[[PR](https://github.com/NixOS/nixpkgs/pull/414365), [PR](https://github.com/NixOS/nixpkgs/pull/414366)]*                                                                                                                                                             |
