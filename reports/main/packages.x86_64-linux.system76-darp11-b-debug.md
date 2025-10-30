@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.system76-darp11-b-debug` revision  https://github.com/tiiuae/ghaf/commit/0214189f4107ff2d1289b5845c254e9ecac2c00a. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.system76-darp11-b-debug` revision  https://github.com/tiiuae/ghaf/commit/a7d43675a77ff6595154f34cda9f8b6ead927052. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -47,7 +47,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package     |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|-------------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2025-62594](https://nvd.nist.gov/vuln/detail/CVE-2025-62594) | imagemagick |        4.7 | 7.1.2-7         | 7.1.2-7        | 7.1.2.8    |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -359,6 +363,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2023-49292](https://nvd.nist.gov/vuln/detail/CVE-2023-49292) | go                        | 4.9        | 1.24.9           | 1.25.2          | 1.25.3     |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-49292](https://nvd.nist.gov/vuln/detail/CVE-2023-49292) | go                        | 4.9        | 1.22.12-linux-am | 1.25.2          | 1.25.3     |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-4039](https://nvd.nist.gov/vuln/detail/CVE-2023-4039)   | gcc                       | 4.8        | 14.3.0           | 14.3.0          | 15.2.0     |                                                                                                                                                                                                                                                                        |
+| [CVE-2025-62594](https://nvd.nist.gov/vuln/detail/CVE-2025-62594) | imagemagick               | 4.7        | 7.1.2-7          | 7.1.2-7         | 7.1.2.8    |                                                                                                                                                                                                                                                                        |
 | [CVE-2025-30258](https://nvd.nist.gov/vuln/detail/CVE-2025-30258) | gnupg                     | 4.7        | 2.4.8            | 2.4.8           | 2.4.8      |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-32636](https://nvd.nist.gov/vuln/detail/CVE-2023-32636) | glib                      | 4.7        | 0.21.3           |                 |            |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-32636](https://nvd.nist.gov/vuln/detail/CVE-2023-32636) | glib                      | 4.7        | 0.21.1           |                 |            |                                                                                                                                                                                                                                                                        |
