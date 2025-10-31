@@ -45,7 +45,7 @@ https://github.com/NixOS/nixpkgs/pull/447808"
 https://github.com/NixOS/nixpkgs/pull/447808 
 https://github.com/NixOS/nixpkgs/pull/448075 
 https://github.com/NixOS/nixpkgs/pull/448186"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","fix_not_available",""
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8677","https://nvd.nist.gov/vuln/detail/CVE-2025-8677","bind","7.5","9.20.13","9.20.15","9.20.15","bind","2025A0000008677","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/454609"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8291","https://nvd.nist.gov/vuln/detail/CVE-2025-8291","python","4.3","2.7.18.8","3.14.0","3.14.0","python","2025A0000008291","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8262","https://nvd.nist.gov/vuln/detail/CVE-2025-8262","yarn","4.3","1.22.22","1.34.0","1.34.0","r:yarn","2025A0000008262","False","","err_not_vulnerable_based_on_repology",""
@@ -726,7 +726,7 @@ https://github.com/NixOS/nixpkgs/pull/447808"
 https://github.com/NixOS/nixpkgs/pull/447808 
 https://github.com/NixOS/nixpkgs/pull/448075 
 https://github.com/NixOS/nixpkgs/pull/448186"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","fix_not_available",""
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8677","https://nvd.nist.gov/vuln/detail/CVE-2025-8677","bind","7.5","9.20.13","9.20.15","9.20.15","bind","2025A0000008677","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/454609"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8291","https://nvd.nist.gov/vuln/detail/CVE-2025-8291","python","4.3","2.7.18.8","3.14.0","3.14.0","python","2025A0000008291","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8262","https://nvd.nist.gov/vuln/detail/CVE-2025-8262","yarn","4.3","1.22.22","1.34.0","1.34.0","r:yarn","2025A0000008262","False","","err_not_vulnerable_based_on_repology",""
@@ -1403,7 +1403,7 @@ https://github.com/NixOS/nixpkgs/pull/447808"
 https://github.com/NixOS/nixpkgs/pull/447808 
 https://github.com/NixOS/nixpkgs/pull/448075 
 https://github.com/NixOS/nixpkgs/pull/448186"
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","fix_not_available",""
+"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","err_not_vulnerable_based_on_repology",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8677","https://nvd.nist.gov/vuln/detail/CVE-2025-8677","bind","7.5","9.20.13","9.20.15","9.20.15","bind","2025A0000008677","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/454609"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8291","https://nvd.nist.gov/vuln/detail/CVE-2025-8291","python","4.3","2.7.18.8","3.14.0","3.14.0","python","2025A0000008291","False","","err_not_vulnerable_based_on_repology",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8225","https://nvd.nist.gov/vuln/detail/CVE-2025-8225","binutils","3.3","2.44","2.44","2.45","binutils","2025A0000008225","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/438714 
@@ -1935,7 +1935,7 @@ https://github.com/NixOS/nixpkgs/pull/447808"
 https://github.com/NixOS/nixpkgs/pull/447808 
 https://github.com/NixOS/nixpkgs/pull/448075 
 https://github.com/NixOS/nixpkgs/pull/448186"
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","fix_not_available",""
+"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","err_not_vulnerable_based_on_repology",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8677","https://nvd.nist.gov/vuln/detail/CVE-2025-8677","bind","7.5","9.20.13","9.20.15","9.20.15","bind","2025A0000008677","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/454609"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8291","https://nvd.nist.gov/vuln/detail/CVE-2025-8291","python","4.3","2.7.18.8","3.14.0","3.14.0","python","2025A0000008291","False","","err_not_vulnerable_based_on_repology",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8225","https://nvd.nist.gov/vuln/detail/CVE-2025-8225","binutils","3.3","2.44","2.44","2.45","binutils","2025A0000008225","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/438714 
@@ -2471,7 +2471,7 @@ https://github.com/NixOS/nixpkgs/pull/447808"
 https://github.com/NixOS/nixpkgs/pull/447808 
 https://github.com/NixOS/nixpkgs/pull/448075 
 https://github.com/NixOS/nixpkgs/pull/448186"
-"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","fix_not_available",""
+"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8677","https://nvd.nist.gov/vuln/detail/CVE-2025-8677","bind","7.5","9.20.13","9.20.15","9.20.15","bind","2025A0000008677","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/454609"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8291","https://nvd.nist.gov/vuln/detail/CVE-2025-8291","python","4.3","2.7.18.8","3.14.0","3.14.0","python","2025A0000008291","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2025-8262","https://nvd.nist.gov/vuln/detail/CVE-2025-8262","yarn","4.3","1.22.22","1.34.0","1.34.0","r:yarn","2025A0000008262","False","","err_not_vulnerable_based_on_repology",""
@@ -3152,7 +3152,7 @@ https://github.com/NixOS/nixpkgs/pull/447808"
 https://github.com/NixOS/nixpkgs/pull/447808 
 https://github.com/NixOS/nixpkgs/pull/448075 
 https://github.com/NixOS/nixpkgs/pull/448186"
-"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","fix_not_available",""
+"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8851","https://nvd.nist.gov/vuln/detail/CVE-2025-8851","libtiff","5.3","4.7.1","4.7.1","4.7.1","tiff","2025A0000008851","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8677","https://nvd.nist.gov/vuln/detail/CVE-2025-8677","bind","7.5","9.20.13","9.20.15","9.20.15","bind","2025A0000008677","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/454609"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8291","https://nvd.nist.gov/vuln/detail/CVE-2025-8291","python","4.3","2.7.18.8","3.14.0","3.14.0","python","2025A0000008291","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-8262","https://nvd.nist.gov/vuln/detail/CVE-2025-8262","yarn","4.3","1.22.22","1.34.0","1.34.0","r:yarn","2025A0000008262","False","","err_not_vulnerable_based_on_repology",""

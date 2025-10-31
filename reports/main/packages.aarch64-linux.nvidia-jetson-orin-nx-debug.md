@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/a7d43675a77ff6595154f34cda9f8b6ead927052. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/7be4ade23c52c565af86538d7e576df79a3944e1. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -47,11 +47,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package     |   severity | version_local   | nix_unstable   | upstream   | comment   |
-|-------------------------------------------------------------------|-------------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2025-62594](https://nvd.nist.gov/vuln/detail/CVE-2025-62594) | imagemagick |        4.7 | 7.1.2-7         | 7.1.2-7        | 7.1.2.8    |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
