@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.system76-darp11-b-debug` revision  https://github.com/tiiuae/ghaf/commit/c5d65f1414a2b51195cc2a4098a16549c0ceb181. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.system76-darp11-b-debug` revision  https://github.com/tiiuae/ghaf/commit/907b5ec65355ab3030c4ce38bc333775415562b4. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -37,7 +37,8 @@ Following issues potentially require backporting the fix from nixpkgs-unstable t
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community backport the fix to the correct nixpkgs branch:
 
-```No vulnerabilities```
+```Error evaluating 'packages.x86_64-linux.system76-darp11-b-debug' on nix_unstable```<br /><br />
+For more details, see: https://github.com/tiiuae/ghafscan/actions
 
 
 ## New Vulnerabilities Since Last Run
@@ -69,7 +70,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-23741](https://nvd.nist.gov/vuln/detail/CVE-2024-23741) | hyper                     | 9.8        | 1.6.0            |                |            |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-45853](https://nvd.nist.gov/vuln/detail/CVE-2023-45853) | zlib                      | 9.8        | 0.7.1.1          | 0.7.1.1        | 0.7.1.1    | *[[PR](https://github.com/NixOS/nixpkgs/pull/262722), [PR](https://github.com/NixOS/nixpkgs/pull/263083)]*                                                                                                                                                             |
 | [CVE-2022-48565](https://nvd.nist.gov/vuln/detail/CVE-2022-48565) | python                    | 9.8        | 2.7.18.12        | 3.14.0         | 3.14.0     | *[[PR](https://github.com/NixOS/nixpkgs/pull/107488), [PR](https://github.com/NixOS/nixpkgs/pull/127765), [PR](https://github.com/NixOS/nixpkgs/pull/226656), [PR](https://github.com/NixOS/nixpkgs/pull/237871)]*                                                     |
-| [CVE-2022-37434](https://nvd.nist.gov/vuln/detail/CVE-2022-37434) | zlib                      | 9.8        | 0.7.1.1          | 0.7.1.1        | 0.7.1.1    | *[[PR](https://github.com/NixOS/nixpkgs/pull/185554), [PR](https://github.com/NixOS/nixpkgs/pull/185613), [PR](https://github.com/NixOS/nixpkgs/pull/185693), [PR](https://github.com/NixOS/nixpkgs/pull/185754), [PR](https://github.com/NixOS/nixpkgs/pull/370838)]* |
+| [CVE-2022-37434](https://nvd.nist.gov/vuln/detail/CVE-2022-37434) | zlib                      | 9.8        | 0.7.1.1          | 0.7.1.1        | 0.7.1.1    | *[[PR](https://github.com/NixOS/nixpkgs/pull/185554), [PR](https://github.com/NixOS/nixpkgs/pull/185613), [PR](https://github.com/NixOS/nixpkgs/pull/185693), [PR](https://github.com/NixOS/nixpkgs/pull/370838), [PR](https://github.com/NixOS/nixpkgs/pull/457358)]* |
 | [CVE-2022-32221](https://nvd.nist.gov/vuln/detail/CVE-2022-32221) | curl                      | 9.8        | 0.4.46           |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/198730)]*                                                                                                                                                                                                                 |
 | [CVE-2022-26635](https://nvd.nist.gov/vuln/detail/CVE-2022-26635) | memcached                 | 9.8        | 1.6.39           | 1.6.39         | 1.6.39     |                                                                                                                                                                                                                                                                        |
 | [CVE-2021-35048](https://nvd.nist.gov/vuln/detail/CVE-2021-35048) | network                   | 9.8        | 3.2.8.0          | 3.2.8.0        | 3.2.8.0    |                                                                                                                                                                                                                                                                        |
