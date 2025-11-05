@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/7cc98f928c609e34d695e29bc3891d3a0d42fe3c. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/54b9efd13a62f8fb56b4cae51931eb148bf3ab4a. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,7 +46,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                         | package   |   severity | version_local   | nix_unstable   |   upstream | comment                                                |
+|-----------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------|
+| [CVE-2023-5752](https://nvd.nist.gov/vuln/detail/CVE-2023-5752) | pip       |        5.5 | 20.3.4-source   | 25.0.1         |       25.3 | *[[PR](https://github.com/NixOS/nixpkgs/pull/276928)]* |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -151,6 +155,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-6923](https://nvd.nist.gov/vuln/detail/CVE-2024-6923)   | python       | 5.5        | 2.7.18.12       | 3.14.0         | 3.14.0     | *[[PR](https://github.com/NixOS/nixpkgs/pull/335172)]*                                                                                                                                                                                                                 |
 | [CVE-2023-39328](https://nvd.nist.gov/vuln/detail/CVE-2023-39328) | openjpeg     | 5.5        | 2.5.2           | 2.5.2          | 2.5.4      |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-6228](https://nvd.nist.gov/vuln/detail/CVE-2023-6228)   | libtiff      | 5.5        | 4.7.1           | 4.7.1          | 4.7.1      |                                                                                                                                                                                                                                                                        |
+| [CVE-2023-5752](https://nvd.nist.gov/vuln/detail/CVE-2023-5752)   | pip          | 5.5        | 20.3.4-source   | 25.0.1         | 25.3       | *[[PR](https://github.com/NixOS/nixpkgs/pull/276928)]*                                                                                                                                                                                                                 |
 | [CVE-2023-5341](https://nvd.nist.gov/vuln/detail/CVE-2023-5341)   | imagemagick  | 5.5        | 7.1.2-8         | 7.1.2-8        | 7.1.2.8    |                                                                                                                                                                                                                                                                        |
 | [CVE-2023-0238](https://nvd.nist.gov/vuln/detail/CVE-2023-0238)   | warp         | 5.5        | 3.4.9           | 3.4.9          | 3.4.9      |                                                                                                                                                                                                                                                                        |
 | [CVE-2022-4457](https://nvd.nist.gov/vuln/detail/CVE-2022-4457)   | warp         | 5.5        | 3.4.9           | 3.4.9          | 3.4.9      |                                                                                                                                                                                                                                                                        |
