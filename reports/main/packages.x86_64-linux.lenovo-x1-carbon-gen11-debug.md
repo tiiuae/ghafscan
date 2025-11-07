@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/d3fc7f37d5211a47fb58b819187482215aa2a685. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.x86_64-linux.lenovo-x1-carbon-gen11-debug` revision  https://github.com/tiiuae/ghaf/commit/466ce4ec633af5491d6650589e82e8010ecdf023. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,14 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package    |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                                                                        |
-|-------------------------------------------------------------------|------------|------------|-----------------|----------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [CVE-2022-40897](https://nvd.nist.gov/vuln/detail/CVE-2022-40897) | setuptools |        5.9 | 44.0.0-source   | 80.9.0         | 80.9.0     |                                                                                                                                                                |
-| [CVE-2024-34397](https://nvd.nist.gov/vuln/detail/CVE-2024-34397) | glib       |        5.2 | 0.21.3          |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/309952), [PR](https://github.com/NixOS/nixpkgs/pull/309957), [PR](https://github.com/NixOS/nixpkgs/pull/310768)]* |
-| [CVE-2024-34397](https://nvd.nist.gov/vuln/detail/CVE-2024-34397) | glib       |        5.2 | 0.21.1          |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/309952), [PR](https://github.com/NixOS/nixpkgs/pull/309957), [PR](https://github.com/NixOS/nixpkgs/pull/310768)]* |
-| [CVE-2024-34397](https://nvd.nist.gov/vuln/detail/CVE-2024-34397) | glib       |        5.2 | 0.20.12         |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/309952), [PR](https://github.com/NixOS/nixpkgs/pull/309957), [PR](https://github.com/NixOS/nixpkgs/pull/310768)]* |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf

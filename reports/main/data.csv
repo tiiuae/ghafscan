@@ -2678,7 +2678,7 @@ https://github.com/NixOS/nixpkgs/pull/299125"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2024-0397","https://nvd.nist.gov/vuln/detail/CVE-2024-0397","python","7.4","2.7.18.12","3.14.0","3.14.0","python","2024A0000000397","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2023-52356","https://nvd.nist.gov/vuln/detail/CVE-2023-52356","libtiff","7.5","4.7.1","4.7.1","4.7.1","tiff","2023A0000052356","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2023-51767","https://nvd.nist.gov/vuln/detail/CVE-2023-51767","openssh","7","10.1p1","10.2p1","10.2p1","openssh","2023A0000051767","False","","fix_not_available",""
-"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2023-48795","https://nvd.nist.gov/vuln/detail/CVE-2023-48795","kitty","5.9","0.43.1","","","","2023A0000048795","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/275641 
+"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2023-48795","https://nvd.nist.gov/vuln/detail/CVE-2023-48795","kitty","5.9","0.44.0","","","","2023A0000048795","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/275641 
 https://github.com/NixOS/nixpkgs/pull/276505 
 https://github.com/NixOS/nixpkgs/pull/304468 
 https://github.com/NixOS/nixpkgs/pull/304884 
