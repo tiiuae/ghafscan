@@ -57,7 +57,12 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package       |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|---------------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2025-62689](https://nvd.nist.gov/vuln/detail/CVE-2025-62689) | libmicrohttpd |        7.5 | 1.0.2           | 1.0.2          | 1.0.2      |           |
+| [CVE-2025-59777](https://nvd.nist.gov/vuln/detail/CVE-2025-59777) | libmicrohttpd |        7.5 | 1.0.2           | 1.0.2          | 1.0.2      |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -127,6 +132,8 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2020-17163](https://nvd.nist.gov/vuln/detail/CVE-2020-17163) | python          | 7.8        | 2.7.18.12        | 3.14.0         | 3.14.0     |                                                                                                                                                                                                                                                                        |
 | [CVE-2020-1192](https://nvd.nist.gov/vuln/detail/CVE-2020-1192)   | python          | 7.8        | 2.7.18.12        | 3.14.0         | 3.14.0     |                                                                                                                                                                                                                                                                        |
 | [CVE-2017-5506](https://nvd.nist.gov/vuln/detail/CVE-2017-5506)   | imagemagick     | 7.8        | 7.1.2-8          | 7.1.2-8        | 7.1.2.8    |                                                                                                                                                                                                                                                                        |
+| [CVE-2025-62689](https://nvd.nist.gov/vuln/detail/CVE-2025-62689) | libmicrohttpd   | 7.5        | 1.0.2            | 1.0.2          | 1.0.2      |                                                                                                                                                                                                                                                                        |
+| [CVE-2025-59777](https://nvd.nist.gov/vuln/detail/CVE-2025-59777) | libmicrohttpd   | 7.5        | 1.0.2            | 1.0.2          | 1.0.2      |                                                                                                                                                                                                                                                                        |
 | [CVE-2025-52194](https://nvd.nist.gov/vuln/detail/CVE-2025-52194) | libsndfile      | 7.5        | 1.2.2            | 1.2.2          | 1.2.2      |                                                                                                                                                                                                                                                                        |
 | [CVE-2025-49795](https://nvd.nist.gov/vuln/detail/CVE-2025-49795) | libxml2         | 7.5        | 2.15.0           | 2.15.1         | 2.15.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/421740), [PR](https://github.com/NixOS/nixpkgs/pull/425246), [PR](https://github.com/NixOS/nixpkgs/pull/425863)]*                                                                                                         |
 | [CVE-2025-8194](https://nvd.nist.gov/vuln/detail/CVE-2025-8194)   | python          | 7.5        | 2.7.18.12        | 3.14.0         | 3.14.0     |                                                                                                                                                                                                                                                                        |
