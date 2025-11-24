@@ -568,8 +568,8 @@ https://github.com/NixOS/nixpkgs/pull/237871"
 https://github.com/NixOS/nixpkgs/pull/127765 
 https://github.com/NixOS/nixpkgs/pull/226656 
 https://github.com/NixOS/nixpkgs/pull/237871"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2017-12652","https://nvd.nist.gov/vuln/detail/CVE-2017-12652","libpng","9.8","1.2.59","1.6.50","1.6.51","libpng","2017A0000012652","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987 
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2017-12652","https://nvd.nist.gov/vuln/detail/CVE-2017-12652","libpng","9.8","1.2.59","1.6.50","1.6.51","libpng","2017A0000012652","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341 
 https://github.com/NixOS/nixpkgs/pull/70286 
 https://github.com/NixOS/nixpkgs/pull/70423 
 https://github.com/NixOS/nixpkgs/pull/70425"
@@ -599,7 +599,8 @@ https://github.com/NixOS/nixpkgs/pull/70425"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-4488","https://nvd.nist.gov/vuln/detail/CVE-2016-4488","libiberty","5.5","14.3.0","","","","2016A0000004488","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-4487","https://nvd.nist.gov/vuln/detail/CVE-2016-4487","libiberty","5.5","14.3.0","","","","2016A0000004487","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-3751","https://nvd.nist.gov/vuln/detail/CVE-2016-3751","libpng","7.8","1.2.59","1.6.50","1.6.51","libpng","2016A0000003751","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-2781","https://nvd.nist.gov/vuln/detail/CVE-2016-2781","coreutils","6.5","9.8","","","","2016A0000002781","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-2226","https://nvd.nist.gov/vuln/detail/CVE-2016-2226","libiberty","7.8","14.3.0","","","","2016A0000002226","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-2150","https://nvd.nist.gov/vuln/detail/CVE-2016-2150","spice","7.1","0.16.0","0.5.0.0","0.5.0.0","haskell:spice","2016A0000002150","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/84664"
@@ -609,26 +610,32 @@ https://github.com/NixOS/nixpkgs/pull/463987"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2015-4156","https://nvd.nist.gov/vuln/detail/CVE-2015-4156","parallel","","3.2.2.0","3.3.0.0","3.3.0.0","haskell:parallel","2015A0000004156","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2015-4155","https://nvd.nist.gov/vuln/detail/CVE-2015-4155","parallel","","3.2.2.0","3.3.0.0","3.3.0.0","haskell:parallel","2015A0000004155","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2015-0973","https://nvd.nist.gov/vuln/detail/CVE-2015-0973","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2015A0000000973","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-9826","https://nvd.nist.gov/vuln/detail/CVE-2014-9826","imagemagick","9.8","7.1.2-8","7.1.2-8","7.1.2.8","imagemagick","2014A0000009826","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-9495","https://nvd.nist.gov/vuln/detail/CVE-2014-9495","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2014A0000009495","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-9278","https://nvd.nist.gov/vuln/detail/CVE-2014-9278","openssh","","10.1p1","10.2p1","10.2p1","openssh","2014A0000009278","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-4860","https://nvd.nist.gov/vuln/detail/CVE-2014-4860","edk2","6.8","202508.01","","","","2014A0000004860","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-4859","https://nvd.nist.gov/vuln/detail/CVE-2014-4859","edk2","6.8","202508.01","","","","2014A0000004859","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-2525","https://nvd.nist.gov/vuln/detail/CVE-2014-2525","libyaml","","0.1.4","0.1.4","0.1.4","haskell:libyaml","2014A0000002525","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-7354","https://nvd.nist.gov/vuln/detail/CVE-2013-7354","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000007354","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-7353","https://nvd.nist.gov/vuln/detail/CVE-2013-7353","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000007353","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-6954","https://nvd.nist.gov/vuln/detail/CVE-2013-6954","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000006954","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-6393","https://nvd.nist.gov/vuln/detail/CVE-2013-6393","libyaml","","0.1.4","0.1.4","0.1.4","haskell:libyaml","2013A0000006393","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-3773","https://nvd.nist.gov/vuln/detail/CVE-2013-3773","xcp","","0.24.2","0.24.2","1.2.1","xcp","2013A0000003773","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2012-3509","https://nvd.nist.gov/vuln/detail/CVE-2012-3509","libiberty","","14.3.0","","","","2012A0000003509","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2012-0548","https://nvd.nist.gov/vuln/detail/CVE-2012-0548","xcp","","0.24.2","0.24.2","1.2.1","xcp","2012A0000000548","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2011-3045","https://nvd.nist.gov/vuln/detail/CVE-2011-3045","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2011A0000003045","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2011-2411","https://nvd.nist.gov/vuln/detail/CVE-2011-2411","samba","","4.22.5","4.22.5","4.23.3","samba","2011A0000002411","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2011-2299","https://nvd.nist.gov/vuln/detail/CVE-2011-2299","xcp","","0.24.2","0.24.2","1.2.1","xcp","2011A0000002299","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2010-4226","https://nvd.nist.gov/vuln/detail/CVE-2010-4226","cpio","7.2","2.15","","","","2010A0000004226","True","NVD data issue: concerns OpenSuSE, not cpio.","err_missing_repology_version",""
@@ -1210,8 +1217,8 @@ https://github.com/NixOS/nixpkgs/pull/237871"
 https://github.com/NixOS/nixpkgs/pull/127765 
 https://github.com/NixOS/nixpkgs/pull/226656 
 https://github.com/NixOS/nixpkgs/pull/237871"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2017-12652","https://nvd.nist.gov/vuln/detail/CVE-2017-12652","libpng","9.8","1.2.59","1.6.50","1.6.51","libpng","2017A0000012652","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987 
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2017-12652","https://nvd.nist.gov/vuln/detail/CVE-2017-12652","libpng","9.8","1.2.59","1.6.50","1.6.51","libpng","2017A0000012652","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341 
 https://github.com/NixOS/nixpkgs/pull/70286 
 https://github.com/NixOS/nixpkgs/pull/70423 
 https://github.com/NixOS/nixpkgs/pull/70425"
@@ -1241,7 +1248,8 @@ https://github.com/NixOS/nixpkgs/pull/70425"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-4488","https://nvd.nist.gov/vuln/detail/CVE-2016-4488","libiberty","5.5","14.3.0","","","","2016A0000004488","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-4487","https://nvd.nist.gov/vuln/detail/CVE-2016-4487","libiberty","5.5","14.3.0","","","","2016A0000004487","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-3751","https://nvd.nist.gov/vuln/detail/CVE-2016-3751","libpng","7.8","1.2.59","1.6.50","1.6.51","libpng","2016A0000003751","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-2781","https://nvd.nist.gov/vuln/detail/CVE-2016-2781","coreutils","6.5","9.8","","","","2016A0000002781","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-2226","https://nvd.nist.gov/vuln/detail/CVE-2016-2226","libiberty","7.8","14.3.0","","","","2016A0000002226","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-2150","https://nvd.nist.gov/vuln/detail/CVE-2016-2150","spice","7.1","0.16.0","0.5.0.0","0.5.0.0","haskell:spice","2016A0000002150","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/84664"
@@ -1251,26 +1259,32 @@ https://github.com/NixOS/nixpkgs/pull/463987"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2015-4156","https://nvd.nist.gov/vuln/detail/CVE-2015-4156","parallel","","3.2.2.0","3.3.0.0","3.3.0.0","haskell:parallel","2015A0000004156","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2015-4155","https://nvd.nist.gov/vuln/detail/CVE-2015-4155","parallel","","3.2.2.0","3.3.0.0","3.3.0.0","haskell:parallel","2015A0000004155","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2015-0973","https://nvd.nist.gov/vuln/detail/CVE-2015-0973","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2015A0000000973","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-9826","https://nvd.nist.gov/vuln/detail/CVE-2014-9826","imagemagick","9.8","7.1.2-8","7.1.2-8","7.1.2.8","imagemagick","2014A0000009826","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-9495","https://nvd.nist.gov/vuln/detail/CVE-2014-9495","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2014A0000009495","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-9278","https://nvd.nist.gov/vuln/detail/CVE-2014-9278","openssh","","10.1p1","10.2p1","10.2p1","openssh","2014A0000009278","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-4860","https://nvd.nist.gov/vuln/detail/CVE-2014-4860","edk2","6.8","202508.01","","","","2014A0000004860","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-4859","https://nvd.nist.gov/vuln/detail/CVE-2014-4859","edk2","6.8","202508.01","","","","2014A0000004859","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-2525","https://nvd.nist.gov/vuln/detail/CVE-2014-2525","libyaml","","0.1.4","0.1.4","0.1.4","haskell:libyaml","2014A0000002525","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-7354","https://nvd.nist.gov/vuln/detail/CVE-2013-7354","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000007354","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-7353","https://nvd.nist.gov/vuln/detail/CVE-2013-7353","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000007353","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-6954","https://nvd.nist.gov/vuln/detail/CVE-2013-6954","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000006954","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-6393","https://nvd.nist.gov/vuln/detail/CVE-2013-6393","libyaml","","0.1.4","0.1.4","0.1.4","haskell:libyaml","2013A0000006393","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-3773","https://nvd.nist.gov/vuln/detail/CVE-2013-3773","xcp","","0.24.2","0.24.2","1.2.1","xcp","2013A0000003773","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2012-3509","https://nvd.nist.gov/vuln/detail/CVE-2012-3509","libiberty","","14.3.0","","","","2012A0000003509","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2012-0548","https://nvd.nist.gov/vuln/detail/CVE-2012-0548","xcp","","0.24.2","0.24.2","1.2.1","xcp","2012A0000000548","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2011-3045","https://nvd.nist.gov/vuln/detail/CVE-2011-3045","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2011A0000003045","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2011-2411","https://nvd.nist.gov/vuln/detail/CVE-2011-2411","samba","","4.22.5","4.22.5","4.23.3","samba","2011A0000002411","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2011-2299","https://nvd.nist.gov/vuln/detail/CVE-2011-2299","xcp","","0.24.2","0.24.2","1.2.1","xcp","2011A0000002299","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2010-4226","https://nvd.nist.gov/vuln/detail/CVE-2010-4226","cpio","7.2","2.15","","","","2010A0000004226","True","NVD data issue: concerns OpenSuSE, not cpio.","err_missing_repology_version",""
@@ -3311,8 +3325,8 @@ https://github.com/NixOS/nixpkgs/pull/237871"
 https://github.com/NixOS/nixpkgs/pull/127765 
 https://github.com/NixOS/nixpkgs/pull/226656 
 https://github.com/NixOS/nixpkgs/pull/237871"
-"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2017-12652","https://nvd.nist.gov/vuln/detail/CVE-2017-12652","libpng","9.8","1.2.59","1.6.50","1.6.51","libpng","2017A0000012652","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987 
+"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2017-12652","https://nvd.nist.gov/vuln/detail/CVE-2017-12652","libpng","9.8","1.2.59","1.6.50","1.6.51","libpng","2017A0000012652","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341 
 https://github.com/NixOS/nixpkgs/pull/70286 
 https://github.com/NixOS/nixpkgs/pull/70423 
 https://github.com/NixOS/nixpkgs/pull/70425"
@@ -3342,7 +3356,8 @@ https://github.com/NixOS/nixpkgs/pull/70425"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-4488","https://nvd.nist.gov/vuln/detail/CVE-2016-4488","libiberty","5.5","14.3.0","","","","2016A0000004488","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-4487","https://nvd.nist.gov/vuln/detail/CVE-2016-4487","libiberty","5.5","14.3.0","","","","2016A0000004487","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-3751","https://nvd.nist.gov/vuln/detail/CVE-2016-3751","libpng","7.8","1.2.59","1.6.50","1.6.51","libpng","2016A0000003751","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-2781","https://nvd.nist.gov/vuln/detail/CVE-2016-2781","coreutils","6.5","9.8","","","","2016A0000002781","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-2226","https://nvd.nist.gov/vuln/detail/CVE-2016-2226","libiberty","7.8","14.3.0","","","","2016A0000002226","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2016-2150","https://nvd.nist.gov/vuln/detail/CVE-2016-2150","spice","7.1","0.16.0","0.5.0.0","0.5.0.0","haskell:spice","2016A0000002150","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/84664"
@@ -3352,26 +3367,32 @@ https://github.com/NixOS/nixpkgs/pull/463987"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2015-4156","https://nvd.nist.gov/vuln/detail/CVE-2015-4156","parallel","","3.2.2.0","3.3.0.0","3.3.0.0","haskell:parallel","2015A0000004156","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2015-4155","https://nvd.nist.gov/vuln/detail/CVE-2015-4155","parallel","","3.2.2.0","3.3.0.0","3.3.0.0","haskell:parallel","2015A0000004155","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2015-0973","https://nvd.nist.gov/vuln/detail/CVE-2015-0973","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2015A0000000973","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-9826","https://nvd.nist.gov/vuln/detail/CVE-2014-9826","imagemagick","9.8","7.1.2-8","7.1.2-8","7.1.2.8","imagemagick","2014A0000009826","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-9495","https://nvd.nist.gov/vuln/detail/CVE-2014-9495","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2014A0000009495","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-9278","https://nvd.nist.gov/vuln/detail/CVE-2014-9278","openssh","","10.1p1","10.2p1","10.2p1","openssh","2014A0000009278","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-4860","https://nvd.nist.gov/vuln/detail/CVE-2014-4860","edk2","6.8","202508.01","","","","2014A0000004860","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-4859","https://nvd.nist.gov/vuln/detail/CVE-2014-4859","edk2","6.8","202508.01","","","","2014A0000004859","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2014-2525","https://nvd.nist.gov/vuln/detail/CVE-2014-2525","libyaml","","0.1.4","0.1.4","0.1.4","haskell:libyaml","2014A0000002525","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-7354","https://nvd.nist.gov/vuln/detail/CVE-2013-7354","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000007354","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-7353","https://nvd.nist.gov/vuln/detail/CVE-2013-7353","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000007353","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-6954","https://nvd.nist.gov/vuln/detail/CVE-2013-6954","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000006954","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-6393","https://nvd.nist.gov/vuln/detail/CVE-2013-6393","libyaml","","0.1.4","0.1.4","0.1.4","haskell:libyaml","2013A0000006393","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2013-3773","https://nvd.nist.gov/vuln/detail/CVE-2013-3773","xcp","","0.24.2","0.24.2","1.2.1","xcp","2013A0000003773","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2012-3509","https://nvd.nist.gov/vuln/detail/CVE-2012-3509","libiberty","","14.3.0","","","","2012A0000003509","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2012-0548","https://nvd.nist.gov/vuln/detail/CVE-2012-0548","xcp","","0.24.2","0.24.2","1.2.1","xcp","2012A0000000548","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2011-3045","https://nvd.nist.gov/vuln/detail/CVE-2011-3045","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2011A0000003045","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2011-2411","https://nvd.nist.gov/vuln/detail/CVE-2011-2411","samba","","4.22.5","4.22.5","4.23.3","samba","2011A0000002411","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2011-2299","https://nvd.nist.gov/vuln/detail/CVE-2011-2299","xcp","","0.24.2","0.24.2","1.2.1","xcp","2011A0000002299","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2010-4226","https://nvd.nist.gov/vuln/detail/CVE-2010-4226","cpio","7.2","2.15","","","","2010A0000004226","True","NVD data issue: concerns OpenSuSE, not cpio.","err_missing_repology_version",""
@@ -3953,8 +3974,8 @@ https://github.com/NixOS/nixpkgs/pull/237871"
 https://github.com/NixOS/nixpkgs/pull/127765 
 https://github.com/NixOS/nixpkgs/pull/226656 
 https://github.com/NixOS/nixpkgs/pull/237871"
-"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2017-12652","https://nvd.nist.gov/vuln/detail/CVE-2017-12652","libpng","9.8","1.2.59","1.6.50","1.6.51","libpng","2017A0000012652","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987 
+"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2017-12652","https://nvd.nist.gov/vuln/detail/CVE-2017-12652","libpng","9.8","1.2.59","1.6.50","1.6.51","libpng","2017A0000012652","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341 
 https://github.com/NixOS/nixpkgs/pull/70286 
 https://github.com/NixOS/nixpkgs/pull/70423 
 https://github.com/NixOS/nixpkgs/pull/70425"
@@ -3984,7 +4005,8 @@ https://github.com/NixOS/nixpkgs/pull/70425"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-4488","https://nvd.nist.gov/vuln/detail/CVE-2016-4488","libiberty","5.5","14.3.0","","","","2016A0000004488","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-4487","https://nvd.nist.gov/vuln/detail/CVE-2016-4487","libiberty","5.5","14.3.0","","","","2016A0000004487","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-3751","https://nvd.nist.gov/vuln/detail/CVE-2016-3751","libpng","7.8","1.2.59","1.6.50","1.6.51","libpng","2016A0000003751","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-2781","https://nvd.nist.gov/vuln/detail/CVE-2016-2781","coreutils","6.5","9.8","","","","2016A0000002781","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-2226","https://nvd.nist.gov/vuln/detail/CVE-2016-2226","libiberty","7.8","14.3.0","","","","2016A0000002226","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2016-2150","https://nvd.nist.gov/vuln/detail/CVE-2016-2150","spice","7.1","0.16.0","0.5.0.0","0.5.0.0","haskell:spice","2016A0000002150","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/84664"
@@ -3994,26 +4016,32 @@ https://github.com/NixOS/nixpkgs/pull/463987"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2015-4156","https://nvd.nist.gov/vuln/detail/CVE-2015-4156","parallel","","3.2.2.0","3.3.0.0","3.3.0.0","haskell:parallel","2015A0000004156","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2015-4155","https://nvd.nist.gov/vuln/detail/CVE-2015-4155","parallel","","3.2.2.0","3.3.0.0","3.3.0.0","haskell:parallel","2015A0000004155","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2015-0973","https://nvd.nist.gov/vuln/detail/CVE-2015-0973","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2015A0000000973","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-9826","https://nvd.nist.gov/vuln/detail/CVE-2014-9826","imagemagick","9.8","7.1.2-8","7.1.2-8","7.1.2.8","imagemagick","2014A0000009826","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-9495","https://nvd.nist.gov/vuln/detail/CVE-2014-9495","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2014A0000009495","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-9278","https://nvd.nist.gov/vuln/detail/CVE-2014-9278","openssh","","10.1p1","10.2p1","10.2p1","openssh","2014A0000009278","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-4860","https://nvd.nist.gov/vuln/detail/CVE-2014-4860","edk2","6.8","202508.01","","","","2014A0000004860","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-4859","https://nvd.nist.gov/vuln/detail/CVE-2014-4859","edk2","6.8","202508.01","","","","2014A0000004859","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2014-2525","https://nvd.nist.gov/vuln/detail/CVE-2014-2525","libyaml","","0.1.4","0.1.4","0.1.4","haskell:libyaml","2014A0000002525","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-7354","https://nvd.nist.gov/vuln/detail/CVE-2013-7354","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000007354","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-7353","https://nvd.nist.gov/vuln/detail/CVE-2013-7353","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000007353","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-6954","https://nvd.nist.gov/vuln/detail/CVE-2013-6954","libpng","6.5","1.2.59","1.6.50","1.6.51","libpng","2013A0000006954","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-6393","https://nvd.nist.gov/vuln/detail/CVE-2013-6393","libyaml","","0.1.4","0.1.4","0.1.4","haskell:libyaml","2013A0000006393","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2013-3773","https://nvd.nist.gov/vuln/detail/CVE-2013-3773","xcp","","0.24.2","0.24.2","1.2.1","xcp","2013A0000003773","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2012-3509","https://nvd.nist.gov/vuln/detail/CVE-2012-3509","libiberty","","14.3.0","","","","2012A0000003509","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2012-0548","https://nvd.nist.gov/vuln/detail/CVE-2012-0548","xcp","","0.24.2","0.24.2","1.2.1","xcp","2012A0000000548","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2011-3045","https://nvd.nist.gov/vuln/detail/CVE-2011-3045","libpng","8.8","1.2.59","1.6.50","1.6.51","libpng","2011A0000003045","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/441722 
-https://github.com/NixOS/nixpkgs/pull/463987"
+https://github.com/NixOS/nixpkgs/pull/463987 
+https://github.com/NixOS/nixpkgs/pull/464341"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2011-2411","https://nvd.nist.gov/vuln/detail/CVE-2011-2411","samba","","4.22.5","4.22.5","4.23.3","samba","2011A0000002411","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2011-2299","https://nvd.nist.gov/vuln/detail/CVE-2011-2299","xcp","","0.24.2","0.24.2","1.2.1","xcp","2011A0000002299","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2010-4226","https://nvd.nist.gov/vuln/detail/CVE-2010-4226","cpio","7.2","2.15","","","","2010A0000004226","True","NVD data issue: concerns OpenSuSE, not cpio.","err_missing_repology_version",""
