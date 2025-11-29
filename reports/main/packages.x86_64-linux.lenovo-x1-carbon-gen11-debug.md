@@ -47,15 +47,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                    |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|------------------------------------------------------------------------------------------------------------|
-| [CVE-2025-65018](https://nvd.nist.gov/vuln/detail/CVE-2025-65018) | libpng    |        7.1 | 1.6.50          | 1.6.50         | 1.6.51     | *[[PR](https://github.com/NixOS/nixpkgs/pull/463987), [PR](https://github.com/NixOS/nixpkgs/pull/464341)]* |
-| [CVE-2025-64720](https://nvd.nist.gov/vuln/detail/CVE-2025-64720) | libpng    |        7.1 | 1.6.50          | 1.6.50         | 1.6.51     | *[[PR](https://github.com/NixOS/nixpkgs/pull/463987), [PR](https://github.com/NixOS/nixpkgs/pull/464341)]* |
-| [CVE-2025-64506](https://nvd.nist.gov/vuln/detail/CVE-2025-64506) | libpng    |        6.1 | 1.6.50          | 1.6.50         | 1.6.51     | *[[PR](https://github.com/NixOS/nixpkgs/pull/463987), [PR](https://github.com/NixOS/nixpkgs/pull/464341)]* |
-| [CVE-2025-64505](https://nvd.nist.gov/vuln/detail/CVE-2025-64505) | libpng    |        6.1 | 1.6.50          | 1.6.50         | 1.6.51     | *[[PR](https://github.com/NixOS/nixpkgs/pull/463987), [PR](https://github.com/NixOS/nixpkgs/pull/464341)]* |
-| [CVE-2025-64505](https://nvd.nist.gov/vuln/detail/CVE-2025-64505) | libpng    |        6.1 | 1.2.59          | 1.6.50         | 1.6.51     | *[[PR](https://github.com/NixOS/nixpkgs/pull/463987), [PR](https://github.com/NixOS/nixpkgs/pull/464341)]* |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
