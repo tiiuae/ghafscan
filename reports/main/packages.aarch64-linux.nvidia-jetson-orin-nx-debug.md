@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/eb17dbf9cb2043345a5b7d0dac93493b12050c6a. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/79a551d0edbc193721950c197fe0642422d66d59. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -46,7 +46,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package     |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|-------------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2025-66628](https://nvd.nist.gov/vuln/detail/CVE-2025-66628) | imagemagick |        7.5 | 7.1.2-8         | 7.1.2-8        | 7.1.2.10   |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -110,6 +114,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2020-17163](https://nvd.nist.gov/vuln/detail/CVE-2020-17163) | python          | 7.8        | 2.7.18.12        | 3.15.0a2       | 3.14.2     |                                                                                                                                                                                                                                                                        |
 | [CVE-2020-1192](https://nvd.nist.gov/vuln/detail/CVE-2020-1192)   | python          | 7.8        | 2.7.18.12        | 3.15.0a2       | 3.14.2     |                                                                                                                                                                                                                                                                        |
 | [CVE-2017-5506](https://nvd.nist.gov/vuln/detail/CVE-2017-5506)   | imagemagick     | 7.8        | 7.1.2-8          | 7.1.2-8        | 7.1.2.10   |                                                                                                                                                                                                                                                                        |
+| [CVE-2025-66628](https://nvd.nist.gov/vuln/detail/CVE-2025-66628) | imagemagick     | 7.5        | 7.1.2-8          | 7.1.2-8        | 7.1.2.10   |                                                                                                                                                                                                                                                                        |
 | [CVE-2025-64183](https://nvd.nist.gov/vuln/detail/CVE-2025-64183) | openexr         | 7.5        | 3.3.5            | 3.3.5          | 3.4.4      |                                                                                                                                                                                                                                                                        |
 | [CVE-2025-64181](https://nvd.nist.gov/vuln/detail/CVE-2025-64181) | openexr         | 7.5        | 3.3.5            | 3.3.5          | 3.4.4      |                                                                                                                                                                                                                                                                        |
 | [CVE-2025-62689](https://nvd.nist.gov/vuln/detail/CVE-2025-62689) | libmicrohttpd   | 7.5        | 1.0.2            | 1.0.2          | 1.0.2      |                                                                                                                                                                                                                                                                        |
