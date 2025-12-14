@@ -46,11 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package     |   severity | version_local   | nix_unstable   | upstream   | comment   |
-|-------------------------------------------------------------------|-------------|------------|-----------------|----------------|------------|-----------|
-| [CVE-2025-66628](https://nvd.nist.gov/vuln/detail/CVE-2025-66628) | imagemagick |        7.5 | 7.1.2-8         | 7.1.2-8        | 7.1.2.10   |           |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -441,7 +437,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2008-3844](https://nvd.nist.gov/vuln/detail/CVE-2008-3844)   | openssh                   |            | 10.2p1           | 10.2p1         | 10.2p1     |                                                                                                                                                                                                                                                                        |
 | [CVE-2007-2768](https://nvd.nist.gov/vuln/detail/CVE-2007-2768)   | openssh                   |            | 10.2p1           | 10.2p1         | 10.2p1     |                                                                                                                                                                                                                                                                        |
 | [CVE-2007-1397](https://nvd.nist.gov/vuln/detail/CVE-2007-1397)   | fish                      |            | 4.2.1            | 4.2.1          | 4.2.1      |                                                                                                                                                                                                                                                                        |
-| [CVE-2000-0006](https://nvd.nist.gov/vuln/detail/CVE-2000-0006)   | strace                    |            | 6.17             | 6.17           | 6.18       |                                                                                                                                                                                                                                                                        |
+| [CVE-2000-0006](https://nvd.nist.gov/vuln/detail/CVE-2000-0006)   | strace                    |            | 6.17             | 6.18           | 6.18       |                                                                                                                                                                                                                                                                        |
 
 
 
