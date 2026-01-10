@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/63c6165ba80e57cebc89f437921ddff7ba452e4c. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/f2175ed5d5d798a190c75cd64acb6fcd1ee32c0a. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -89,26 +89,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package    |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                    |
-|-------------------------------------------------------------------|------------|------------|-----------------|----------------|------------|------------------------------------------------------------------------------------------------------------|
-| [CVE-2025-68615](https://nvd.nist.gov/vuln/detail/CVE-2025-68615) | net-snmp   |        9.8 | 5.9.4           | 5.9.4          | 5.9.5.2    |                                                                                                            |
-| [CVE-2023-51795](https://nvd.nist.gov/vuln/detail/CVE-2023-51795) | ffmpeg     |        8   | 8.0             | 8.0            | 8.0.1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/318912)]*                                                     |
-| [CVE-2025-68973](https://nvd.nist.gov/vuln/detail/CVE-2025-68973) | gnupg      |        7.8 | 2.4.8           | 2.4.8          | 2.5.16     |                                                                                                            |
-| [CVE-2025-15279](https://nvd.nist.gov/vuln/detail/CVE-2025-15279) | fontforge  |        7.8 | 20251009        | 20251009       | 20251009   |                                                                                                            |
-| [CVE-2025-15278](https://nvd.nist.gov/vuln/detail/CVE-2025-15278) | fontforge  |        7.8 | 20251009        | 20251009       | 20251009   |                                                                                                            |
-| [CVE-2025-15277](https://nvd.nist.gov/vuln/detail/CVE-2025-15277) | fontforge  |        7.8 | 20251009        | 20251009       | 20251009   |                                                                                                            |
-| [CVE-2025-15276](https://nvd.nist.gov/vuln/detail/CVE-2025-15276) | fontforge  |        7.8 | 20251009        | 20251009       | 20251009   |                                                                                                            |
-| [CVE-2023-51798](https://nvd.nist.gov/vuln/detail/CVE-2023-51798) | ffmpeg     |        7.8 | 8.0             | 8.0            | 8.0.1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/318912)]*                                                     |
-| [CVE-2023-51794](https://nvd.nist.gov/vuln/detail/CVE-2023-51794) | ffmpeg     |        7.8 | 8.0             | 8.0            | 8.0.1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/325662), [PR](https://github.com/NixOS/nixpkgs/pull/326229)]* |
-| [CVE-2023-51793](https://nvd.nist.gov/vuln/detail/CVE-2023-51793) | ffmpeg     |        7.8 | 8.0             | 8.0            | 8.0.1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/318912)]*                                                     |
-| [CVE-2023-51791](https://nvd.nist.gov/vuln/detail/CVE-2023-51791) | ffmpeg     |        7.8 | 8.0             | 8.0            | 8.0.1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/318912)]*                                                     |
-| [CVE-2025-68617](https://nvd.nist.gov/vuln/detail/CVE-2025-68617) | fluidsynth |        7   | 2.5.1           | 2.5.1          | 2.5.2      |                                                                                                            |
-| [CVE-2023-51797](https://nvd.nist.gov/vuln/detail/CVE-2023-51797) | ffmpeg     |        6.7 | 8.0             | 8.0            | 8.0.1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/318912)]*                                                     |
-| [CVE-2025-68431](https://nvd.nist.gov/vuln/detail/CVE-2025-68431) | libheif    |        6.5 | 1.20.2          | 1.20.2         | 1.21.1     |                                                                                                            |
-| [CVE-2026-21444](https://nvd.nist.gov/vuln/detail/CVE-2026-21444) | libtpms    |        5.5 | 0.10.1          | 0.10.1         | 0.10.2     |                                                                                                            |
-| [CVE-2023-51796](https://nvd.nist.gov/vuln/detail/CVE-2023-51796) | ffmpeg     |        3.6 | 8.0             | 8.0            | 8.0.1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/318912)]*                                                     |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
