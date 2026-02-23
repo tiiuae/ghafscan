@@ -67,17 +67,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package    |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                    |
-|-------------------------------------------------------------------|------------|------------|-----------------|----------------|------------|------------------------------------------------------------------------------------------------------------|
-| [CVE-2026-2006](https://nvd.nist.gov/vuln/detail/CVE-2026-2006)   | postgresql |        8.8 | 17.7            | 17.9.26        |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/489018)]*                                                     |
-| [CVE-2026-2005](https://nvd.nist.gov/vuln/detail/CVE-2026-2005)   | postgresql |        8.8 | 17.7            | 17.9.26        |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/409698), [PR](https://github.com/NixOS/nixpkgs/pull/489018)]* |
-| [CVE-2026-2004](https://nvd.nist.gov/vuln/detail/CVE-2026-2004)   | postgresql |        8.8 | 17.7            | 17.9.26        |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/489018)]*                                                     |
-| [CVE-2026-24845](https://nvd.nist.gov/vuln/detail/CVE-2026-24845) | malcontent |        6.5 | 0.13.1          |                |            |                                                                                                            |
-| [CVE-2026-2003](https://nvd.nist.gov/vuln/detail/CVE-2026-2003)   | postgresql |        4.3 | 17.7            | 17.9.26        |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/489018)]*                                                     |
-| [CVE-2026-27171](https://nvd.nist.gov/vuln/detail/CVE-2026-27171) | zlib       |        2.9 | 1.3.1           | 1.3.1          | 1.3.2      | *[[PR](https://github.com/NixOS/nixpkgs/pull/491464), [PR](https://github.com/NixOS/nixpkgs/pull/491519)]* |
-| [CVE-2026-27171](https://nvd.nist.gov/vuln/detail/CVE-2026-27171) | zlib       |        2.9 | 0.7.1.1         | 0.7.1.1        | 0.7.1.1    |                                                                                                            |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
