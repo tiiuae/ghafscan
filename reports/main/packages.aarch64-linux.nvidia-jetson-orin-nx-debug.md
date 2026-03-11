@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/3d9214d2fb27564fd63ef8e8356da8be13b27188. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/e6b38569cc56bd0b3533032b0abbe35b81df376f. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -93,7 +93,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                         | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                |
+|-----------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------|
+| [CVE-2026-3731](https://nvd.nist.gov/vuln/detail/CVE-2026-3731) | libssh    |        5.3 | 0.11.3          | 0.11.3         | 0.12.0     | *[[PR](https://github.com/NixOS/nixpkgs/pull/489272)]* |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -346,6 +350,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2026-25637](https://nvd.nist.gov/vuln/detail/CVE-2026-25637) | imagemagick     | 5.3        | 7.1.2-12         | 7.1.2-13       | 7.1.2.16   |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-24484](https://nvd.nist.gov/vuln/detail/CVE-2026-24484) | imagemagick     | 5.3        | 7.1.2-12         | 7.1.2-13       | 7.1.2.16   |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-22796](https://nvd.nist.gov/vuln/detail/CVE-2026-22796) | openssl         | 5.3        | 3.6.0            | 3.6.1          | 3.6.1      | *[[PR](https://github.com/NixOS/nixpkgs/pull/484463), [PR](https://github.com/NixOS/nixpkgs/pull/489907), [PR](https://github.com/NixOS/nixpkgs/pull/489928)]*                                                                                                         |
+| [CVE-2026-3731](https://nvd.nist.gov/vuln/detail/CVE-2026-3731)   | libssh          | 5.3        | 0.11.3           | 0.11.3         | 0.12.0     | *[[PR](https://github.com/NixOS/nixpkgs/pull/489272)]*                                                                                                                                                                                                                 |
 | [CVE-2025-61730](https://nvd.nist.gov/vuln/detail/CVE-2025-61730) | go              | 5.3        | 1.25.5           | 1.26.1         | 1.26.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/497104), [PR](https://github.com/NixOS/nixpkgs/pull/497139)]*                                                                                                                                                             |
 | [CVE-2025-61730](https://nvd.nist.gov/vuln/detail/CVE-2025-61730) | go              | 5.3        | 1.22.12-linux-ar | 1.26.1         | 1.26.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/497104), [PR](https://github.com/NixOS/nixpkgs/pull/497139)]*                                                                                                                                                             |
 | [CVE-2025-61724](https://nvd.nist.gov/vuln/detail/CVE-2025-61724) | go              | 5.3        | 1.22.12-linux-ar | 1.26.1         | 1.26.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/497104), [PR](https://github.com/NixOS/nixpkgs/pull/497139)]*                                                                                                                                                             |
