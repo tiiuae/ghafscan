@@ -81,8 +81,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-33535","https://nvd.nist.gov/vuln/detail/CVE-2026-33535","imagemagick","4.0","7.1.2-17","7.1.2-17","7.1.2.19","imagemagick","2026A0000033535","False","","fix_update_to_version_upstream",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-33186","https://nvd.nist.gov/vuln/detail/CVE-2026-33186","grpc","9.1","1.78.0","1.80.0","1.80.0","grpc","2026A0000033186","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/503030 
 https://github.com/NixOS/nixpkgs/pull/503886 
-https://github.com/NixOS/nixpkgs/pull/505044 
-https://github.com/NixOS/nixpkgs/pull/508861"
+https://github.com/NixOS/nixpkgs/pull/505044"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-33165","https://nvd.nist.gov/vuln/detail/CVE-2026-33165","libde265","5.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033165","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
 https://github.com/NixOS/nixpkgs/pull/505141"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-33164","https://nvd.nist.gov/vuln/detail/CVE-2026-33164","libde265","7.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033164","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
@@ -148,7 +147,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-amd64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
@@ -777,8 +776,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33535","https://nvd.nist.gov/vuln/detail/CVE-2026-33535","imagemagick","4.0","7.1.2-17","7.1.2-17","7.1.2.19","imagemagick","2026A0000033535","False","","fix_update_to_version_upstream",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33186","https://nvd.nist.gov/vuln/detail/CVE-2026-33186","grpc","9.1","1.78.0","1.80.0","1.80.0","grpc","2026A0000033186","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/503030 
 https://github.com/NixOS/nixpkgs/pull/503886 
-https://github.com/NixOS/nixpkgs/pull/505044 
-https://github.com/NixOS/nixpkgs/pull/508861"
+https://github.com/NixOS/nixpkgs/pull/505044"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33165","https://nvd.nist.gov/vuln/detail/CVE-2026-33165","libde265","5.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033165","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
 https://github.com/NixOS/nixpkgs/pull/505141"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33164","https://nvd.nist.gov/vuln/detail/CVE-2026-33164","libde265","7.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033164","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
@@ -840,7 +838,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-amd64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
@@ -1454,8 +1452,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33535","https://nvd.nist.gov/vuln/detail/CVE-2026-33535","imagemagick","4.0","7.1.2-17","7.1.2-17","7.1.2.19","imagemagick","2026A0000033535","False","","fix_update_to_version_upstream",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33186","https://nvd.nist.gov/vuln/detail/CVE-2026-33186","grpc","9.1","1.78.0","1.80.0","1.80.0","grpc","2026A0000033186","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/503030 
 https://github.com/NixOS/nixpkgs/pull/503886 
-https://github.com/NixOS/nixpkgs/pull/505044 
-https://github.com/NixOS/nixpkgs/pull/508861"
+https://github.com/NixOS/nixpkgs/pull/505044"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33165","https://nvd.nist.gov/vuln/detail/CVE-2026-33165","libde265","5.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033165","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
 https://github.com/NixOS/nixpkgs/pull/505141"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33164","https://nvd.nist.gov/vuln/detail/CVE-2026-33164","libde265","7.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033164","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
@@ -1517,7 +1514,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-amd64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
@@ -1997,7 +1994,6 @@ https://github.com/NixOS/nixpkgs/pull/486044"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2020-11105","https://nvd.nist.gov/vuln/detail/CVE-2020-11105","cereal","9.8","0.5.8.3","0.5.8.3","0.5.8.3","haskell:cereal","2020A0000011105","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/121574 
 https://github.com/NixOS/nixpkgs/pull/84664"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2020-11104","https://nvd.nist.gov/vuln/detail/CVE-2020-11104","cereal","5.3","0.5.8.3","0.5.8.3","0.5.8.3","haskell:cereal","2020A0000011104","False","","err_not_vulnerable_based_on_repology",""
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2020-8284","https://nvd.nist.gov/vuln/detail/CVE-2020-8284","curl","3.7","0.4.49","","","","2020A0000008284","False","","err_missing_repology_version","https://github.com/NixOS/nixpkgs/pull/106452"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2020-1416","https://nvd.nist.gov/vuln/detail/CVE-2020-1416","typescript","8.8","5.9.3","5.9.3","6.0.3","typescript","2020A0000001416","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2019-18276","https://nvd.nist.gov/vuln/detail/CVE-2019-18276","bash","7.8","2.05b","","","","2019A0000018276","False","","err_missing_repology_version",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2019-14587","https://nvd.nist.gov/vuln/detail/CVE-2019-14587","edk2","6.5","202602","","","","2019A0000014587","True","NVD data issue: CPE entry does not correctly state the version numbers.","err_missing_repology_version",""
@@ -2065,15 +2061,7 @@ https://github.com/NixOS/nixpkgs/pull/84664"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2007-2768","https://nvd.nist.gov/vuln/detail/CVE-2007-2768","openssh","","10.2p1","10.2p1","10.3p1","openssh","2007A0000002768","False","","fix_not_available",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2007-1397","https://nvd.nist.gov/vuln/detail/CVE-2007-1397","fish","","4.6.0","4.6.0","4.6.0","fish","2007A0000001397","False","","err_not_vulnerable_based_on_repology",""
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2007-0770","https://nvd.nist.gov/vuln/detail/CVE-2007-0770","graphicsmagick","","1.3.46","1.3.46","1.3.46","graphicsmagick","2007A0000000770","False","","fix_not_available",""
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2005-1228","https://nvd.nist.gov/vuln/detail/CVE-2005-1228","gzip","","1.2.4","1.14","1.14","gzip","2005A0000001228","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/397666"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2005-0988","https://nvd.nist.gov/vuln/detail/CVE-2005-0988","gzip","","1.2.4","1.14","1.14","gzip","2005A0000000988","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/397666"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2005-0758","https://nvd.nist.gov/vuln/detail/CVE-2005-0758","gzip","","1.2.4","1.14","1.14","gzip","2005A0000000758","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/397666"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2004-1349","https://nvd.nist.gov/vuln/detail/CVE-2004-1349","gzip","","1.2.4","1.14","1.14","gzip","2004A0000001349","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/397666"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2004-0603","https://nvd.nist.gov/vuln/detail/CVE-2004-0603","gzip","","1.2.4","1.14","1.14","gzip","2004A0000000603","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/397666"
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2003-0856","https://nvd.nist.gov/vuln/detail/CVE-2003-0856","iproute","","1.7.15","1.7.15","1.7.15","haskell:iproute","2003A0000000856","False","","err_not_vulnerable_based_on_repology",""
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2003-0367","https://nvd.nist.gov/vuln/detail/CVE-2003-0367","gzip","","1.2.4","1.14","1.14","gzip","2003A0000000367","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/397666"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2002-0059","https://nvd.nist.gov/vuln/detail/CVE-2002-0059","zlib","9.8","0.7.1.1","0.7.1.1","0.7.1.1","haskell:zlib","2002A0000000059","False","","err_not_vulnerable_based_on_repology",""
-"packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2001-1228","https://nvd.nist.gov/vuln/detail/CVE-2001-1228","gzip","","1.2.4","1.14","1.14","gzip","2001A0000001228","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/397666"
 "packages.x86_64-linux.lenovo-x1-carbon-gen11-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2000-0006","https://nvd.nist.gov/vuln/detail/CVE-2000-0006","strace","","6.19","6.19","6.19","strace","2000A0000000006","False","","err_not_vulnerable_based_on_repology",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-40386","https://nvd.nist.gov/vuln/detail/CVE-2026-40386","libexif","4.0","0.6.25","0.6.25","0.6.26","libexif","2026A0000040386","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/509951"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-40385","https://nvd.nist.gov/vuln/detail/CVE-2026-40385","libexif","4.0","0.6.25","0.6.25","0.6.26","libexif","2026A0000040385","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/509951"
@@ -2197,7 +2185,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-arm64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
@@ -2766,7 +2754,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-arm64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
@@ -3320,7 +3308,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-arm64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
@@ -3846,8 +3834,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-33535","https://nvd.nist.gov/vuln/detail/CVE-2026-33535","imagemagick","4.0","7.1.2-17","7.1.2-17","7.1.2.19","imagemagick","2026A0000033535","False","","fix_update_to_version_upstream",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-33186","https://nvd.nist.gov/vuln/detail/CVE-2026-33186","grpc","9.1","1.78.0","1.80.0","1.80.0","grpc","2026A0000033186","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/503030 
 https://github.com/NixOS/nixpkgs/pull/503886 
-https://github.com/NixOS/nixpkgs/pull/505044 
-https://github.com/NixOS/nixpkgs/pull/508861"
+https://github.com/NixOS/nixpkgs/pull/505044"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-33165","https://nvd.nist.gov/vuln/detail/CVE-2026-33165","libde265","5.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033165","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
 https://github.com/NixOS/nixpkgs/pull/505141"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-33164","https://nvd.nist.gov/vuln/detail/CVE-2026-33164","libde265","7.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033164","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
@@ -3913,7 +3900,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-amd64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","current","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
@@ -4551,8 +4538,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33535","https://nvd.nist.gov/vuln/detail/CVE-2026-33535","imagemagick","4.0","7.1.2-17","7.1.2-17","7.1.2.19","imagemagick","2026A0000033535","False","","fix_update_to_version_upstream",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33186","https://nvd.nist.gov/vuln/detail/CVE-2026-33186","grpc","9.1","1.78.0","1.80.0","1.80.0","grpc","2026A0000033186","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/503030 
 https://github.com/NixOS/nixpkgs/pull/503886 
-https://github.com/NixOS/nixpkgs/pull/505044 
-https://github.com/NixOS/nixpkgs/pull/508861"
+https://github.com/NixOS/nixpkgs/pull/505044"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33165","https://nvd.nist.gov/vuln/detail/CVE-2026-33165","libde265","5.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033165","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
 https://github.com/NixOS/nixpkgs/pull/505141"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33164","https://nvd.nist.gov/vuln/detail/CVE-2026-33164","libde265","7.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033164","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
@@ -4614,7 +4600,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-amd64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
@@ -5237,8 +5223,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33535","https://nvd.nist.gov/vuln/detail/CVE-2026-33535","imagemagick","4.0","7.1.2-17","7.1.2-17","7.1.2.19","imagemagick","2026A0000033535","False","","fix_update_to_version_upstream",""
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33186","https://nvd.nist.gov/vuln/detail/CVE-2026-33186","grpc","9.1","1.78.0","1.80.0","1.80.0","grpc","2026A0000033186","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/503030 
 https://github.com/NixOS/nixpkgs/pull/503886 
-https://github.com/NixOS/nixpkgs/pull/505044 
-https://github.com/NixOS/nixpkgs/pull/508861"
+https://github.com/NixOS/nixpkgs/pull/505044"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33165","https://nvd.nist.gov/vuln/detail/CVE-2026-33165","libde265","5.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033165","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
 https://github.com/NixOS/nixpkgs/pull/505141"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33164","https://nvd.nist.gov/vuln/detail/CVE-2026-33164","libde265","7.5","1.0.16","1.0.16","1.0.18","libde265","2026A0000033164","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/502119 
@@ -5300,7 +5285,7 @@ https://github.com/NixOS/nixpkgs/pull/507995"
 https://github.com/NixOS/nixpkgs/pull/507995"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27140","https://nvd.nist.gov/vuln/detail/CVE-2026-27140","go","8.8","1.24.13-linux-amd64-bootstrap","1.26.1","1.26.2","go","2026A0000027140","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/507704 
 https://github.com/NixOS/nixpkgs/pull/507995"
-"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.68.1","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
+"packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-27135","https://nvd.nist.gov/vuln/detail/CVE-2026-27135","nghttp2","7.5","1.67.1","1.67.1","1.69.0","nghttp2","2026A0000027135","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/505021 
 https://github.com/NixOS/nixpkgs/pull/507041"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-26981","https://nvd.nist.gov/vuln/detail/CVE-2026-26981","openexr","6.5","3.3.5","3.3.5","3.4.10","openexr","2026A0000026981","False","","fix_update_to_version_upstream","https://github.com/NixOS/nixpkgs/pull/494981"
 "packages.x86_64-linux.system76-darp11-b-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-26740","https://nvd.nist.gov/vuln/detail/CVE-2026-26740","giflib","8.2","5.2.2","5.2.2","6.1.3","giflib","2026A0000026740","False","","fix_update_to_version_upstream",""
