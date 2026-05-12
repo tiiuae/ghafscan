@@ -123,7 +123,11 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2026-41907](https://nvd.nist.gov/vuln/detail/CVE-2026-41907) | uuid      |        7.5 | 1.20.0          | 1.2-2          | 1.2-2      |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -230,6 +234,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2021-4034](https://nvd.nist.gov/vuln/detail/CVE-2021-4034)   | polkit          | 7.8        | 1.pam            | 127            | 127        | *[[PR](https://github.com/NixOS/nixpkgs/pull/155725), [PR](https://github.com/NixOS/nixpkgs/pull/156750), [PR](https://github.com/NixOS/nixpkgs/pull/156822), [PR](https://github.com/NixOS/nixpkgs/pull/473068), [PR](https://github.com/NixOS/nixpkgs/pull/486044)]* |
 | [CVE-2017-5506](https://nvd.nist.gov/vuln/detail/CVE-2017-5506)   | imagemagick     | 7.8        | 7.1.2-17         | 7.1.2-19       | 7.1.2.21   |                                                                                                                                                                                                                                                                        |
 | [CVE-2016-4802](https://nvd.nist.gov/vuln/detail/CVE-2016-4802)   | curl            | 7.8        | 0.4.49           |                |            |                                                                                                                                                                                                                                                                        |
+| [CVE-2026-41907](https://nvd.nist.gov/vuln/detail/CVE-2026-41907) | uuid            | 7.5        | 1.20.0           | 1.2-2          | 1.2-2      |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-37555](https://nvd.nist.gov/vuln/detail/CVE-2026-37555) | libsndfile      | 7.5        | 1.2.2            | 1.2.2          | 1.2.2      |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-35385](https://nvd.nist.gov/vuln/detail/CVE-2026-35385) | openssh         | 7.5        | 10.2p1           | 10.3p1         | 10.3p1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/507169), [PR](https://github.com/NixOS/nixpkgs/pull/509494), [PR](https://github.com/NixOS/nixpkgs/pull/511739), [PR](https://github.com/NixOS/nixpkgs/pull/513862), [PR](https://github.com/NixOS/nixpkgs/pull/513867)]* |
 | [CVE-2026-34980](https://nvd.nist.gov/vuln/detail/CVE-2026-34980) | cups            | 7.5        | 2.4.16           | 2.4.16         | 2.4.19     | *[[PR](https://github.com/NixOS/nixpkgs/pull/514379), [PR](https://github.com/NixOS/nixpkgs/pull/517297)]*                                                                                                                                                             |

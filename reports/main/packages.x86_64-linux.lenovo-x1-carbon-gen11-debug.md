@@ -129,7 +129,12 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2026-41907](https://nvd.nist.gov/vuln/detail/CVE-2026-41907) | uuid      |        7.5 | 1.20.0          | 1.2-2          | 1.2-2      |           |
+| [CVE-2026-41907](https://nvd.nist.gov/vuln/detail/CVE-2026-41907) | uuid      |        7.5 | 1.18.1          | 1.2-2          | 1.2-2      |           |
+
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -268,6 +273,8 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2019-18276](https://nvd.nist.gov/vuln/detail/CVE-2019-18276) | bash            | 7.8        | 2.05b            |                |            |                                                                                                                                                                                                                                                                        |
 | [CVE-2019-9924](https://nvd.nist.gov/vuln/detail/CVE-2019-9924)   | bash            | 7.8        | 2.05b            |                |            |                                                                                                                                                                                                                                                                        |
 | [CVE-2017-5506](https://nvd.nist.gov/vuln/detail/CVE-2017-5506)   | imagemagick     | 7.8        | 7.1.2-17         | 7.1.2-19       | 7.1.2.21   |                                                                                                                                                                                                                                                                        |
+| [CVE-2026-41907](https://nvd.nist.gov/vuln/detail/CVE-2026-41907) | uuid            | 7.5        | 1.20.0           | 1.2-2          | 1.2-2      |                                                                                                                                                                                                                                                                        |
+| [CVE-2026-41907](https://nvd.nist.gov/vuln/detail/CVE-2026-41907) | uuid            | 7.5        | 1.18.1           | 1.2-2          | 1.2-2      |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-41636](https://nvd.nist.gov/vuln/detail/CVE-2026-41636) | thrift          | 7.5        | 0.22.0           |                |            |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-41602](https://nvd.nist.gov/vuln/detail/CVE-2026-41602) | thrift          | 7.5        | 0.22.0           |                |            |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-37555](https://nvd.nist.gov/vuln/detail/CVE-2026-37555) | libsndfile      | 7.5        | 1.2.2            | 1.2.2          | 1.2.2      |                                                                                                                                                                                                                                                                        |
