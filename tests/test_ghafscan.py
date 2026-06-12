@@ -13,6 +13,7 @@ import shutil
 from pathlib import Path
 import pytest
 
+from ghafscan import main as ghafscan_main
 from ghafscan.main import FlakeScanner
 
 ################################################################################
@@ -64,6 +65,41 @@ def test_ghafscan_basic():
     readme = test_work_dir / "README.md"
     assert readme.exists()
     assert readme.stat().st_size != 0
+
+
+def test_evaluate_target_drv_reports_stderr(monkeypatch):
+    """Evaluation failures should preserve stderr in the report error"""
+    scanner = FlakeScanner.__new__(FlakeScanner)
+    scanner.tmpdir = None
+    scanner.repodir = Path("/tmp/fake-repo")
+    scanner.errors = {}
+
+    def _fake_exec_cmd(*_args, **_kwargs):
+        return subprocess.CompletedProcess(
+            args=_args[0],
+            returncode=1,
+            stdout="",
+            stderr="line 1\nline 2\nerror: bzip2_1_1 has been removed\n",
+        )
+
+    monkeypatch.setattr(ghafscan_main, "exec_cmd", _fake_exec_cmd)
+
+    # pylint: disable=protected-access
+    # Exercise the report formatting on evaluation failure.
+    drv = scanner._evaluate_target_drv(
+        "packages.aarch64-linux.nvidia-jetson-orin-nx-debug",
+        "lock_updated",
+    )
+
+    assert drv is None
+    error_key = "packages.aarch64-linux.nvidia-jetson-orin-nx-debug_lock_updated"
+    err = scanner.errors[error_key]
+    assert (
+        "Error evaluating 'packages.aarch64-linux.nvidia-jetson-orin-nx-debug' "
+        "on lock_updated" in err
+    )
+    assert "error: bzip2_1_1 has been removed" in err
+    assert "https://github.com/tiiuae/ghafscan/actions" in err
 
 
 ################################################################################

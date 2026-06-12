@@ -141,7 +141,22 @@ def exec_cmd(cmd, raise_on_error=True, evars=None, capture=False):
             cmd,
             ret.returncode,
         )
+        if capture:
+            if ret.stderr:
+                LOG.debug("stderr tail:\n%s", _tail_text(ret.stderr))
+            if ret.stdout:
+                LOG.debug("stdout tail:\n%s", _tail_text(ret.stdout))
     return ret
+
+
+def _tail_text(text, max_lines=40):
+    """Return a trimmed tail excerpt suitable for logs and reports"""
+    if not text:
+        return ""
+    lines = [line.rstrip() for line in str(text).splitlines()]
+    if len(lines) > max_lines:
+        lines = ["..."] + lines[-max_lines:]
+    return "\n".join(lines).replace("```", "'''").strip()
 
 
 def df_from_csv_file(name, exit_on_error=True):
@@ -473,9 +488,13 @@ class FlakeScanner:
         ret = exec_cmd(cmd, raise_on_error=False, evars=var, capture=True)
         if ret.returncode != 0:
             LOG.warning("Error evaluating %s", eval_target)
+            details = _tail_text(ret.stderr or ret.stdout)
+            details = f"```\n{details}\n```\n" if details else ""
             self.errors[f"{target}_{pintype}"] = (
                 f"```Error evaluating '{target}' on {pintype}```<br /><br />\n"
-                "For more details, see: https://github.com/tiiuae/ghafscan/actions"
+                f"{details}"
+                "For more details, see: "
+                "https://github.com/tiiuae/ghafscan/actions"
             )
             return None
         drv_path = Path(str(ret.stdout).strip('"\n\t '))
