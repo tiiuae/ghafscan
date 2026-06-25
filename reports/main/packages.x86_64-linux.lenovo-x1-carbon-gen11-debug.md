@@ -46,13 +46,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------|
-| [CVE-2026-8461](https://nvd.nist.gov/vuln/detail/CVE-2026-8461)   | ffmpeg    |        8.8 | 8.1             | 8.1            | 8.1.2      | *[[PR](https://github.com/NixOS/nixpkgs/pull/534374)]* |
-| [CVE-2026-45696](https://nvd.nist.gov/vuln/detail/CVE-2026-45696) | openexr   |        8.3 | 3.4.10          | 3.4.10         | 3.4.13     |                                                        |
-| [CVE-2026-44663](https://nvd.nist.gov/vuln/detail/CVE-2026-44663) | openexr   |        6.1 | 3.4.10          | 3.4.10         | 3.4.13     |                                                        |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
@@ -542,7 +536,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2011-2411](https://nvd.nist.gov/vuln/detail/CVE-2011-2411)   | samba            |            | 4.23.8           | 4.23.8         | 4.24.3     |                                                                                                                                                                                                                                                                        |
 | [CVE-2008-3844](https://nvd.nist.gov/vuln/detail/CVE-2008-3844)   | openssh          |            | 10.3p1           | 10.3p1         | 10.3pl1    |                                                                                                                                                                                                                                                                        |
 | [CVE-2007-2768](https://nvd.nist.gov/vuln/detail/CVE-2007-2768)   | openssh          |            | 10.3p1           | 10.3p1         | 10.3pl1    |                                                                                                                                                                                                                                                                        |
-| [CVE-2007-1397](https://nvd.nist.gov/vuln/detail/CVE-2007-1397)   | fish             |            | 4.7.1            | 4.7.1          | 4.7.1      |                                                                                                                                                                                                                                                                        |
+| [CVE-2007-1397](https://nvd.nist.gov/vuln/detail/CVE-2007-1397)   | fish             |            | 4.7.1            | 4.7.1          | 4.8.0      |                                                                                                                                                                                                                                                                        |
 | [CVE-2007-0770](https://nvd.nist.gov/vuln/detail/CVE-2007-0770)   | graphicsmagick   |            | 1.3.47           | 1.3.47         | 1.3.47     |                                                                                                                                                                                                                                                                        |
 | [CVE-2000-0006](https://nvd.nist.gov/vuln/detail/CVE-2000-0006)   | strace           |            | 7.0              | 7.1            | 7.1        |                                                                                                                                                                                                                                                                        |
 
