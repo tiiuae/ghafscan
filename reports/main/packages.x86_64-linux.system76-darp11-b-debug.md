@@ -34,14 +34,14 @@ Update the target Ghaf [flake.lock](https://github.com/tiiuae/ghaf/blob/main/fla
          1231|           )
 
        … while evaluating the attribute 'value'
-         at /nix/store/wlk9a5827bc2pdqisypjkgcv5j72xia8-source/lib/types.nix:732:25:
+         at /nix/store/ifpab9hxqmk2biwy594da8ipxzsp3y4s-source/lib/types.nix:732:25:
           731|                         inherit (def) file;
           732|                         value = def';
              |                         ^
           733|                       }
 
        … while calling the 'elemAt' builtin
-         at /nix/store/wlk9a5827bc2pdqisypjkgcv5j72xia8-source/lib/lists.nix:350:43:
+         at /nix/store/ifpab9hxqmk2biwy594da8ipxzsp3y4s-source/lib/lists.nix:350:43:
           349|   */
           350|   imap1 = f: list: genList (n: f (n + 1) (elemAt list n)) (length list);
              |                                           ^
@@ -57,7 +57,7 @@ Update the target Ghaf [flake.lock](https://github.com/tiiuae/ghaf/blob/main/fla
        (18 duplicate frames omitted)
 
        … while calling the 'throw' builtin
-         at /nix/store/wlk9a5827bc2pdqisypjkgcv5j72xia8-source/lib/asserts.nix:198:7:
+         at /nix/store/ifpab9hxqmk2biwy594da8ipxzsp3y4s-source/lib/asserts.nix:198:7:
           197|     if failedAssertions != [ ] then
           198|       throw "\nFailed assertions:\n${concatStringsSep "\n" (map (x: "- ${x}") failedAssertions)}"
              |       ^
@@ -65,7 +65,7 @@ Update the target Ghaf [flake.lock](https://github.com/tiiuae/ghaf/blob/main/fla
 
        error:
        Failed assertions:
-       - The option definition `services.journald.remote.listen' in `/nix/store/f7sqvqfhl3dkq2nfynhx4zhp42fbgwbf-source/modules/common/logging/journal-server.nix' no longer has any effect; please remove it.
+       - The option definition `services.journald.remote.listen' in `/nix/store/0kza536gj9903vdyxvr9mkc3qf1i5zsg-source/modules/common/logging/journal-server.nix' no longer has any effect; please remove it.
        systemd in Nixpkgs is built without GnuTLS, so systemd-journal-remote
        cannot accept HTTPS connections or validate client certificates. Use a
        reverse proxy (such as nginx) to terminate TLS in front of journal-remote
@@ -88,14 +88,14 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
          1231|           )
 
        … while evaluating the attribute 'value'
-         at /nix/store/wlk9a5827bc2pdqisypjkgcv5j72xia8-source/lib/types.nix:732:25:
+         at /nix/store/ifpab9hxqmk2biwy594da8ipxzsp3y4s-source/lib/types.nix:732:25:
           731|                         inherit (def) file;
           732|                         value = def';
              |                         ^
           733|                       }
 
        … while calling the 'elemAt' builtin
-         at /nix/store/wlk9a5827bc2pdqisypjkgcv5j72xia8-source/lib/lists.nix:350:43:
+         at /nix/store/ifpab9hxqmk2biwy594da8ipxzsp3y4s-source/lib/lists.nix:350:43:
           349|   */
           350|   imap1 = f: list: genList (n: f (n + 1) (elemAt list n)) (length list);
              |                                           ^
@@ -111,7 +111,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
        (18 duplicate frames omitted)
 
        … while calling the 'throw' builtin
-         at /nix/store/wlk9a5827bc2pdqisypjkgcv5j72xia8-source/lib/asserts.nix:198:7:
+         at /nix/store/ifpab9hxqmk2biwy594da8ipxzsp3y4s-source/lib/asserts.nix:198:7:
           197|     if failedAssertions != [ ] then
           198|       throw "\nFailed assertions:\n${concatStringsSep "\n" (map (x: "- ${x}") failedAssertions)}"
              |       ^
@@ -119,7 +119,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 
        error:
        Failed assertions:
-       - The option definition `services.journald.remote.listen' in `/nix/store/f7sqvqfhl3dkq2nfynhx4zhp42fbgwbf-source/modules/common/logging/journal-server.nix' no longer has any effect; please remove it.
+       - The option definition `services.journald.remote.listen' in `/nix/store/0kza536gj9903vdyxvr9mkc3qf1i5zsg-source/modules/common/logging/journal-server.nix' no longer has any effect; please remove it.
        systemd in Nixpkgs is built without GnuTLS, so systemd-journal-remote
        cannot accept HTTPS connections or validate client certificates. Use a
        reverse proxy (such as nginx) to terminate TLS in front of journal-remote
@@ -231,7 +231,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2022-2225](https://nvd.nist.gov/vuln/detail/CVE-2022-2225)   | warp             | 8.1        | 3.4.9            | 3.4.13         | 3.4.13.1   |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-42046](https://nvd.nist.gov/vuln/detail/CVE-2026-42046) | libcaca          | 7.8        | 0.99.beta20      | 0.99.beta20    |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/519401), [PR](https://github.com/NixOS/nixpkgs/pull/523999), [PR](https://github.com/NixOS/nixpkgs/pull/524000)]*                                                                                                         |
 | [CVE-2026-22184](https://nvd.nist.gov/vuln/detail/CVE-2026-22184) | zlib             | 7.8        | 0.7.1.1          | 0.7.1.1        | 0.7.1.1    | *[[PR](https://github.com/NixOS/nixpkgs/pull/480369)]*                                                                                                                                                                                                                 |
-| [CVE-2026-11979](https://nvd.nist.gov/vuln/detail/CVE-2026-11979) | libxml2          | 7.8        | 2.15.2           | 2.15.3         | 2.15.3     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537486), [PR](https://github.com/NixOS/nixpkgs/pull/537488), [PR](https://github.com/NixOS/nixpkgs/pull/538237)]*                                                                                                         |
+| [CVE-2026-11979](https://nvd.nist.gov/vuln/detail/CVE-2026-11979) | libxml2          | 7.8        | 2.15.2           | 2.15.3         | 2.15.3     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537486), [PR](https://github.com/NixOS/nixpkgs/pull/537488), [PR](https://github.com/NixOS/nixpkgs/pull/538237), [PR](https://github.com/NixOS/nixpkgs/pull/538603)]*                                                     |
 | [CVE-2026-11940](https://nvd.nist.gov/vuln/detail/CVE-2026-11940) | python           | 7.8        | 3.14.4           | 3.15.0b3       | 3.14.6     |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-11824](https://nvd.nist.gov/vuln/detail/CVE-2026-11824) | sqlite           | 7.8        | 3.51.2           | 3.51.2         | 3.53.3     | *[[PR](https://github.com/NixOS/nixpkgs/pull/528137)]*                                                                                                                                                                                                                 |
 | [CVE-2026-11822](https://nvd.nist.gov/vuln/detail/CVE-2026-11822) | sqlite           | 7.8        | 3.51.2           | 3.51.2         | 3.53.3     | *[[PR](https://github.com/NixOS/nixpkgs/pull/528137)]*                                                                                                                                                                                                                 |
