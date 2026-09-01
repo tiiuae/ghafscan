@@ -630,9 +630,6 @@ https://github.com/NixOS/nixpkgs/pull/128595
 https://github.com/NixOS/nixpkgs/pull/554374 
 https://github.com/NixOS/nixpkgs/pull/556082"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-37555","https://nvd.nist.gov/vuln/detail/CVE-2026-37555","libsndfile","7.5","1.2.2","1.2.2","1.2.2","libsndfile","2026A0000037555","False","","fix_not_available",""
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-34502","https://nvd.nist.gov/vuln/detail/CVE-2026-34502","apr-util","7.5","1.6.3","1.6.3","1.6.5","apr-util","2026A0000034502","False","","fix_update_to_version_upstream",""
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-34501","https://nvd.nist.gov/vuln/detail/CVE-2026-34501","apr-util","7.5","1.6.3","1.6.3","1.6.5","apr-util","2026A0000034501","False","","fix_update_to_version_upstream",""
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-34191","https://nvd.nist.gov/vuln/detail/CVE-2026-34191","apr-util","9.1","1.6.3","1.6.3","1.6.5","apr-util","2026A0000034191","False","","fix_update_to_version_upstream",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33948","https://nvd.nist.gov/vuln/detail/CVE-2026-33948","jq","5.3","1.8.2","1.8.2","1.8.2","jq","2026A0000033948","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/510006"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-33814","https://nvd.nist.gov/vuln/detail/CVE-2026-33814","go","7.5","1.24.13-linux-arm64-bootstrap","1.27.0","1.27.0","go","2026A0000033814","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/128169 
 https://github.com/NixOS/nixpkgs/pull/128595 
@@ -644,7 +641,6 @@ https://github.com/NixOS/nixpkgs/pull/128595
 https://github.com/NixOS/nixpkgs/pull/529954 
 https://github.com/NixOS/nixpkgs/pull/554374 
 https://github.com/NixOS/nixpkgs/pull/556082"
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-32327","https://nvd.nist.gov/vuln/detail/CVE-2026-32327","apr-util","9.1","1.6.3","1.6.3","1.6.5","apr-util","2026A0000032327","False","","fix_update_to_version_upstream",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2026-32289","https://nvd.nist.gov/vuln/detail/CVE-2026-32289","go","6.1","1.24.13-linux-arm64-bootstrap","1.27.0","1.27.0","go","2026A0000032289","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/128169 
 https://github.com/NixOS/nixpkgs/pull/128595 
 https://github.com/NixOS/nixpkgs/pull/554374 
@@ -789,7 +785,6 @@ https://github.com/NixOS/nixpkgs/pull/557451"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-59529","https://nvd.nist.gov/vuln/detail/CVE-2025-59529","avahi","5.5","0.8","0.8","","avahi","2025A0000059529","False","","err_invalid_version","https://github.com/NixOS/nixpkgs/pull/508012"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-56226","https://nvd.nist.gov/vuln/detail/CVE-2025-56226","libsndfile","5.3","1.2.2","1.2.2","1.2.2","libsndfile","2025A0000056226","False","","fix_not_available",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-52194","https://nvd.nist.gov/vuln/detail/CVE-2025-52194","libsndfile","7.5","1.2.2","1.2.2","1.2.2","libsndfile","2025A0000052194","False","","fix_not_available",""
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-49506","https://nvd.nist.gov/vuln/detail/CVE-2025-49506","apr-util","7.5","1.6.3","1.6.3","1.6.5","apr-util","2025A0000049506","False","","fix_update_to_version_upstream",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-47436","https://nvd.nist.gov/vuln/detail/CVE-2025-47436","orc","9.8","0.4.42","1.2.1.4","1.2.1.4","haskell:orc","2025A0000047436","False","","err_not_vulnerable_based_on_repology",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-46394","https://nvd.nist.gov/vuln/detail/CVE-2025-46394","busybox","3.2","1.37.0","1.37.0","1.36.1","busybox","2025A0000046394","False","","fix_not_available",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","lock_updated","CVE-2025-25469","https://nvd.nist.gov/vuln/detail/CVE-2025-25469","ffmpeg","6.5","9.0.1","9.0.1","9.0.1","ffmpeg","2025A0000025469","False","","fix_not_available",""
@@ -1158,9 +1153,6 @@ https://github.com/NixOS/nixpkgs/pull/128595
 https://github.com/NixOS/nixpkgs/pull/554374 
 https://github.com/NixOS/nixpkgs/pull/556082"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-37555","https://nvd.nist.gov/vuln/detail/CVE-2026-37555","libsndfile","7.5","1.2.2","1.2.2","1.2.2","libsndfile","2026A0000037555","False","","fix_not_available",""
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-34502","https://nvd.nist.gov/vuln/detail/CVE-2026-34502","apr-util","7.5","1.6.3","1.6.3","1.6.5","apr-util","2026A0000034502","False","","fix_update_to_version_upstream",""
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-34501","https://nvd.nist.gov/vuln/detail/CVE-2026-34501","apr-util","7.5","1.6.3","1.6.3","1.6.5","apr-util","2026A0000034501","False","","fix_update_to_version_upstream",""
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-34191","https://nvd.nist.gov/vuln/detail/CVE-2026-34191","apr-util","9.1","1.6.3","1.6.3","1.6.5","apr-util","2026A0000034191","False","","fix_update_to_version_upstream",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33948","https://nvd.nist.gov/vuln/detail/CVE-2026-33948","jq","5.3","1.8.2","1.8.2","1.8.2","jq","2026A0000033948","False","","err_not_vulnerable_based_on_repology","https://github.com/NixOS/nixpkgs/pull/510006"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-33814","https://nvd.nist.gov/vuln/detail/CVE-2026-33814","go","7.5","1.24.13-linux-arm64-bootstrap","1.27.0","1.27.0","go","2026A0000033814","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/128169 
 https://github.com/NixOS/nixpkgs/pull/128595 
@@ -1172,7 +1164,6 @@ https://github.com/NixOS/nixpkgs/pull/128595
 https://github.com/NixOS/nixpkgs/pull/529954 
 https://github.com/NixOS/nixpkgs/pull/554374 
 https://github.com/NixOS/nixpkgs/pull/556082"
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-32327","https://nvd.nist.gov/vuln/detail/CVE-2026-32327","apr-util","9.1","1.6.3","1.6.3","1.6.5","apr-util","2026A0000032327","False","","fix_update_to_version_upstream",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2026-32289","https://nvd.nist.gov/vuln/detail/CVE-2026-32289","go","6.1","1.24.13-linux-arm64-bootstrap","1.27.0","1.27.0","go","2026A0000032289","False","","fix_update_to_version_nixpkgs","https://github.com/NixOS/nixpkgs/pull/128169 
 https://github.com/NixOS/nixpkgs/pull/128595 
 https://github.com/NixOS/nixpkgs/pull/554374 
@@ -1317,7 +1308,6 @@ https://github.com/NixOS/nixpkgs/pull/557451"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2025-59529","https://nvd.nist.gov/vuln/detail/CVE-2025-59529","avahi","5.5","0.8","0.8","","avahi","2025A0000059529","False","","err_invalid_version","https://github.com/NixOS/nixpkgs/pull/508012"
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2025-56226","https://nvd.nist.gov/vuln/detail/CVE-2025-56226","libsndfile","5.3","1.2.2","1.2.2","1.2.2","libsndfile","2025A0000056226","False","","fix_not_available",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2025-52194","https://nvd.nist.gov/vuln/detail/CVE-2025-52194","libsndfile","7.5","1.2.2","1.2.2","1.2.2","libsndfile","2025A0000052194","False","","fix_not_available",""
-"packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2025-49506","https://nvd.nist.gov/vuln/detail/CVE-2025-49506","apr-util","7.5","1.6.3","1.6.3","1.6.5","apr-util","2025A0000049506","False","","fix_update_to_version_upstream",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2025-47436","https://nvd.nist.gov/vuln/detail/CVE-2025-47436","orc","9.8","0.4.42","1.2.1.4","1.2.1.4","haskell:orc","2025A0000047436","False","","err_not_vulnerable_based_on_repology",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2025-46394","https://nvd.nist.gov/vuln/detail/CVE-2025-46394","busybox","3.2","1.37.0","1.37.0","1.36.1","busybox","2025A0000046394","False","","fix_not_available",""
 "packages.aarch64-linux.nvidia-jetson-orin-nx-debug","github:tiiuae/ghaf?ref=main","nix_unstable","CVE-2025-25469","https://nvd.nist.gov/vuln/detail/CVE-2025-25469","ffmpeg","6.5","9.0.1","9.0.1","9.0.1","ffmpeg","2025A0000025469","False","","fix_not_available",""

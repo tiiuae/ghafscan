@@ -27,7 +27,15 @@ Following table lists vulnerabilities that have been fixed in the nixpkgs channe
 
 Update the target Ghaf [flake.lock](https://github.com/tiiuae/ghaf/blob/main/flake.lock) file to mitigate the following issues:
 
-```No vulnerabilities```
+
+| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment   |
+|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|-----------|
+| [CVE-2026-34191](https://nvd.nist.gov/vuln/detail/CVE-2026-34191) | apr-util  |        9.1 | 1.6.3           | 1.6.3          | 1.6.5      |           |
+| [CVE-2026-32327](https://nvd.nist.gov/vuln/detail/CVE-2026-32327) | apr-util  |        9.1 | 1.6.3           | 1.6.3          | 1.6.5      |           |
+| [CVE-2026-34502](https://nvd.nist.gov/vuln/detail/CVE-2026-34502) | apr-util  |        7.5 | 1.6.3           | 1.6.3          | 1.6.5      |           |
+| [CVE-2026-34501](https://nvd.nist.gov/vuln/detail/CVE-2026-34501) | apr-util  |        7.5 | 1.6.3           | 1.6.3          | 1.6.5      |           |
+| [CVE-2025-49506](https://nvd.nist.gov/vuln/detail/CVE-2025-49506) | apr-util  |        7.5 | 1.6.3           | 1.6.3          | 1.6.5      |           |
+
 
 ## Vulnerabilities Fixed in nix-unstable
 
@@ -46,27 +54,7 @@ Following table lists vulnerabilities currently impacting the Ghaf target that h
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community fix the following issues in nixpkgs:
 
-
-| vuln_id                                                           | package   |   severity | version_local   | nix_unstable   | upstream   | comment                                                                                                                                                                                                            |
-|-------------------------------------------------------------------|-----------|------------|-----------------|----------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [CVE-2026-8376](https://nvd.nist.gov/vuln/detail/CVE-2026-8376)   | perl      |        9.8 | 5.42.3-env      | 5.42.3         | 5.44.0     | *[[PR](https://github.com/NixOS/nixpkgs/pull/528021)]*                                                                                                                                                             |
-| [CVE-2026-8376](https://nvd.nist.gov/vuln/detail/CVE-2026-8376)   | perl      |        9.8 | 5.42.3          | 5.42.3         | 5.44.0     | *[[PR](https://github.com/NixOS/nixpkgs/pull/528021)]*                                                                                                                                                             |
-| [CVE-2026-66032](https://nvd.nist.gov/vuln/detail/CVE-2026-66032) | libssh2   |        8.8 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/547491)]*                                                                                                                                                             |
-| [CVE-2026-55200](https://nvd.nist.gov/vuln/detail/CVE-2026-55200) | libssh2   |        8.1 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537250), [PR](https://github.com/NixOS/nixpkgs/pull/537259)]*                                                                                                         |
-| [CVE-2026-11979](https://nvd.nist.gov/vuln/detail/CVE-2026-11979) | libxml2   |        7.8 | 2.15.3          | 2.15.3         | 2.15.3     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537486), [PR](https://github.com/NixOS/nixpkgs/pull/537488), [PR](https://github.com/NixOS/nixpkgs/pull/538237), [PR](https://github.com/NixOS/nixpkgs/pull/538603)]* |
-| [CVE-2026-66035](https://nvd.nist.gov/vuln/detail/CVE-2026-66035) | libssh2   |        7.5 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/547491)]*                                                                                                                                                             |
-| [CVE-2026-66034](https://nvd.nist.gov/vuln/detail/CVE-2026-66034) | libssh2   |        7.5 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/547491)]*                                                                                                                                                             |
-| [CVE-2026-66033](https://nvd.nist.gov/vuln/detail/CVE-2026-66033) | libssh2   |        7.5 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/547491)]*                                                                                                                                                             |
-| [CVE-2026-41992](https://nvd.nist.gov/vuln/detail/CVE-2026-41992) | gzip      |        7.5 | 1.14            | 1.14           | 1.14       |                                                                                                                                                                                                                    |
-| [CVE-2026-7598](https://nvd.nist.gov/vuln/detail/CVE-2026-7598)   | libssh2   |        7.3 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/516098), [PR](https://github.com/NixOS/nixpkgs/pull/517358)]*                                                                                                         |
-| [CVE-2026-58050](https://nvd.nist.gov/vuln/detail/CVE-2026-58050) | libssh2   |        7   | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537250), [PR](https://github.com/NixOS/nixpkgs/pull/543937), [PR](https://github.com/NixOS/nixpkgs/pull/546446)]*                                                     |
-| [CVE-2026-58051](https://nvd.nist.gov/vuln/detail/CVE-2026-58051) | libssh2   |        6.5 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/543937), [PR](https://github.com/NixOS/nixpkgs/pull/546446)]*                                                                                                         |
-| [CVE-2025-15661](https://nvd.nist.gov/vuln/detail/CVE-2025-15661) | libssh2   |        6.5 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537250), [PR](https://github.com/NixOS/nixpkgs/pull/537259)]*                                                                                                         |
-| [CVE-2026-56392](https://nvd.nist.gov/vuln/detail/CVE-2026-56392) | coreutils |        6.1 | 9.11            | 9.11           | 9.11       | *[[PR](https://github.com/NixOS/nixpkgs/pull/545997)]*                                                                                                                                                             |
-| [CVE-2026-56391](https://nvd.nist.gov/vuln/detail/CVE-2026-56391) | coreutils |        6.1 | 9.11            | 9.11           | 9.11       | *[[PR](https://github.com/NixOS/nixpkgs/pull/545997)]*                                                                                                                                                             |
-| [CVE-2026-55199](https://nvd.nist.gov/vuln/detail/CVE-2026-55199) | libssh2   |        5.9 | 1.11.1          | 1.11.1         | 1.11.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537250), [PR](https://github.com/NixOS/nixpkgs/pull/537259)]*                                                                                                         |
-| [CVE-2026-41991](https://nvd.nist.gov/vuln/detail/CVE-2026-41991) | gzip      |        4.7 | 1.14            | 1.14           | 1.14       |                                                                                                                                                                                                                    |
-
+```No vulnerabilities```
 
 
 ## All Vulnerabilities Impacting Ghaf
