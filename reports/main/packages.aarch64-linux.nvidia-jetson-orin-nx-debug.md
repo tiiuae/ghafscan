@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
-This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/bf381af619e02fc5a93365d9ec8a179fdbdebdde. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
+This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/52e575d452433746853bb2845ded4b3694c61e65. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
 
@@ -27,51 +27,7 @@ Following table lists vulnerabilities that have been fixed in the nixpkgs channe
 
 Update the target Ghaf [flake.lock](https://github.com/tiiuae/ghaf/blob/main/flake.lock) file to mitigate the following issues:
 
-```Error evaluating 'packages.aarch64-linux.nvidia-jetson-orin-nx-debug' on lock_updated```<br /><br />
-```
-...
-
-       … while calling the 'isAttrs' builtin
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/lib/modules.nix:1229:15:
-         1228|           addErrorContext "while evaluating definitions from `${d.file}':" (
-         1229|             !(isAttrs d.value && d.value ? _type)
-             |               ^
-         1230|           )
-
-       … while evaluating the attribute 'value'
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/lib/modules.nix:850:21:
-          849|             inherit (module) file;
-          850|             inherit value;
-             |                     ^
-          851|           }) module.config
-
-       … from call site
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/nixos/modules/system/activation/top-level.nix:78:26:
-           77|   # Handle assertions and warnings
-           78|   baseSystemAssertWarn = lib.asserts.checkAssertWarn config.assertions config.warnings baseSystem;
-             |                          ^
-           79|
-
-       … while calling 'checkAssertWarn'
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/lib/asserts.nix:196:27:
-          195|   checkAssertWarn =
-          196|     assertions: warnings: val:
-             |                           ^
-          197|     let
-
-       … while calling the 'throw' builtin
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/lib/asserts.nix:201:7:
-          200|     if failedAssertions != [ ] then
-          201|       throw "\nFailed assertions:\n${concatStringsSep "\n" (map (x: "- ${x}") failedAssertions)}"
-             |       ^
-          202|     else
-
-       error:
-       Failed assertions:
-       - The option definition `services.journald.extraConfig' in `/nix/store/nys12lrjvdbw7m62acb65y31zqj4373r-source/modules/common/logging/journal-client.nix' and `/nix/store/nys12lrjvdbw7m62acb65y31zqj4373r-source/modules/common/logging/fss.nix' no longer has any effect; please remove it.
-       Use services.journald.settings.Journal instead.
-```
-For more details, see: https://github.com/tiiuae/ghafscan/actions
+```No vulnerabilities```
 
 ## Vulnerabilities Fixed in nix-unstable
 
@@ -81,51 +37,7 @@ Following issues potentially require backporting the fix from nixpkgs-unstable t
 
 Consider [whitelisting](../../manual_analysis.csv) possible false positives based on manual analysis, or - if determined valid - help nixpkgs community backport the fix to the correct nixpkgs branch:
 
-```Error evaluating 'packages.aarch64-linux.nvidia-jetson-orin-nx-debug' on lock_updated```<br /><br />
-```
-...
-
-       … while calling the 'isAttrs' builtin
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/lib/modules.nix:1229:15:
-         1228|           addErrorContext "while evaluating definitions from `${d.file}':" (
-         1229|             !(isAttrs d.value && d.value ? _type)
-             |               ^
-         1230|           )
-
-       … while evaluating the attribute 'value'
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/lib/modules.nix:850:21:
-          849|             inherit (module) file;
-          850|             inherit value;
-             |                     ^
-          851|           }) module.config
-
-       … from call site
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/nixos/modules/system/activation/top-level.nix:78:26:
-           77|   # Handle assertions and warnings
-           78|   baseSystemAssertWarn = lib.asserts.checkAssertWarn config.assertions config.warnings baseSystem;
-             |                          ^
-           79|
-
-       … while calling 'checkAssertWarn'
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/lib/asserts.nix:196:27:
-          195|   checkAssertWarn =
-          196|     assertions: warnings: val:
-             |                           ^
-          197|     let
-
-       … while calling the 'throw' builtin
-         at /nix/store/wncl8xn2h8m4ridhjcr98vv5brg9zdkm-source/lib/asserts.nix:201:7:
-          200|     if failedAssertions != [ ] then
-          201|       throw "\nFailed assertions:\n${concatStringsSep "\n" (map (x: "- ${x}") failedAssertions)}"
-             |       ^
-          202|     else
-
-       error:
-       Failed assertions:
-       - The option definition `services.journald.extraConfig' in `/nix/store/nys12lrjvdbw7m62acb65y31zqj4373r-source/modules/common/logging/journal-client.nix' and `/nix/store/nys12lrjvdbw7m62acb65y31zqj4373r-source/modules/common/logging/fss.nix' no longer has any effect; please remove it.
-       Use services.journald.settings.Journal instead.
-```
-For more details, see: https://github.com/tiiuae/ghafscan/actions
+```No vulnerabilities```
 
 
 ## New Vulnerabilities Since Last Run
@@ -197,7 +109,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2026-39822](https://nvd.nist.gov/vuln/detail/CVE-2026-39822) | go            | 7.8        | 1.24.13-linux-ar | 1.27.0         | 1.27.1     | *[[PR](https://github.com/NixOS/nixpkgs/pull/128169), [PR](https://github.com/NixOS/nixpkgs/pull/128595), [PR](https://github.com/NixOS/nixpkgs/pull/554374), [PR](https://github.com/NixOS/nixpkgs/pull/559618)]*                                                     |
 | [CVE-2026-22184](https://nvd.nist.gov/vuln/detail/CVE-2026-22184) | zlib          | 7.8        | 0.7.1.1          | 0.7.1.1        | 0.7.1.1    | *[[PR](https://github.com/NixOS/nixpkgs/pull/480369)]*                                                                                                                                                                                                                 |
 | [CVE-2026-16554](https://nvd.nist.gov/vuln/detail/CVE-2026-16554) | cjson         | 7.8        | 1.7.19           | 1.7.19         | 1.7.19     |                                                                                                                                                                                                                                                                        |
-| [CVE-2026-11979](https://nvd.nist.gov/vuln/detail/CVE-2026-11979) | libxml2       | 7.8        | 2.15.3           | 2.15.3         | 2.15.4     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537486), [PR](https://github.com/NixOS/nixpkgs/pull/537488), [PR](https://github.com/NixOS/nixpkgs/pull/538237), [PR](https://github.com/NixOS/nixpkgs/pull/538603)]*                                                     |
+| [CVE-2026-11979](https://nvd.nist.gov/vuln/detail/CVE-2026-11979) | libxml2       | 7.8        | 2.15.3           | 2.15.3         | 2.15.4     | *[[PR](https://github.com/NixOS/nixpkgs/pull/537486), [PR](https://github.com/NixOS/nixpkgs/pull/537488), [PR](https://github.com/NixOS/nixpkgs/pull/538237), [PR](https://github.com/NixOS/nixpkgs/pull/538603), [PR](https://github.com/NixOS/nixpkgs/pull/560087)]* |
 | [CVE-2026-6846](https://nvd.nist.gov/vuln/detail/CVE-2026-6846)   | binutils      | 7.8        | 2.46             | 2.46           | 2.47       |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-4775](https://nvd.nist.gov/vuln/detail/CVE-2026-4775)   | libtiff       | 7.8        | 4.7.2            | 4.7.2          | 4.7.2      | *[[PR](https://github.com/NixOS/nixpkgs/pull/538822)]*                                                                                                                                                                                                                 |
 | [CVE-2025-15278](https://nvd.nist.gov/vuln/detail/CVE-2025-15278) | fontforge     | 7.8        | 20251009         | 20251009       | 20251009   |                                                                                                                                                                                                                                                                        |
@@ -313,7 +225,7 @@ Consider [whitelisting](../../manual_analysis.csv) possible false positives base
 | [CVE-2024-27297](https://nvd.nist.gov/vuln/detail/CVE-2024-27297) | nix           | 6.3        | 0.31.1           |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/294030), [PR](https://github.com/NixOS/nixpkgs/pull/294031), [PR](https://github.com/NixOS/nixpkgs/pull/303024), [PR](https://github.com/NixOS/nixpkgs/pull/303170), [PR](https://github.com/NixOS/nixpkgs/pull/321714)]* |
 | [CVE-2024-27297](https://nvd.nist.gov/vuln/detail/CVE-2024-27297) | nix           | 6.3        | 0.29.0           |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/294030), [PR](https://github.com/NixOS/nixpkgs/pull/294031), [PR](https://github.com/NixOS/nixpkgs/pull/303024), [PR](https://github.com/NixOS/nixpkgs/pull/303170), [PR](https://github.com/NixOS/nixpkgs/pull/321714)]* |
 | [CVE-2024-27297](https://nvd.nist.gov/vuln/detail/CVE-2024-27297) | nix           | 6.3        | 0.23.2           |                |            | *[[PR](https://github.com/NixOS/nixpkgs/pull/294030), [PR](https://github.com/NixOS/nixpkgs/pull/294031), [PR](https://github.com/NixOS/nixpkgs/pull/303024), [PR](https://github.com/NixOS/nixpkgs/pull/303170), [PR](https://github.com/NixOS/nixpkgs/pull/321714)]* |
-| [CVE-2026-13757](https://nvd.nist.gov/vuln/detail/CVE-2026-13757) | p11-kit       | 6.2        | 0.26.2           | 0.26.2         | 0.26.5     | *[[PR](https://github.com/NixOS/nixpkgs/pull/533926)]*                                                                                                                                                                                                                 |
+| [CVE-2026-13757](https://nvd.nist.gov/vuln/detail/CVE-2026-13757) | p11-kit       | 6.2        | 0.26.2           | 0.26.2         | 0.26.5     | *[[PR](https://github.com/NixOS/nixpkgs/pull/533926), [PR](https://github.com/NixOS/nixpkgs/pull/560245)]*                                                                                                                                                             |
 | [CVE-2025-69652](https://nvd.nist.gov/vuln/detail/CVE-2025-69652) | binutils      | 6.2        | 2.46             | 2.46           | 2.47       |                                                                                                                                                                                                                                                                        |
 | [CVE-2024-8365](https://nvd.nist.gov/vuln/detail/CVE-2024-8365)   | vault         | 6.2        | 0.3.1.6          | 0.3.1.6        | 0.3.2.0    |                                                                                                                                                                                                                                                                        |
 | [CVE-2026-56392](https://nvd.nist.gov/vuln/detail/CVE-2026-56392) | coreutils     | 6.1        | 9.11             | 9.11           | 9.11       | *[[PR](https://github.com/NixOS/nixpkgs/pull/545997)]*                                                                                                                                                                                                                 |
