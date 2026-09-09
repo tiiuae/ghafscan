@@ -6,17 +6,27 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # ghafscan
 
-This repository automates vulnerability scans for the [Ghaf Framework](https://github.com/tiiuae/ghaf).
-The Ghaf [vulnerability reports](./reports/) available in this repository are automatically updated on [daily basis](./.github/workflows/vulnerability-scan.yml#L9) for the selected Ghaf branches and targets as specified in the [Vulnerability Scan](./.github/workflows/vulnerability-scan.yml) GitHub action workflow.
+> **Retired — replaced by [flakevuln](https://github.com/tiiuae/flakevuln).**
+> This repository is no longer maintained. Its vulnerability reports are
+> historical snapshots and are no longer updated. For current Ghaf scan
+> results, see the [flakevuln workflow runs](https://github.com/tiiuae/ghaf/actions/workflows/flakevuln.yml).
 
-## Example Reports
+Flakevuln provides vulnerability scanning for Nix flakes as a reusable GitHub
+Action and local CLI. See its [README](https://github.com/tiiuae/flakevuln)
+for setup and usage, and its [overview](https://github.com/tiiuae/flakevuln/blob/main/doc/overview.md)
+for an explanation of the scans and reports.
+
+The code, manual analysis records, and reports below are retained for historical
+reference. The remaining documentation describes the retired tooling.
+
+## Historical Reports
 - [Ghaf 'main' x86_64-linux.system76-darp11-b-debug](./reports/main/packages.x86_64-linux.system76-darp11-b-debug.md)
 - [Ghaf 'main' x86_64-linux.lenovo-x1-carbon-gen11-debug](./reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-debug.md)
 - [Ghaf 'main' aarch64-linux.nvidia-jetson-orin-nx-debug](./reports/main/packages.aarch64-linux.nvidia-jetson-orin-nx-debug.md)
 
 ## Motivation
 
-Key points demonstrated in this repository:
+This repository demonstrated:
 - Running automatic vulnerability scans for nix flake projects, using [Ghaf Framework](https://github.com/tiiuae/ghaf) as an example.
 - Using [vulnxscan](https://github.com/tiiuae/sbomnix/blob/main/doc/vulnxscan.md) as the main vulnerability scanning tool for a Nix flake project.
 - Using Nix flake updates to derive potentially missing security fixes for a Nix flake project. See section [Theory of Operation](./README.md#theory-of-operation) for more details.
@@ -54,7 +64,11 @@ Vulnerabilities that are in '**current**' set but not in '**lock_updated**', are
 Vulnerabilities that are in '**lock_updated**' set but not in '**nix_unstable**', are potentially fixed in nixpkgs nix-unstable channel, but the fixes have not been backported to the channel Ghaf is currently pinned to. This set of vulnerabilities potentially requires backporting the fix from nix-unstable to the nixpkgs release branch Ghaf is currently pinned to. `ghafscan` reports this set of vulnerabilities in each target report in section *[Vulnerabilities Fixed in nix-unstable](https://github.com/tiiuae/ghafscan/blob/main/reports/main/packages.x86_64-linux.lenovo-x1-carbon-gen11-debug.md#vulnerabilities-fixed-in-nix-unstable)*.
 
 ## Running Locally
-This repository demonstrates how to run `ghafscan` from Github actions, but `ghafscan` can be run locally too.
+
+These instructions are retained for historical reference. Use
+[flakevuln](https://github.com/tiiuae/flakevuln) for new scans.
+
+The commands below run the original `ghafscan` tool locally.
 It requires that common [Nix](https://nixos.org/download.html) tools are available in `$PATH` and assumes [nix flakes](https://nixos.wiki/wiki/Flakes#Enable_flakes) is enabled.
 ### Running as Nix Flake
 `ghafscan` can be run as a [Nix flake](https://nixos.wiki/wiki/Flakes) from the `tiiuae/ghafscan` repository:
@@ -88,12 +102,11 @@ $ ./src/ghafscan/main.py --help
 
 To deactivate the Nix development shell, run `exit` in your shell.
 
-## Contribute
-All pull requests, suggestions, and error reports are welcome.
-To start development, we recommend using Nix flakes [development shell](./README.md#running-from-nix-development-shell).
+## Maintenance Status
 
-Run `make help` in the development shell to see the list of supported make targets.
-Prior to sending any pull requests, make sure at least the `make pre-push` runs without failures.
+Ghafscan no longer receives fixes, dependency updates, or new features.
+For issues or contributions concerning the replacement scanner, use
+[flakevuln](https://github.com/tiiuae/flakevuln).
 
 ## License
 
