@@ -6,6 +6,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Vulnerability Report
 
+> **Historical report — no longer updated.**
+> Ghafscan has been retired in favor of [flakevuln](https://github.com/tiiuae/flakevuln).
+> The findings below describe the recorded scan, not the current state of Ghaf.
+> For current scan results, see the [Ghaf flakevuln workflow runs](https://github.com/tiiuae/ghaf/actions/workflows/flakevuln.yml).
+
 This vulnerability report is generated for Ghaf target `github:tiiuae/ghaf?ref=main#packages.aarch64-linux.nvidia-jetson-orin-nx-debug` revision  https://github.com/tiiuae/ghaf/commit/4b5ebafed1cb0202fae5fa2f6511875f25336caa. The tables on this page include known vulnerabilities impacting buildtime or runtime dependencies of the given target.
 
 This report is automatically generated as specified on the [Vulnerability Scan](../../.github/workflows/vulnerability-scan.yml) GitHub action workflow. It uses the tooling from [sbomnix](https://github.com/tiiuae/sbomnix) repository, such as [vulnxscan](https://github.com/tiiuae/sbomnix/tree/main/scripts/vulnxscan), as well as the manual analysis results maintained in the [manual_analysis.csv](../../manual_analysis.csv) file.
